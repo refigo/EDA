@@ -1,0 +1,47 @@
+[0.394s] Invoking command in '/home/gomi/ros2_study/src/my_first_package': PYTHONPATH=/home/gomi/ros2_study/build/my_first_package/prefix_override:/home/gomi/ros2_study/install/my_first_package/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/my_first_package build --build-base /home/gomi/ros2_study/build/my_first_package/build install --record /home/gomi/ros2_study/build/my_first_package/install.log --single-version-externally-managed
+[0.545s] running egg_info
+[0.545s] creating ../../build/my_first_package/my_first_package.egg-info
+[0.545s] writing ../../build/my_first_package/my_first_package.egg-info/PKG-INFO
+[0.545s] writing dependency_links to ../../build/my_first_package/my_first_package.egg-info/dependency_links.txt
+[0.545s] writing entry points to ../../build/my_first_package/my_first_package.egg-info/entry_points.txt
+[0.545s] writing requirements to ../../build/my_first_package/my_first_package.egg-info/requires.txt
+[0.545s] writing top-level names to ../../build/my_first_package/my_first_package.egg-info/top_level.txt
+[0.545s] writing manifest file '../../build/my_first_package/my_first_package.egg-info/SOURCES.txt'
+[0.547s] reading manifest file '../../build/my_first_package/my_first_package.egg-info/SOURCES.txt'
+[0.548s] writing manifest file '../../build/my_first_package/my_first_package.egg-info/SOURCES.txt'
+[0.548s] running build
+[0.548s] running build_py
+[0.548s] creating /home/gomi/ros2_study/build/my_first_package/build
+[0.548s] creating /home/gomi/ros2_study/build/my_first_package/build/lib
+[0.548s] creating /home/gomi/ros2_study/build/my_first_package/build/lib/my_first_package
+[0.548s] copying my_first_package/my_subscriber.py -> /home/gomi/ros2_study/build/my_first_package/build/lib/my_first_package
+[0.548s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[0.548s]   warnings.warn(
+[0.548s] copying my_first_package/my_first_node.py -> /home/gomi/ros2_study/build/my_first_package/build/lib/my_first_package
+[0.548s] copying my_first_package/__init__.py -> /home/gomi/ros2_study/build/my_first_package/build/lib/my_first_package
+[0.548s] copying my_first_package/my_publisher.py -> /home/gomi/ros2_study/build/my_first_package/build/lib/my_first_package
+[0.548s] running install
+[0.549s] running install_lib
+[0.549s] creating /home/gomi/ros2_study/install/my_first_package/lib/python3.10/site-packages/my_first_package
+[0.549s] copying /home/gomi/ros2_study/build/my_first_package/build/lib/my_first_package/my_subscriber.py -> /home/gomi/ros2_study/install/my_first_package/lib/python3.10/site-packages/my_first_package
+[0.549s] copying /home/gomi/ros2_study/build/my_first_package/build/lib/my_first_package/my_first_node.py -> /home/gomi/ros2_study/install/my_first_package/lib/python3.10/site-packages/my_first_package
+[0.549s] copying /home/gomi/ros2_study/build/my_first_package/build/lib/my_first_package/__init__.py -> /home/gomi/ros2_study/install/my_first_package/lib/python3.10/site-packages/my_first_package
+[0.549s] copying /home/gomi/ros2_study/build/my_first_package/build/lib/my_first_package/my_publisher.py -> /home/gomi/ros2_study/install/my_first_package/lib/python3.10/site-packages/my_first_package
+[0.549s] byte-compiling /home/gomi/ros2_study/install/my_first_package/lib/python3.10/site-packages/my_first_package/my_subscriber.py to my_subscriber.cpython-310.pyc
+[0.550s] byte-compiling /home/gomi/ros2_study/install/my_first_package/lib/python3.10/site-packages/my_first_package/my_first_node.py to my_first_node.cpython-310.pyc
+[0.550s] byte-compiling /home/gomi/ros2_study/install/my_first_package/lib/python3.10/site-packages/my_first_package/__init__.py to __init__.cpython-310.pyc
+[0.550s] byte-compiling /home/gomi/ros2_study/install/my_first_package/lib/python3.10/site-packages/my_first_package/my_publisher.py to my_publisher.cpython-310.pyc
+[0.550s] running install_data
+[0.551s] creating /home/gomi/ros2_study/install/my_first_package/share/ament_index
+[0.551s] creating /home/gomi/ros2_study/install/my_first_package/share/ament_index/resource_index
+[0.551s] creating /home/gomi/ros2_study/install/my_first_package/share/ament_index/resource_index/packages
+[0.551s] copying resource/my_first_package -> /home/gomi/ros2_study/install/my_first_package/share/ament_index/resource_index/packages
+[0.551s] copying package.xml -> /home/gomi/ros2_study/install/my_first_package/share/my_first_package
+[0.551s] running install_egg_info
+[0.552s] Copying ../../build/my_first_package/my_first_package.egg-info to /home/gomi/ros2_study/install/my_first_package/lib/python3.10/site-packages/my_first_package-0.0.0-py3.10.egg-info
+[0.552s] running install_scripts
+[0.565s] Installing my_first_node script to /home/gomi/ros2_study/install/my_first_package/lib/my_first_package
+[0.566s] Installing my_publisher script to /home/gomi/ros2_study/install/my_first_package/lib/my_first_package
+[0.566s] Installing my_subscriber script to /home/gomi/ros2_study/install/my_first_package/lib/my_first_package
+[0.566s] writing list of installed files to '/home/gomi/ros2_study/build/my_first_package/install.log'
+[0.584s] Invoked command in '/home/gomi/ros2_study/src/my_first_package' returned '0': PYTHONPATH=/home/gomi/ros2_study/build/my_first_package/prefix_override:/home/gomi/ros2_study/install/my_first_package/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/my_first_package build --build-base /home/gomi/ros2_study/build/my_first_package/build install --record /home/gomi/ros2_study/build/my_first_package/install.log --single-version-externally-managed

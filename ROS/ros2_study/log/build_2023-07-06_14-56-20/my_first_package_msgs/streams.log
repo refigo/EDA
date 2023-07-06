@@ -1,0 +1,263 @@
+[0.013s] Invoking command in '/home/gomi/ros2_study/build/my_first_package_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/gomi/ros2_study/install/my_first_package:/opt/ros/humble /usr/bin/cmake --build /home/gomi/ros2_study/build/my_first_package_msgs -- -j8 -l8
+[0.032s] -- Found ament_cmake: 1.3.4 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.127s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[0.130s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.133s] -- Found rosidl_adapter: 3.1.4 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.166s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.360s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[0.501s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.670s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.686s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[0.702s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.702s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[0.702s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+[0.709s] -- Found ament_lint_auto: 0.12.6 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[0.717s] -- Added test 'lint_cmake' to check CMake code style
+[0.717s] -- Added test 'xmllint' to check XML markup files
+[0.719s] -- Configuring done
+[0.744s] -- Generating done
+[0.745s] -- Build files have been written to: /home/gomi/ros2_study/build/my_first_package_msgs
+[0.761s] [  2%] [34m[1mGenerating C code for ROS interfaces[0m
+[0.767s] [  5%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[0.774s] [  5%] Built target ament_cmake_python_copy_my_first_package_msgs
+[0.949s] running egg_info
+[0.950s] writing my_first_package_msgs.egg-info/PKG-INFO
+[0.950s] writing dependency_links to my_first_package_msgs.egg-info/dependency_links.txt
+[0.950s] writing top-level names to my_first_package_msgs.egg-info/top_level.txt
+[0.951s] reading manifest file 'my_first_package_msgs.egg-info/SOURCES.txt'
+[0.952s] writing manifest file 'my_first_package_msgs.egg-info/SOURCES.txt'
+[0.972s] [  5%] Built target ament_cmake_python_build_my_first_package_msgs_egg
+[1.006s] [  5%] Built target my_first_package_msgs__cpp
+[1.012s] [ 12%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[1.012s] [ 12%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[1.012s] [ 12%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[1.017s] [35m[1mConsolidate compiler generated dependencies of target my_first_package_msgs__rosidl_generator_c[0m
+[1.025s] [ 15%] [32mBuilding C object CMakeFiles/my_first_package_msgs__rosidl_generator_c.dir/rosidl_generator_c/my_first_package_msgs/msg/detail/cmd_and_pose_vel__functions.c.o[0m
+[1.028s] [ 17%] [32mBuilding C object CMakeFiles/my_first_package_msgs__rosidl_generator_c.dir/rosidl_generator_c/my_first_package_msgs/srv/detail/multi_spawn__functions.c.o[0m
+[1.096s] [ 20%] [32m[1mLinking C shared library libmy_first_package_msgs__rosidl_generator_c.so[0m
+[1.123s] [ 20%] Built target my_first_package_msgs__rosidl_generator_c
+[1.131s] [ 23%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[1.132s] [ 25%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[1.132s] [ 28%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[1.250s] [35m[1mConsolidate compiler generated dependencies of target my_first_package_msgs__rosidl_typesupport_fastrtps_cpp[0m
+[1.260s] [35m[1mConsolidate compiler generated dependencies of target my_first_package_msgs__rosidl_typesupport_introspection_cpp[0m
+[1.262s] [ 33%] [32mBuilding CXX object CMakeFiles/my_first_package_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/my_first_package_msgs/srv/detail/dds_fastrtps/multi_spawn__type_support.cpp.o[0m
+[1.262s] [ 33%] [32mBuilding CXX object CMakeFiles/my_first_package_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/my_first_package_msgs/msg/detail/dds_fastrtps/cmd_and_pose_vel__type_support.cpp.o[0m
+[1.271s] [ 38%] [32mBuilding CXX object CMakeFiles/my_first_package_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/my_first_package_msgs/srv/detail/multi_spawn__type_support.cpp.o[0m
+[1.271s] [ 38%] [32mBuilding CXX object CMakeFiles/my_first_package_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/my_first_package_msgs/msg/detail/cmd_and_pose_vel__type_support.cpp.o[0m
+[1.275s] [35m[1mConsolidate compiler generated dependencies of target my_first_package_msgs__rosidl_typesupport_cpp[0m
+[1.286s] [ 41%] [32mBuilding CXX object CMakeFiles/my_first_package_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/my_first_package_msgs/msg/cmd_and_pose_vel__type_support.cpp.o[0m
+[1.483s] [35m[1mConsolidate compiler generated dependencies of target my_first_package_msgs__rosidl_typesupport_c[0m
+[1.495s] [ 43%] [32mBuilding CXX object CMakeFiles/my_first_package_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/my_first_package_msgs/msg/cmd_and_pose_vel__type_support.cpp.o[0m
+[1.533s] [ 46%] [32mBuilding CXX object CMakeFiles/my_first_package_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/my_first_package_msgs/srv/multi_spawn__type_support.cpp.o[0m
+[1.570s] [ 48%] [32m[1mLinking CXX shared library libmy_first_package_msgs__rosidl_typesupport_c.so[0m
+[1.583s] [35m[1mConsolidate compiler generated dependencies of target my_first_package_msgs__rosidl_typesupport_introspection_c[0m
+[1.583s] [35m[1mConsolidate compiler generated dependencies of target my_first_package_msgs__rosidl_typesupport_fastrtps_c[0m
+[1.595s] [ 53%] [32mBuilding C object CMakeFiles/my_first_package_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/my_first_package_msgs/msg/detail/cmd_and_pose_vel__type_support.c.o[0m
+[1.595s] [ 53%] [32mBuilding CXX object CMakeFiles/my_first_package_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/my_first_package_msgs/msg/detail/cmd_and_pose_vel__type_support_c.cpp.o[0m
+[1.597s] [ 56%] [32mBuilding CXX object CMakeFiles/my_first_package_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/my_first_package_msgs/srv/multi_spawn__type_support.cpp.o[0m
+[1.616s] [ 56%] Built target my_first_package_msgs__rosidl_typesupport_c
+[1.625s] [ 58%] [32mBuilding CXX object CMakeFiles/my_first_package_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/my_first_package_msgs/srv/detail/multi_spawn__type_support_c.cpp.o[0m
+[1.630s] [ 61%] [32mBuilding C object CMakeFiles/my_first_package_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/my_first_package_msgs/srv/detail/multi_spawn__type_support.c.o[0m
+[1.682s] [ 64%] [32m[1mLinking C shared library libmy_first_package_msgs__rosidl_typesupport_introspection_c.so[0m
+[1.715s] [ 64%] Built target my_first_package_msgs__rosidl_typesupport_introspection_c
+[1.782s] [ 66%] [32m[1mLinking CXX shared library libmy_first_package_msgs__rosidl_typesupport_introspection_cpp.so[0m
+[1.803s] [ 69%] [32m[1mLinking CXX shared library libmy_first_package_msgs__rosidl_typesupport_fastrtps_cpp.so[0m
+[1.847s] [ 71%] [32m[1mLinking CXX shared library libmy_first_package_msgs__rosidl_typesupport_cpp.so[0m
+[1.858s] [ 71%] Built target my_first_package_msgs__rosidl_typesupport_introspection_cpp
+[1.876s] [ 71%] Built target my_first_package_msgs__rosidl_typesupport_fastrtps_cpp
+[1.878s] [ 71%] Built target my_first_package_msgs__rosidl_typesupport_cpp
+[1.984s] [ 74%] [32m[1mLinking CXX shared library libmy_first_package_msgs__rosidl_typesupport_fastrtps_c.so[0m
+[2.036s] [ 74%] Built target my_first_package_msgs__rosidl_typesupport_fastrtps_c
+[2.048s] [ 74%] Built target my_first_package_msgs
+[2.062s] [ 76%] [34m[1mGenerating Python code for ROS interfaces[0m
+[2.382s] [ 76%] Built target my_first_package_msgs__py
+[2.388s] [35m[1mConsolidate compiler generated dependencies of target my_first_package_msgs__rosidl_generator_py[0m
+[2.397s] [ 82%] [32mBuilding C object CMakeFiles/my_first_package_msgs__rosidl_generator_py.dir/rosidl_generator_py/my_first_package_msgs/srv/_multi_spawn_s.c.o[0m
+[2.397s] [ 82%] [32mBuilding C object CMakeFiles/my_first_package_msgs__rosidl_generator_py.dir/rosidl_generator_py/my_first_package_msgs/msg/_cmd_and_pose_vel_s.c.o[0m
+[2.481s] [ 84%] [32m[1mLinking C shared library rosidl_generator_py/my_first_package_msgs/libmy_first_package_msgs__rosidl_generator_py.so[0m
+[2.507s] [ 84%] Built target my_first_package_msgs__rosidl_generator_py
+[2.514s] [35m[1mConsolidate compiler generated dependencies of target my_first_package_msgs__rosidl_typesupport_c__pyext[0m
+[2.515s] [35m[1mConsolidate compiler generated dependencies of target my_first_package_msgs__rosidl_typesupport_introspection_c__pyext[0m
+[2.515s] [35m[1mConsolidate compiler generated dependencies of target my_first_package_msgs__rosidl_typesupport_fastrtps_c__pyext[0m
+[2.523s] [ 92%] [32mBuilding C object CMakeFiles/my_first_package_msgs__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/my_first_package_msgs/_my_first_package_msgs_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[2.523s] [ 92%] [32mBuilding C object CMakeFiles/my_first_package_msgs__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/my_first_package_msgs/_my_first_package_msgs_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[2.523s] [ 92%] [32mBuilding C object CMakeFiles/my_first_package_msgs__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/my_first_package_msgs/_my_first_package_msgs_s.ep.rosidl_typesupport_c.c.o[0m
+[2.590s] [ 94%] [32m[1mLinking C shared library rosidl_generator_py/my_first_package_msgs/my_first_package_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so[0m
+[2.590s] [ 97%] [32m[1mLinking C shared library rosidl_generator_py/my_first_package_msgs/my_first_package_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so[0m
+[2.591s] [100%] [32m[1mLinking C shared library rosidl_generator_py/my_first_package_msgs/my_first_package_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so[0m
+[2.612s] [100%] Built target my_first_package_msgs__rosidl_typesupport_introspection_c__pyext
+[2.612s] [100%] Built target my_first_package_msgs__rosidl_typesupport_c__pyext
+[2.612s] [100%] Built target my_first_package_msgs__rosidl_typesupport_fastrtps_c__pyext
+[2.620s] Invoked command in '/home/gomi/ros2_study/build/my_first_package_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/gomi/ros2_study/install/my_first_package:/opt/ros/humble /usr/bin/cmake --build /home/gomi/ros2_study/build/my_first_package_msgs -- -j8 -l8
+[2.670s] Invoking command in '/home/gomi/ros2_study/build/my_first_package_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/gomi/ros2_study/install/my_first_package:/opt/ros/humble /usr/bin/cmake --install /home/gomi/ros2_study/build/my_first_package_msgs
+[2.676s] -- Install configuration: ""
+[2.676s] -- Installing: /home/gomi/ros2_study/install/my_first_package_msgs/share/ament_index/resource_index/rosidl_interfaces/my_first_package_msgs
+[2.676s] -- Up-to-date: /home/gomi/ros2_study/install/my_first_package_msgs/include/my_first_package_msgs/my_first_package_msgs
+[2.676s] -- Up-to-date: /home/gomi/ros2_study/install/my_first_package_msgs/include/my_first_package_msgs/my_first_package_msgs/msg
+[2.676s] -- Up-to-date: /home/gomi/ros2_study/install/my_first_package_msgs/include/my_first_package_msgs/my_first_package_msgs/msg/rosidl_generator_c__visibility_control.h
+[2.676s] -- Installing: /home/gomi/ros2_study/install/my_first_package_msgs/include/my_first_package_msgs/my_first_package_msgs/msg/cmd_and_pose_vel.h
+[2.676s] -- Up-to-date: /home/gomi/ros2_study/install/my_first_package_msgs/include/my_first_package_msgs/my_first_package_msgs/msg/detail
+[2.676s] -- Installing: /home/gomi/ros2_study/install/my_first_package_msgs/include/my_first_package_msgs/my_first_package_msgs/msg/detail/cmd_and_pose_vel__functions.h
+[2.676s] -- Installing: /home/gomi/ros2_study/install/my_first_package_msgs/include/my_first_package_msgs/my_first_package_msgs/msg/detail/cmd_and_pose_vel__functions.c
+[2.676s] -- Installing: /home/gomi/ros2_study/install/my_first_package_msgs/include/my_first_package_msgs/my_first_package_msgs/msg/detail/cmd_and_pose_vel__struct.h
+[2.676s] -- Installing: /home/gomi/ros2_study/install/my_first_package_msgs/include/my_first_package_msgs/my_first_package_msgs/msg/detail/cmd_and_pose_vel__type_support.h
+[2.676s] -- Installing: /home/gomi/ros2_study/install/my_first_package_msgs/include/my_first_package_msgs/my_first_package_msgs/srv
+[2.676s] -- Installing: /home/gomi/ros2_study/install/my_first_package_msgs/include/my_first_package_msgs/my_first_package_msgs/srv/multi_spawn.h
+[2.676s] -- Installing: /home/gomi/ros2_study/install/my_first_package_msgs/include/my_first_package_msgs/my_first_package_msgs/srv/detail
+[2.676s] -- Installing: /home/gomi/ros2_study/install/my_first_package_msgs/include/my_first_package_msgs/my_first_package_msgs/srv/detail/multi_spawn__functions.c
+[2.676s] -- Installing: /home/gomi/ros2_study/install/my_first_package_msgs/include/my_first_package_msgs/my_first_package_msgs/srv/detail/multi_spawn__type_support.h
+[2.676s] -- Installing: /home/gomi/ros2_study/install/my_first_package_msgs/include/my_first_package_msgs/my_first_package_msgs/srv/detail/multi_spawn__functions.h
+[2.676s] -- Installing: /home/gomi/ros2_study/install/my_first_package_msgs/include/my_first_package_msgs/my_first_package_msgs/srv/detail/multi_spawn__struct.h
+[2.676s] -- Up-to-date: /home/gomi/ros2_study/install/my_first_package_msgs/share/my_first_package_msgs/environment/library_path.sh
+[2.676s] -- Installing: /home/gomi/ros2_study/install/my_first_package_msgs/share/my_first_package_msgs/environment/library_path.dsv
+[2.676s] -- Installing: /home/gomi/ros2_study/install/my_first_package_msgs/lib/libmy_first_package_msgs__rosidl_generator_c.so
+[2.677s] -- Set runtime path of "/home/gomi/ros2_study/install/my_first_package_msgs/lib/libmy_first_package_msgs__rosidl_generator_c.so" to ""
+[2.677s] -- Up-to-date: /home/gomi/ros2_study/install/my_first_package_msgs/include/my_first_package_msgs/my_first_package_msgs
+[2.677s] -- Up-to-date: /home/gomi/ros2_study/install/my_first_package_msgs/include/my_first_package_msgs/my_first_package_msgs/msg
+[2.677s] -- Up-to-date: /home/gomi/ros2_study/install/my_first_package_msgs/include/my_first_package_msgs/my_first_package_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[2.677s] -- Up-to-date: /home/gomi/ros2_study/install/my_first_package_msgs/include/my_first_package_msgs/my_first_package_msgs/msg/detail
+[2.677s] -- Installing: /home/gomi/ros2_study/install/my_first_package_msgs/include/my_first_package_msgs/my_first_package_msgs/msg/detail/cmd_and_pose_vel__rosidl_typesupport_fastrtps_c.h
+[2.677s] -- Up-to-date: /home/gomi/ros2_study/install/my_first_package_msgs/include/my_first_package_msgs/my_first_package_msgs/srv
+[2.677s] -- Up-to-date: /home/gomi/ros2_study/install/my_first_package_msgs/include/my_first_package_msgs/my_first_package_msgs/srv/detail
+[2.677s] -- Installing: /home/gomi/ros2_study/install/my_first_package_msgs/include/my_first_package_msgs/my_first_package_msgs/srv/detail/multi_spawn__rosidl_typesupport_fastrtps_c.h
+[2.677s] -- Installing: /home/gomi/ros2_study/install/my_first_package_msgs/lib/libmy_first_package_msgs__rosidl_typesupport_fastrtps_c.so
+[2.677s] -- Set runtime path of "/home/gomi/ros2_study/install/my_first_package_msgs/lib/libmy_first_package_msgs__rosidl_typesupport_fastrtps_c.so" to ""
+[2.677s] -- Up-to-date: /home/gomi/ros2_study/install/my_first_package_msgs/include/my_first_package_msgs/my_first_package_msgs
+[2.677s] -- Up-to-date: /home/gomi/ros2_study/install/my_first_package_msgs/include/my_first_package_msgs/my_first_package_msgs/msg
+[2.677s] -- Up-to-date: /home/gomi/ros2_study/install/my_first_package_msgs/include/my_first_package_msgs/my_first_package_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[2.677s] -- Up-to-date: /home/gomi/ros2_study/install/my_first_package_msgs/include/my_first_package_msgs/my_first_package_msgs/msg/detail
+[2.677s] -- Installing: /home/gomi/ros2_study/install/my_first_package_msgs/include/my_first_package_msgs/my_first_package_msgs/msg/detail/cmd_and_pose_vel__rosidl_typesupport_introspection_c.h
+[2.677s] -- Installing: /home/gomi/ros2_study/install/my_first_package_msgs/include/my_first_package_msgs/my_first_package_msgs/msg/detail/cmd_and_pose_vel__type_support.c
+[2.677s] -- Up-to-date: /home/gomi/ros2_study/install/my_first_package_msgs/include/my_first_package_msgs/my_first_package_msgs/srv
+[2.678s] -- Up-to-date: /home/gomi/ros2_study/install/my_first_package_msgs/include/my_first_package_msgs/my_first_package_msgs/srv/detail
+[2.678s] -- Installing: /home/gomi/ros2_study/install/my_first_package_msgs/include/my_first_package_msgs/my_first_package_msgs/srv/detail/multi_spawn__rosidl_typesupport_introspection_c.h
+[2.678s] -- Installing: /home/gomi/ros2_study/install/my_first_package_msgs/include/my_first_package_msgs/my_first_package_msgs/srv/detail/multi_spawn__type_support.c
+[2.678s] -- Installing: /home/gomi/ros2_study/install/my_first_package_msgs/lib/libmy_first_package_msgs__rosidl_typesupport_introspection_c.so
+[2.678s] -- Set runtime path of "/home/gomi/ros2_study/install/my_first_package_msgs/lib/libmy_first_package_msgs__rosidl_typesupport_introspection_c.so" to ""
+[2.678s] -- Installing: /home/gomi/ros2_study/install/my_first_package_msgs/lib/libmy_first_package_msgs__rosidl_typesupport_c.so
+[2.678s] -- Set runtime path of "/home/gomi/ros2_study/install/my_first_package_msgs/lib/libmy_first_package_msgs__rosidl_typesupport_c.so" to ""
+[2.678s] -- Up-to-date: /home/gomi/ros2_study/install/my_first_package_msgs/include/my_first_package_msgs/my_first_package_msgs
+[2.678s] -- Up-to-date: /home/gomi/ros2_study/install/my_first_package_msgs/include/my_first_package_msgs/my_first_package_msgs/msg
+[2.678s] -- Installing: /home/gomi/ros2_study/install/my_first_package_msgs/include/my_first_package_msgs/my_first_package_msgs/msg/cmd_and_pose_vel.hpp
+[2.678s] -- Up-to-date: /home/gomi/ros2_study/install/my_first_package_msgs/include/my_first_package_msgs/my_first_package_msgs/msg/detail
+[2.678s] -- Installing: /home/gomi/ros2_study/install/my_first_package_msgs/include/my_first_package_msgs/my_first_package_msgs/msg/detail/cmd_and_pose_vel__builder.hpp
+[2.678s] -- Installing: /home/gomi/ros2_study/install/my_first_package_msgs/include/my_first_package_msgs/my_first_package_msgs/msg/detail/cmd_and_pose_vel__traits.hpp
+[2.678s] -- Installing: /home/gomi/ros2_study/install/my_first_package_msgs/include/my_first_package_msgs/my_first_package_msgs/msg/detail/cmd_and_pose_vel__struct.hpp
+[2.678s] -- Up-to-date: /home/gomi/ros2_study/install/my_first_package_msgs/include/my_first_package_msgs/my_first_package_msgs/srv
+[2.678s] -- Installing: /home/gomi/ros2_study/install/my_first_package_msgs/include/my_first_package_msgs/my_first_package_msgs/srv/multi_spawn.hpp
+[2.678s] -- Up-to-date: /home/gomi/ros2_study/install/my_first_package_msgs/include/my_first_package_msgs/my_first_package_msgs/srv/detail
+[2.678s] -- Installing: /home/gomi/ros2_study/install/my_first_package_msgs/include/my_first_package_msgs/my_first_package_msgs/srv/detail/multi_spawn__builder.hpp
+[2.678s] -- Installing: /home/gomi/ros2_study/install/my_first_package_msgs/include/my_first_package_msgs/my_first_package_msgs/srv/detail/multi_spawn__traits.hpp
+[2.679s] -- Installing: /home/gomi/ros2_study/install/my_first_package_msgs/include/my_first_package_msgs/my_first_package_msgs/srv/detail/multi_spawn__struct.hpp
+[2.679s] -- Up-to-date: /home/gomi/ros2_study/install/my_first_package_msgs/include/my_first_package_msgs/my_first_package_msgs
+[2.679s] -- Up-to-date: /home/gomi/ros2_study/install/my_first_package_msgs/include/my_first_package_msgs/my_first_package_msgs/msg
+[2.679s] -- Up-to-date: /home/gomi/ros2_study/install/my_first_package_msgs/include/my_first_package_msgs/my_first_package_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[2.679s] -- Up-to-date: /home/gomi/ros2_study/install/my_first_package_msgs/include/my_first_package_msgs/my_first_package_msgs/msg/detail
+[2.679s] -- Installing: /home/gomi/ros2_study/install/my_first_package_msgs/include/my_first_package_msgs/my_first_package_msgs/msg/detail/cmd_and_pose_vel__rosidl_typesupport_fastrtps_cpp.hpp
+[2.679s] -- Up-to-date: /home/gomi/ros2_study/install/my_first_package_msgs/include/my_first_package_msgs/my_first_package_msgs/msg/detail/dds_fastrtps
+[2.679s] -- Up-to-date: /home/gomi/ros2_study/install/my_first_package_msgs/include/my_first_package_msgs/my_first_package_msgs/srv
+[2.679s] -- Up-to-date: /home/gomi/ros2_study/install/my_first_package_msgs/include/my_first_package_msgs/my_first_package_msgs/srv/detail
+[2.679s] -- Installing: /home/gomi/ros2_study/install/my_first_package_msgs/include/my_first_package_msgs/my_first_package_msgs/srv/detail/dds_fastrtps
+[2.679s] -- Installing: /home/gomi/ros2_study/install/my_first_package_msgs/include/my_first_package_msgs/my_first_package_msgs/srv/detail/multi_spawn__rosidl_typesupport_fastrtps_cpp.hpp
+[2.679s] -- Installing: /home/gomi/ros2_study/install/my_first_package_msgs/lib/libmy_first_package_msgs__rosidl_typesupport_fastrtps_cpp.so
+[2.679s] -- Set runtime path of "/home/gomi/ros2_study/install/my_first_package_msgs/lib/libmy_first_package_msgs__rosidl_typesupport_fastrtps_cpp.so" to ""
+[2.679s] -- Up-to-date: /home/gomi/ros2_study/install/my_first_package_msgs/include/my_first_package_msgs/my_first_package_msgs
+[2.679s] -- Up-to-date: /home/gomi/ros2_study/install/my_first_package_msgs/include/my_first_package_msgs/my_first_package_msgs/msg
+[2.679s] -- Up-to-date: /home/gomi/ros2_study/install/my_first_package_msgs/include/my_first_package_msgs/my_first_package_msgs/msg/detail
+[2.679s] -- Installing: /home/gomi/ros2_study/install/my_first_package_msgs/include/my_first_package_msgs/my_first_package_msgs/msg/detail/cmd_and_pose_vel__rosidl_typesupport_introspection_cpp.hpp
+[2.679s] -- Installing: /home/gomi/ros2_study/install/my_first_package_msgs/include/my_first_package_msgs/my_first_package_msgs/msg/detail/cmd_and_pose_vel__type_support.cpp
+[2.679s] -- Up-to-date: /home/gomi/ros2_study/install/my_first_package_msgs/include/my_first_package_msgs/my_first_package_msgs/srv
+[2.679s] -- Up-to-date: /home/gomi/ros2_study/install/my_first_package_msgs/include/my_first_package_msgs/my_first_package_msgs/srv/detail
+[2.679s] -- Installing: /home/gomi/ros2_study/install/my_first_package_msgs/include/my_first_package_msgs/my_first_package_msgs/srv/detail/multi_spawn__type_support.cpp
+[2.679s] -- Installing: /home/gomi/ros2_study/install/my_first_package_msgs/include/my_first_package_msgs/my_first_package_msgs/srv/detail/multi_spawn__rosidl_typesupport_introspection_cpp.hpp
+[2.680s] -- Installing: /home/gomi/ros2_study/install/my_first_package_msgs/lib/libmy_first_package_msgs__rosidl_typesupport_introspection_cpp.so
+[2.680s] -- Set runtime path of "/home/gomi/ros2_study/install/my_first_package_msgs/lib/libmy_first_package_msgs__rosidl_typesupport_introspection_cpp.so" to ""
+[2.680s] -- Installing: /home/gomi/ros2_study/install/my_first_package_msgs/lib/libmy_first_package_msgs__rosidl_typesupport_cpp.so
+[2.680s] -- Set runtime path of "/home/gomi/ros2_study/install/my_first_package_msgs/lib/libmy_first_package_msgs__rosidl_typesupport_cpp.so" to ""
+[2.680s] -- Up-to-date: /home/gomi/ros2_study/install/my_first_package_msgs/share/my_first_package_msgs/environment/pythonpath.sh
+[2.680s] -- Installing: /home/gomi/ros2_study/install/my_first_package_msgs/share/my_first_package_msgs/environment/pythonpath.dsv
+[2.680s] -- Up-to-date: /home/gomi/ros2_study/install/my_first_package_msgs/local/lib/python3.10/dist-packages/my_first_package_msgs-0.0.0-py3.10.egg-info
+[2.680s] -- Installing: /home/gomi/ros2_study/install/my_first_package_msgs/local/lib/python3.10/dist-packages/my_first_package_msgs-0.0.0-py3.10.egg-info/PKG-INFO
+[2.680s] -- Installing: /home/gomi/ros2_study/install/my_first_package_msgs/local/lib/python3.10/dist-packages/my_first_package_msgs-0.0.0-py3.10.egg-info/top_level.txt
+[2.680s] -- Installing: /home/gomi/ros2_study/install/my_first_package_msgs/local/lib/python3.10/dist-packages/my_first_package_msgs-0.0.0-py3.10.egg-info/SOURCES.txt
+[2.680s] -- Installing: /home/gomi/ros2_study/install/my_first_package_msgs/local/lib/python3.10/dist-packages/my_first_package_msgs-0.0.0-py3.10.egg-info/dependency_links.txt
+[2.680s] -- Up-to-date: /home/gomi/ros2_study/install/my_first_package_msgs/local/lib/python3.10/dist-packages/my_first_package_msgs
+[2.680s] -- Installing: /home/gomi/ros2_study/install/my_first_package_msgs/local/lib/python3.10/dist-packages/my_first_package_msgs/_my_first_package_msgs_s.ep.rosidl_typesupport_c.c
+[2.680s] -- Up-to-date: /home/gomi/ros2_study/install/my_first_package_msgs/local/lib/python3.10/dist-packages/my_first_package_msgs/msg
+[2.680s] -- Installing: /home/gomi/ros2_study/install/my_first_package_msgs/local/lib/python3.10/dist-packages/my_first_package_msgs/msg/_cmd_and_pose_vel_s.c
+[2.680s] -- Installing: /home/gomi/ros2_study/install/my_first_package_msgs/local/lib/python3.10/dist-packages/my_first_package_msgs/msg/_cmd_and_pose_vel.py
+[2.680s] -- Installing: /home/gomi/ros2_study/install/my_first_package_msgs/local/lib/python3.10/dist-packages/my_first_package_msgs/msg/__init__.py
+[2.680s] -- Installing: /home/gomi/ros2_study/install/my_first_package_msgs/local/lib/python3.10/dist-packages/my_first_package_msgs/my_first_package_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[2.681s] -- Installing: /home/gomi/ros2_study/install/my_first_package_msgs/local/lib/python3.10/dist-packages/my_first_package_msgs/srv
+[2.681s] -- Installing: /home/gomi/ros2_study/install/my_first_package_msgs/local/lib/python3.10/dist-packages/my_first_package_msgs/srv/_multi_spawn_s.c
+[2.681s] -- Installing: /home/gomi/ros2_study/install/my_first_package_msgs/local/lib/python3.10/dist-packages/my_first_package_msgs/srv/_multi_spawn.py
+[2.681s] -- Installing: /home/gomi/ros2_study/install/my_first_package_msgs/local/lib/python3.10/dist-packages/my_first_package_msgs/srv/__init__.py
+[2.681s] -- Installing: /home/gomi/ros2_study/install/my_first_package_msgs/local/lib/python3.10/dist-packages/my_first_package_msgs/libmy_first_package_msgs__rosidl_generator_py.so
+[2.681s] -- Installing: /home/gomi/ros2_study/install/my_first_package_msgs/local/lib/python3.10/dist-packages/my_first_package_msgs/my_first_package_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[2.681s] -- Installing: /home/gomi/ros2_study/install/my_first_package_msgs/local/lib/python3.10/dist-packages/my_first_package_msgs/__init__.py
+[2.681s] -- Installing: /home/gomi/ros2_study/install/my_first_package_msgs/local/lib/python3.10/dist-packages/my_first_package_msgs/my_first_package_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[2.681s] -- Installing: /home/gomi/ros2_study/install/my_first_package_msgs/local/lib/python3.10/dist-packages/my_first_package_msgs/_my_first_package_msgs_s.ep.rosidl_typesupport_fastrtps_c.c
+[2.681s] -- Installing: /home/gomi/ros2_study/install/my_first_package_msgs/local/lib/python3.10/dist-packages/my_first_package_msgs/_my_first_package_msgs_s.ep.rosidl_typesupport_introspection_c.c
+[2.706s] Listing '/home/gomi/ros2_study/install/my_first_package_msgs/local/lib/python3.10/dist-packages/my_first_package_msgs'...
+[2.706s] Compiling '/home/gomi/ros2_study/install/my_first_package_msgs/local/lib/python3.10/dist-packages/my_first_package_msgs/__init__.py'...
+[2.706s] Listing '/home/gomi/ros2_study/install/my_first_package_msgs/local/lib/python3.10/dist-packages/my_first_package_msgs/msg'...
+[2.706s] Compiling '/home/gomi/ros2_study/install/my_first_package_msgs/local/lib/python3.10/dist-packages/my_first_package_msgs/msg/__init__.py'...
+[2.706s] Compiling '/home/gomi/ros2_study/install/my_first_package_msgs/local/lib/python3.10/dist-packages/my_first_package_msgs/msg/_cmd_and_pose_vel.py'...
+[2.706s] Listing '/home/gomi/ros2_study/install/my_first_package_msgs/local/lib/python3.10/dist-packages/my_first_package_msgs/srv'...
+[2.706s] Compiling '/home/gomi/ros2_study/install/my_first_package_msgs/local/lib/python3.10/dist-packages/my_first_package_msgs/srv/__init__.py'...
+[2.706s] Compiling '/home/gomi/ros2_study/install/my_first_package_msgs/local/lib/python3.10/dist-packages/my_first_package_msgs/srv/_multi_spawn.py'...
+[2.709s] -- Installing: /home/gomi/ros2_study/install/my_first_package_msgs/local/lib/python3.10/dist-packages/my_first_package_msgs/my_first_package_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[2.709s] -- Set runtime path of "/home/gomi/ros2_study/install/my_first_package_msgs/local/lib/python3.10/dist-packages/my_first_package_msgs/my_first_package_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so" to ""
+[2.709s] -- Installing: /home/gomi/ros2_study/install/my_first_package_msgs/local/lib/python3.10/dist-packages/my_first_package_msgs/my_first_package_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[2.710s] -- Set runtime path of "/home/gomi/ros2_study/install/my_first_package_msgs/local/lib/python3.10/dist-packages/my_first_package_msgs/my_first_package_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so" to ""
+[2.710s] -- Installing: /home/gomi/ros2_study/install/my_first_package_msgs/local/lib/python3.10/dist-packages/my_first_package_msgs/my_first_package_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[2.710s] -- Set runtime path of "/home/gomi/ros2_study/install/my_first_package_msgs/local/lib/python3.10/dist-packages/my_first_package_msgs/my_first_package_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so" to ""
+[2.710s] -- Installing: /home/gomi/ros2_study/install/my_first_package_msgs/lib/libmy_first_package_msgs__rosidl_generator_py.so
+[2.710s] -- Set runtime path of "/home/gomi/ros2_study/install/my_first_package_msgs/lib/libmy_first_package_msgs__rosidl_generator_py.so" to ""
+[2.710s] -- Up-to-date: /home/gomi/ros2_study/install/my_first_package_msgs/share/my_first_package_msgs/msg/CmdAndPoseVel.idl
+[2.710s] -- Installing: /home/gomi/ros2_study/install/my_first_package_msgs/share/my_first_package_msgs/srv/MultiSpawn.idl
+[2.710s] -- Up-to-date: /home/gomi/ros2_study/install/my_first_package_msgs/share/my_first_package_msgs/msg/CmdAndPoseVel.msg
+[2.710s] -- Installing: /home/gomi/ros2_study/install/my_first_package_msgs/share/my_first_package_msgs/srv/MultiSpawn.srv
+[2.710s] -- Installing: /home/gomi/ros2_study/install/my_first_package_msgs/share/my_first_package_msgs/srv/MultiSpawn_Request.msg
+[2.710s] -- Installing: /home/gomi/ros2_study/install/my_first_package_msgs/share/my_first_package_msgs/srv/MultiSpawn_Response.msg
+[2.710s] -- Up-to-date: /home/gomi/ros2_study/install/my_first_package_msgs/share/ament_index/resource_index/package_run_dependencies/my_first_package_msgs
+[2.710s] -- Up-to-date: /home/gomi/ros2_study/install/my_first_package_msgs/share/ament_index/resource_index/parent_prefix_path/my_first_package_msgs
+[2.710s] -- Up-to-date: /home/gomi/ros2_study/install/my_first_package_msgs/share/my_first_package_msgs/environment/ament_prefix_path.sh
+[2.710s] -- Installing: /home/gomi/ros2_study/install/my_first_package_msgs/share/my_first_package_msgs/environment/ament_prefix_path.dsv
+[2.710s] -- Up-to-date: /home/gomi/ros2_study/install/my_first_package_msgs/share/my_first_package_msgs/environment/path.sh
+[2.710s] -- Installing: /home/gomi/ros2_study/install/my_first_package_msgs/share/my_first_package_msgs/environment/path.dsv
+[2.710s] -- Up-to-date: /home/gomi/ros2_study/install/my_first_package_msgs/share/my_first_package_msgs/local_setup.bash
+[2.711s] -- Up-to-date: /home/gomi/ros2_study/install/my_first_package_msgs/share/my_first_package_msgs/local_setup.sh
+[2.711s] -- Up-to-date: /home/gomi/ros2_study/install/my_first_package_msgs/share/my_first_package_msgs/local_setup.zsh
+[2.711s] -- Installing: /home/gomi/ros2_study/install/my_first_package_msgs/share/my_first_package_msgs/local_setup.dsv
+[2.711s] -- Installing: /home/gomi/ros2_study/install/my_first_package_msgs/share/my_first_package_msgs/package.dsv
+[2.711s] -- Up-to-date: /home/gomi/ros2_study/install/my_first_package_msgs/share/ament_index/resource_index/packages/my_first_package_msgs
+[2.711s] -- Up-to-date: /home/gomi/ros2_study/install/my_first_package_msgs/share/my_first_package_msgs/cmake/export_my_first_package_msgs__rosidl_generator_cExport.cmake
+[2.711s] -- Up-to-date: /home/gomi/ros2_study/install/my_first_package_msgs/share/my_first_package_msgs/cmake/export_my_first_package_msgs__rosidl_generator_cExport-noconfig.cmake
+[2.711s] -- Up-to-date: /home/gomi/ros2_study/install/my_first_package_msgs/share/my_first_package_msgs/cmake/export_my_first_package_msgs__rosidl_typesupport_fastrtps_cExport.cmake
+[2.711s] -- Up-to-date: /home/gomi/ros2_study/install/my_first_package_msgs/share/my_first_package_msgs/cmake/export_my_first_package_msgs__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[2.711s] -- Up-to-date: /home/gomi/ros2_study/install/my_first_package_msgs/share/my_first_package_msgs/cmake/my_first_package_msgs__rosidl_typesupport_introspection_cExport.cmake
+[2.711s] -- Up-to-date: /home/gomi/ros2_study/install/my_first_package_msgs/share/my_first_package_msgs/cmake/my_first_package_msgs__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[2.711s] -- Up-to-date: /home/gomi/ros2_study/install/my_first_package_msgs/share/my_first_package_msgs/cmake/my_first_package_msgs__rosidl_typesupport_cExport.cmake
+[2.711s] -- Up-to-date: /home/gomi/ros2_study/install/my_first_package_msgs/share/my_first_package_msgs/cmake/my_first_package_msgs__rosidl_typesupport_cExport-noconfig.cmake
+[2.711s] -- Up-to-date: /home/gomi/ros2_study/install/my_first_package_msgs/share/my_first_package_msgs/cmake/export_my_first_package_msgs__rosidl_generator_cppExport.cmake
+[2.711s] -- Up-to-date: /home/gomi/ros2_study/install/my_first_package_msgs/share/my_first_package_msgs/cmake/export_my_first_package_msgs__rosidl_typesupport_fastrtps_cppExport.cmake
+[2.711s] -- Up-to-date: /home/gomi/ros2_study/install/my_first_package_msgs/share/my_first_package_msgs/cmake/export_my_first_package_msgs__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[2.711s] -- Up-to-date: /home/gomi/ros2_study/install/my_first_package_msgs/share/my_first_package_msgs/cmake/my_first_package_msgs__rosidl_typesupport_introspection_cppExport.cmake
+[2.711s] -- Up-to-date: /home/gomi/ros2_study/install/my_first_package_msgs/share/my_first_package_msgs/cmake/my_first_package_msgs__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[2.711s] -- Up-to-date: /home/gomi/ros2_study/install/my_first_package_msgs/share/my_first_package_msgs/cmake/my_first_package_msgs__rosidl_typesupport_cppExport.cmake
+[2.711s] -- Up-to-date: /home/gomi/ros2_study/install/my_first_package_msgs/share/my_first_package_msgs/cmake/my_first_package_msgs__rosidl_typesupport_cppExport-noconfig.cmake
+[2.711s] -- Up-to-date: /home/gomi/ros2_study/install/my_first_package_msgs/share/my_first_package_msgs/cmake/export_my_first_package_msgs__rosidl_generator_pyExport.cmake
+[2.712s] -- Up-to-date: /home/gomi/ros2_study/install/my_first_package_msgs/share/my_first_package_msgs/cmake/export_my_first_package_msgs__rosidl_generator_pyExport-noconfig.cmake
+[2.712s] -- Installing: /home/gomi/ros2_study/install/my_first_package_msgs/share/my_first_package_msgs/cmake/rosidl_cmake-extras.cmake
+[2.712s] -- Up-to-date: /home/gomi/ros2_study/install/my_first_package_msgs/share/my_first_package_msgs/cmake/ament_cmake_export_include_directories-extras.cmake
+[2.712s] -- Up-to-date: /home/gomi/ros2_study/install/my_first_package_msgs/share/my_first_package_msgs/cmake/ament_cmake_export_libraries-extras.cmake
+[2.712s] -- Up-to-date: /home/gomi/ros2_study/install/my_first_package_msgs/share/my_first_package_msgs/cmake/ament_cmake_export_targets-extras.cmake
+[2.712s] -- Up-to-date: /home/gomi/ros2_study/install/my_first_package_msgs/share/my_first_package_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[2.712s] -- Up-to-date: /home/gomi/ros2_study/install/my_first_package_msgs/share/my_first_package_msgs/cmake/ament_cmake_export_dependencies-extras.cmake
+[2.712s] -- Up-to-date: /home/gomi/ros2_study/install/my_first_package_msgs/share/my_first_package_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[2.712s] -- Up-to-date: /home/gomi/ros2_study/install/my_first_package_msgs/share/my_first_package_msgs/cmake/my_first_package_msgsConfig.cmake
+[2.712s] -- Up-to-date: /home/gomi/ros2_study/install/my_first_package_msgs/share/my_first_package_msgs/cmake/my_first_package_msgsConfig-version.cmake
+[2.712s] -- Up-to-date: /home/gomi/ros2_study/install/my_first_package_msgs/share/my_first_package_msgs/package.xml
+[2.714s] Invoked command in '/home/gomi/ros2_study/build/my_first_package_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/gomi/ros2_study/install/my_first_package:/opt/ros/humble /usr/bin/cmake --install /home/gomi/ros2_study/build/my_first_package_msgs

@@ -1,0 +1,42 @@
+[0.177s] Invoking command in '/home/gomi/ros2_study/build/my_first_package_msgs': CMAKE_PREFIX_PATH=/home/gomi/ros2_study/install/my_first_package:/opt/ros/humble /usr/bin/cmake /home/gomi/ros2_study/src/my_first_package_msgs -DCMAKE_INSTALL_PREFIX=/home/gomi/ros2_study/install/my_first_package_msgs
+[0.270s] -- The C compiler identification is GNU 11.3.0
+[0.332s] -- The CXX compiler identification is GNU 11.3.0
+[0.340s] -- Detecting C compiler ABI info
+[0.388s] -- Detecting C compiler ABI info - done
+[0.393s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.393s] -- Detecting C compile features
+[0.394s] -- Detecting C compile features - done
+[0.397s] -- Detecting CXX compiler ABI info
+[0.452s] -- Detecting CXX compiler ABI info - done
+[0.461s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.461s] -- Detecting CXX compile features
+[0.462s] -- Detecting CXX compile features - done
+[0.472s] -- Found ament_cmake: 1.3.4 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.593s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.6") found components: Interpreter 
+[0.673s] -- Found ament_lint_auto: 0.12.6 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[0.736s] -- Added test 'lint_cmake' to check CMake code style
+[0.737s] -- Added test 'xmllint' to check XML markup files
+[0.739s] -- Configuring done
+[0.741s] -- Generating done
+[0.741s] -- Build files have been written to: /home/gomi/ros2_study/build/my_first_package_msgs
+[0.745s] Invoked command in '/home/gomi/ros2_study/build/my_first_package_msgs' returned '0': CMAKE_PREFIX_PATH=/home/gomi/ros2_study/install/my_first_package:/opt/ros/humble /usr/bin/cmake /home/gomi/ros2_study/src/my_first_package_msgs -DCMAKE_INSTALL_PREFIX=/home/gomi/ros2_study/install/my_first_package_msgs
+[0.747s] Invoking command in '/home/gomi/ros2_study/build/my_first_package_msgs': CMAKE_PREFIX_PATH=/home/gomi/ros2_study/install/my_first_package:/opt/ros/humble /usr/bin/cmake --build /home/gomi/ros2_study/build/my_first_package_msgs -- -j8 -l8
+[0.783s] Invoked command in '/home/gomi/ros2_study/build/my_first_package_msgs' returned '0': CMAKE_PREFIX_PATH=/home/gomi/ros2_study/install/my_first_package:/opt/ros/humble /usr/bin/cmake --build /home/gomi/ros2_study/build/my_first_package_msgs -- -j8 -l8
+[0.810s] Invoking command in '/home/gomi/ros2_study/build/my_first_package_msgs': CMAKE_PREFIX_PATH=/home/gomi/ros2_study/install/my_first_package:/opt/ros/humble /usr/bin/cmake --install /home/gomi/ros2_study/build/my_first_package_msgs
+[0.818s] -- Install configuration: ""
+[0.818s] -- Installing: /home/gomi/ros2_study/install/my_first_package_msgs/share/ament_index/resource_index/package_run_dependencies/my_first_package_msgs
+[0.818s] -- Installing: /home/gomi/ros2_study/install/my_first_package_msgs/share/ament_index/resource_index/parent_prefix_path/my_first_package_msgs
+[0.819s] -- Installing: /home/gomi/ros2_study/install/my_first_package_msgs/share/my_first_package_msgs/environment/ament_prefix_path.sh
+[0.819s] -- Installing: /home/gomi/ros2_study/install/my_first_package_msgs/share/my_first_package_msgs/environment/ament_prefix_path.dsv
+[0.819s] -- Installing: /home/gomi/ros2_study/install/my_first_package_msgs/share/my_first_package_msgs/environment/path.sh
+[0.819s] -- Installing: /home/gomi/ros2_study/install/my_first_package_msgs/share/my_first_package_msgs/environment/path.dsv
+[0.819s] -- Installing: /home/gomi/ros2_study/install/my_first_package_msgs/share/my_first_package_msgs/local_setup.bash
+[0.819s] -- Installing: /home/gomi/ros2_study/install/my_first_package_msgs/share/my_first_package_msgs/local_setup.sh
+[0.819s] -- Installing: /home/gomi/ros2_study/install/my_first_package_msgs/share/my_first_package_msgs/local_setup.zsh
+[0.819s] -- Installing: /home/gomi/ros2_study/install/my_first_package_msgs/share/my_first_package_msgs/local_setup.dsv
+[0.819s] -- Installing: /home/gomi/ros2_study/install/my_first_package_msgs/share/my_first_package_msgs/package.dsv
+[0.819s] -- Installing: /home/gomi/ros2_study/install/my_first_package_msgs/share/ament_index/resource_index/packages/my_first_package_msgs
+[0.819s] -- Installing: /home/gomi/ros2_study/install/my_first_package_msgs/share/my_first_package_msgs/cmake/my_first_package_msgsConfig.cmake
+[0.819s] -- Installing: /home/gomi/ros2_study/install/my_first_package_msgs/share/my_first_package_msgs/cmake/my_first_package_msgsConfig-version.cmake
+[0.820s] -- Installing: /home/gomi/ros2_study/install/my_first_package_msgs/share/my_first_package_msgs/package.xml
+[0.823s] Invoked command in '/home/gomi/ros2_study/build/my_first_package_msgs' returned '0': CMAKE_PREFIX_PATH=/home/gomi/ros2_study/install/my_first_package:/opt/ros/humble /usr/bin/cmake --install /home/gomi/ros2_study/build/my_first_package_msgs
