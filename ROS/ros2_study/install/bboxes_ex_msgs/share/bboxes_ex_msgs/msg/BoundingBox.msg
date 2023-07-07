@@ -1,0 +1,1 @@
+/home/gomi/ros2_study/src/YOLOX-ROS/bbox_ex_msgs/msg/BoundingBox.msg

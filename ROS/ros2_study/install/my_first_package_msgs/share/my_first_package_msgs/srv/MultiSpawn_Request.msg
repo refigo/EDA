@@ -1,1 +1,1 @@
-int64 num
+/home/gomi/ros2_study/build/my_first_package_msgs/rosidl_cmake/srv/MultiSpawn_Request.msg

@@ -1,7 +1,1 @@
-float32 cmd_vel_linear
-float32 cmd_vel_angular
-
-float32 pose_x
-float32 pose_y
-float32 linear_vel
-float32 angular_vel
+/home/gomi/ros2_study/src/my_first_package_msgs/msg/CmdAndPoseVel.msg

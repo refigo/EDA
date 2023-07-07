@@ -1,0 +1,43 @@
+[0.804s] Invoking command in '/home/gomi/ros2_study/build/my_first_package': PYTHONPATH=/home/gomi/ros2_study/build/my_first_package/prefix_override:/home/gomi/ros2_study/install/my_first_package/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/gomi/ros2_study/build/my_first_package/build --no-deps install_data
+[1.012s] running develop
+[1.013s] /usr/lib/python3/dist-packages/setuptools/command/easy_install.py:158: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.
+[1.013s]   warnings.warn(
+[1.014s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[1.014s]   warnings.warn(
+[1.060s] /usr/lib/python3/dist-packages/pkg_resources/__init__.py:116: PkgResourcesDeprecationWarning: 1.16.0-unknown is an invalid version and will not be supported in a future release
+[1.061s]   warnings.warn(
+[1.061s] /usr/lib/python3/dist-packages/pkg_resources/__init__.py:116: PkgResourcesDeprecationWarning: 1.1build1 is an invalid version and will not be supported in a future release
+[1.061s]   warnings.warn(
+[1.061s] /usr/lib/python3/dist-packages/pkg_resources/__init__.py:116: PkgResourcesDeprecationWarning: 0.1.43ubuntu1 is an invalid version and will not be supported in a future release
+[1.061s]   warnings.warn(
+[1.162s] running egg_info
+[1.162s] creating my_first_package.egg-info
+[1.163s] writing my_first_package.egg-info/PKG-INFO
+[1.163s] writing dependency_links to my_first_package.egg-info/dependency_links.txt
+[1.163s] writing entry points to my_first_package.egg-info/entry_points.txt
+[1.163s] writing requirements to my_first_package.egg-info/requires.txt
+[1.163s] writing top-level names to my_first_package.egg-info/top_level.txt
+[1.163s] writing manifest file 'my_first_package.egg-info/SOURCES.txt'
+[1.165s] reading manifest file 'my_first_package.egg-info/SOURCES.txt'
+[1.165s] writing manifest file 'my_first_package.egg-info/SOURCES.txt'
+[1.192s] running build_ext
+[1.192s] Creating /home/gomi/ros2_study/install/my_first_package/lib/python3.10/site-packages/my-first-package.egg-link (link to .)
+[1.193s] Installing dist_turtle_action_server script to /home/gomi/ros2_study/install/my_first_package/lib/my_first_package
+[1.193s] Installing my_first_node script to /home/gomi/ros2_study/install/my_first_package/lib/my_first_package
+[1.193s] Installing my_multi_thread script to /home/gomi/ros2_study/install/my_first_package/lib/my_first_package
+[1.193s] Installing my_publisher script to /home/gomi/ros2_study/install/my_first_package/lib/my_first_package
+[1.193s] Installing my_service_server script to /home/gomi/ros2_study/install/my_first_package/lib/my_first_package
+[1.193s] Installing my_subscriber script to /home/gomi/ros2_study/install/my_first_package/lib/my_first_package
+[1.193s] Installing turtle_cmd_and_pose script to /home/gomi/ros2_study/install/my_first_package/lib/my_first_package
+[1.194s] 
+[1.194s] Installed /home/gomi/ros2_study/build/my_first_package
+[1.194s] running install_data
+[1.194s] creating /home/gomi/ros2_study/install/my_first_package/share/ament_index
+[1.194s] creating /home/gomi/ros2_study/install/my_first_package/share/ament_index/resource_index
+[1.194s] creating /home/gomi/ros2_study/install/my_first_package/share/ament_index/resource_index/packages
+[1.194s] copying resource/my_first_package -> /home/gomi/ros2_study/install/my_first_package/share/ament_index/resource_index/packages
+[1.194s] copying package.xml -> /home/gomi/ros2_study/install/my_first_package/share/my_first_package
+[1.194s] creating /home/gomi/ros2_study/install/my_first_package/share/my_first_package/launch
+[1.194s] copying launch/dist_turtle_action.launch.py -> /home/gomi/ros2_study/install/my_first_package/share/my_first_package/launch
+[1.195s] copying launch/turtlesim_and_teleop.launch.py -> /home/gomi/ros2_study/install/my_first_package/share/my_first_package/launch
+[1.234s] Invoked command in '/home/gomi/ros2_study/build/my_first_package' returned '0': PYTHONPATH=/home/gomi/ros2_study/build/my_first_package/prefix_override:/home/gomi/ros2_study/install/my_first_package/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/gomi/ros2_study/build/my_first_package/build --no-deps install_data

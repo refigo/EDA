@@ -1,5 +1,1 @@
-int64 num
----
-float64[] x
-float64[] y
-float64[] theta
+/home/gomi/ros2_study/src/my_first_package_msgs/srv/MultiSpawn.srv

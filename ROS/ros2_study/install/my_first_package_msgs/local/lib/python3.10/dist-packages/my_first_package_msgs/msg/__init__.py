@@ -1,1 +1,1 @@
-from my_first_package_msgs.msg._cmd_and_pose_vel import CmdAndPoseVel  # noqa: F401
+/home/gomi/ros2_study/build/my_first_package_msgs/rosidl_generator_py/my_first_package_msgs/msg/__init__.py

@@ -1,0 +1,56 @@
+/usr/lib/python3/dist-packages/setuptools/dist.py:723: UserWarning: Usage of dash-separated 'script-dir' will not be supported in future versions. Please use the underscore name 'script_dir' instead
+  warnings.warn(
+running develop
+/usr/lib/python3/dist-packages/setuptools/command/easy_install.py:158: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.
+  warnings.warn(
+/usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+  warnings.warn(
+/usr/lib/python3/dist-packages/pkg_resources/__init__.py:116: PkgResourcesDeprecationWarning: 1.16.0-unknown is an invalid version and will not be supported in a future release
+  warnings.warn(
+/usr/lib/python3/dist-packages/pkg_resources/__init__.py:116: PkgResourcesDeprecationWarning: 1.1build1 is an invalid version and will not be supported in a future release
+  warnings.warn(
+/usr/lib/python3/dist-packages/pkg_resources/__init__.py:116: PkgResourcesDeprecationWarning: 0.1.43ubuntu1 is an invalid version and will not be supported in a future release
+  warnings.warn(
+running egg_info
+creating yolox_ros_py.egg-info
+writing yolox_ros_py.egg-info/PKG-INFO
+writing dependency_links to yolox_ros_py.egg-info/dependency_links.txt
+writing entry points to yolox_ros_py.egg-info/entry_points.txt
+writing requirements to yolox_ros_py.egg-info/requires.txt
+writing top-level names to yolox_ros_py.egg-info/top_level.txt
+writing manifest file 'yolox_ros_py.egg-info/SOURCES.txt'
+reading manifest file 'yolox_ros_py.egg-info/SOURCES.txt'
+writing manifest file 'yolox_ros_py.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/gomi/ros2_study/install/yolox_ros_py/lib/python3.10/site-packages/yolox-ros-py.egg-link (link to .)
+Installing yolox_onnx script to /home/gomi/ros2_study/install/yolox_ros_py/lib/yolox_ros_py
+Installing yolox_openvino script to /home/gomi/ros2_study/install/yolox_ros_py/lib/yolox_ros_py
+Installing yolox_ros script to /home/gomi/ros2_study/install/yolox_ros_py/lib/yolox_ros_py
+Installing yolox_tflite script to /home/gomi/ros2_study/install/yolox_ros_py/lib/yolox_ros_py
+
+Installed /home/gomi/ros2_study/build/yolox_ros_py
+running install_data
+creating /home/gomi/ros2_study/install/yolox_ros_py/share/ament_index
+creating /home/gomi/ros2_study/install/yolox_ros_py/share/ament_index/resource_index
+creating /home/gomi/ros2_study/install/yolox_ros_py/share/ament_index/resource_index/packages
+copying resource/yolox_ros_py -> /home/gomi/ros2_study/install/yolox_ros_py/share/ament_index/resource_index/packages
+copying package.xml -> /home/gomi/ros2_study/install/yolox_ros_py/share/yolox_ros_py
+copying ./launch/yolox_nano_torch_cpu_camera.launch.py -> /home/gomi/ros2_study/install/yolox_ros_py/share/yolox_ros_py
+copying ./launch/yolox_lite_tflite_camera.launch.py -> /home/gomi/ros2_study/install/yolox_ros_py/share/yolox_ros_py
+copying ./launch/yolox_nano_onnx_gazebo.launch.py -> /home/gomi/ros2_study/install/yolox_ros_py/share/yolox_ros_py
+copying ./launch/yolox_nano_torch_gpu_camera.launch.py -> /home/gomi/ros2_study/install/yolox_ros_py/share/yolox_ros_py
+copying ./launch/yolox_nano_onnx_youtube.launch.py -> /home/gomi/ros2_study/install/yolox_ros_py/share/yolox_ros_py
+copying ./launch/yolox_nano_onnx_picture.launch.py -> /home/gomi/ros2_study/install/yolox_ros_py/share/yolox_ros_py
+copying ./launch/yolox_nano_openvino.launch.py -> /home/gomi/ros2_study/install/yolox_ros_py/share/yolox_ros_py
+copying ./launch/yolox_nano_onnx_camera.launch.py -> /home/gomi/ros2_study/install/yolox_ros_py/share/yolox_ros_py
+copying ../weights/yolox_nano.pth -> /home/gomi/ros2_study/install/yolox_ros_py/share/yolox_ros_py
+copying ../weights/yolox_nano.onnx -> /home/gomi/ros2_study/install/yolox_ros_py/share/yolox_ros_py
+copying ../weights/openvino/README.md -> /home/gomi/ros2_study/install/yolox_ros_py/share/yolox_ros_py
+copying ../weights/openvino/install.bash -> /home/gomi/ros2_study/install/yolox_ros_py/share/yolox_ros_py
+copying ../weights/openvino/download_openvino_s.bash -> /home/gomi/ros2_study/install/yolox_ros_py/share/yolox_ros_py
+copying ../weights/onnx/download.bash -> /home/gomi/ros2_study/install/yolox_ros_py/share/yolox_ros_py
+copying ../weights/tflite/download_model.bash -> /home/gomi/ros2_study/install/yolox_ros_py/share/yolox_ros_py
+copying ../weights/tflite/model.onnx -> /home/gomi/ros2_study/install/yolox_ros_py/share/yolox_ros_py
+copying ../weights/tflite/model.tflite -> /home/gomi/ros2_study/install/yolox_ros_py/share/yolox_ros_py
+copying ../weights/tensorrt/convert.bash -> /home/gomi/ros2_study/install/yolox_ros_py/share/yolox_ros_py
+copying ./exps/yolox_nano.py -> /home/gomi/ros2_study/install/yolox_ros_py/share/yolox_ros_py

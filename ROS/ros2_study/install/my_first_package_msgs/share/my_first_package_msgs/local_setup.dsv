@@ -1,4 +1,1 @@
-source;share/my_first_package_msgs/environment/ament_prefix_path.sh
-source;share/my_first_package_msgs/environment/library_path.sh
-source;share/my_first_package_msgs/environment/path.sh
-source;share/my_first_package_msgs/environment/pythonpath.sh
+/home/gomi/ros2_study/build/my_first_package_msgs/ament_cmake_environment_hooks/local_setup.dsv

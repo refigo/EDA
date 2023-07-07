@@ -1,8 +1,1 @@
-action/DistTurtle.action
-action/DistTurtle.idl
-msg/CmdAndPoseVel.idl
-msg/CmdAndPoseVel.msg
-srv/MultiSpawn.idl
-srv/MultiSpawn.srv
-srv/MultiSpawn_Request.msg
-srv/MultiSpawn_Response.msg
+/home/gomi/ros2_study/build/my_first_package_msgs/ament_cmake_index/share/ament_index/resource_index/rosidl_interfaces/my_first_package_msgs

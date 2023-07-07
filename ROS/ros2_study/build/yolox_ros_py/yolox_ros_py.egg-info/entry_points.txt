@@ -1,0 +1,6 @@
+[console_scripts]
+yolox_onnx = yolox_ros_py.yolox_onnx:ros_main
+yolox_openvino = yolox_ros_py.yolox_openvino:ros_main
+yolox_ros = yolox_ros_py.yolox_ros:ros_main
+yolox_tflite = yolox_ros_py.yolox_tflite:ros_main
+

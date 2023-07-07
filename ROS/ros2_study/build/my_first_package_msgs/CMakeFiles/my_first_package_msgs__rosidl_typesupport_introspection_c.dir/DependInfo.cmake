@@ -23,9 +23,8 @@ set(CMAKE_MULTIPLE_OUTPUT_PAIRS
   )
 
 
-# Targets to which this target links.
-set(CMAKE_TARGET_LINKED_INFO_FILES
-  "/home/gomi/ros2_study/build/my_first_package_msgs/CMakeFiles/my_first_package_msgs__rosidl_generator_c.dir/DependInfo.cmake"
+# Targets to which this target links which contain Fortran sources.
+set(CMAKE_Fortran_TARGET_LINKED_INFO_FILES
   )
 
 # Fortran module output directory.

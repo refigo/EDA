@@ -1,1 +1,1 @@
-from my_first_package_msgs.srv._multi_spawn import MultiSpawn  # noqa: F401
+/home/gomi/ros2_study/build/my_first_package_msgs/rosidl_generator_py/my_first_package_msgs/srv/__init__.py
