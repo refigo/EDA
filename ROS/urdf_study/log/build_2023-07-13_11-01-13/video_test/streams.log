@@ -1,0 +1,23 @@
+[0.464s] Invoking command in '/home/gomi/urdf_study/src/video_test': PYTHONPATH=/home/gomi/urdf_study/build/video_test/prefix_override:/home/gomi/urdf_study/install/video_test/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/video_test build --build-base /home/gomi/urdf_study/build/video_test/build install --record /home/gomi/urdf_study/build/video_test/install.log --single-version-externally-managed
+[0.632s] running egg_info
+[0.632s] writing ../../build/video_test/video_test.egg-info/PKG-INFO
+[0.632s] writing dependency_links to ../../build/video_test/video_test.egg-info/dependency_links.txt
+[0.633s] writing entry points to ../../build/video_test/video_test.egg-info/entry_points.txt
+[0.633s] writing requirements to ../../build/video_test/video_test.egg-info/requires.txt
+[0.633s] writing top-level names to ../../build/video_test/video_test.egg-info/top_level.txt
+[0.634s] reading manifest file '../../build/video_test/video_test.egg-info/SOURCES.txt'
+[0.635s] writing manifest file '../../build/video_test/video_test.egg-info/SOURCES.txt'
+[0.635s] running build
+[0.635s] running build_py
+[0.635s] running install
+[0.635s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[0.635s]   warnings.warn(
+[0.635s] running install_lib
+[0.636s] running install_data
+[0.636s] running install_egg_info
+[0.637s] removing '/home/gomi/urdf_study/install/video_test/lib/python3.10/site-packages/video_test-0.0.0-py3.10.egg-info' (and everything under it)
+[0.638s] Copying ../../build/video_test/video_test.egg-info to /home/gomi/urdf_study/install/video_test/lib/python3.10/site-packages/video_test-0.0.0-py3.10.egg-info
+[0.638s] running install_scripts
+[0.652s] Installing cam_test script to /home/gomi/urdf_study/install/video_test/lib/video_test
+[0.652s] writing list of installed files to '/home/gomi/urdf_study/build/video_test/install.log'
+[0.671s] Invoked command in '/home/gomi/urdf_study/src/video_test' returned '0': PYTHONPATH=/home/gomi/urdf_study/build/video_test/prefix_override:/home/gomi/urdf_study/install/video_test/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/video_test build --build-base /home/gomi/urdf_study/build/video_test/build install --record /home/gomi/urdf_study/build/video_test/install.log --single-version-externally-managed

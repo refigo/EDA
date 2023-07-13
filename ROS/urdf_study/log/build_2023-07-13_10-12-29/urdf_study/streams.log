@@ -1,0 +1,24 @@
+[0.014s] Invoking command in '/home/gomi/urdf_study/build/urdf_study': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/gomi/urdf_study/install/video_test:/opt/ros/humble /home/gomi/.local/bin/cmake --build /home/gomi/urdf_study/build/urdf_study -- -j8 -l8
+[0.204s] Invoked command in '/home/gomi/urdf_study/build/urdf_study' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/gomi/urdf_study/install/video_test:/opt/ros/humble /home/gomi/.local/bin/cmake --build /home/gomi/urdf_study/build/urdf_study -- -j8 -l8
+[0.298s] Invoking command in '/home/gomi/urdf_study/build/urdf_study': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/gomi/urdf_study/install/video_test:/opt/ros/humble /home/gomi/.local/bin/cmake --install /home/gomi/urdf_study/build/urdf_study
+[0.334s] -- Install configuration: ""
+[0.334s] -- Up-to-date: /home/gomi/urdf_study/install/urdf_study/share/urdf_study/launch
+[0.334s] -- Up-to-date: /home/gomi/urdf_study/install/urdf_study/share/urdf_study/launch/simple_display.launch.py
+[0.334s] -- Up-to-date: /home/gomi/urdf_study/install/urdf_study/share/urdf_study/urdf
+[0.334s] -- Installing: /home/gomi/urdf_study/install/urdf_study/share/urdf_study/urdf/myfirst.urdf
+[0.334s] -- Up-to-date: /home/gomi/urdf_study/install/urdf_study/share/ament_index/resource_index/package_run_dependencies/urdf_study
+[0.334s] -- Up-to-date: /home/gomi/urdf_study/install/urdf_study/share/ament_index/resource_index/parent_prefix_path/urdf_study
+[0.334s] -- Up-to-date: /home/gomi/urdf_study/install/urdf_study/share/urdf_study/environment/ament_prefix_path.sh
+[0.335s] -- Up-to-date: /home/gomi/urdf_study/install/urdf_study/share/urdf_study/environment/ament_prefix_path.dsv
+[0.335s] -- Up-to-date: /home/gomi/urdf_study/install/urdf_study/share/urdf_study/environment/path.sh
+[0.335s] -- Up-to-date: /home/gomi/urdf_study/install/urdf_study/share/urdf_study/environment/path.dsv
+[0.335s] -- Up-to-date: /home/gomi/urdf_study/install/urdf_study/share/urdf_study/local_setup.bash
+[0.335s] -- Up-to-date: /home/gomi/urdf_study/install/urdf_study/share/urdf_study/local_setup.sh
+[0.335s] -- Up-to-date: /home/gomi/urdf_study/install/urdf_study/share/urdf_study/local_setup.zsh
+[0.335s] -- Up-to-date: /home/gomi/urdf_study/install/urdf_study/share/urdf_study/local_setup.dsv
+[0.335s] -- Installing: /home/gomi/urdf_study/install/urdf_study/share/urdf_study/package.dsv
+[0.335s] -- Up-to-date: /home/gomi/urdf_study/install/urdf_study/share/ament_index/resource_index/packages/urdf_study
+[0.335s] -- Up-to-date: /home/gomi/urdf_study/install/urdf_study/share/urdf_study/cmake/urdf_studyConfig.cmake
+[0.336s] -- Up-to-date: /home/gomi/urdf_study/install/urdf_study/share/urdf_study/cmake/urdf_studyConfig-version.cmake
+[0.336s] -- Up-to-date: /home/gomi/urdf_study/install/urdf_study/share/urdf_study/package.xml
+[0.342s] Invoked command in '/home/gomi/urdf_study/build/urdf_study' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/gomi/urdf_study/install/video_test:/opt/ros/humble /home/gomi/.local/bin/cmake --install /home/gomi/urdf_study/build/urdf_study
