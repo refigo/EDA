@@ -1,0 +1,4 @@
+[console_scripts]
+total_subscriber = playing_turtle_package.total_subscriber:main
+tree_spawning_server = playing_turtle_package.tree_spawning_service_server:main
+

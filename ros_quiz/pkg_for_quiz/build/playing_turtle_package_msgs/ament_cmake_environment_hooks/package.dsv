@@ -1,0 +1,4 @@
+source;share/playing_turtle_package_msgs/local_setup.bash
+source;share/playing_turtle_package_msgs/local_setup.dsv
+source;share/playing_turtle_package_msgs/local_setup.sh
+source;share/playing_turtle_package_msgs/local_setup.zsh

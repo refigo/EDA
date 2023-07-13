@@ -1,0 +1,19 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from playing_turtle_package_msgs/srv/TreeSpawn.srv
+// generated code does not contain a copyright notice
+
+
+module playing_turtle_package_msgs {
+  module srv {
+    struct TreeSpawn_Request {
+      uint8 structure_needs_at_least_one_member;
+    };
+    struct TreeSpawn_Response {
+      sequence<double> x;
+
+      sequence<double> y;
+
+      sequence<double> theta;
+    };
+  };
+};

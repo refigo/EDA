@@ -1,0 +1,8 @@
+[0.208s] Invoking command in '/home/gomi/dev_ws/ros_quiz/pkg_for_quiz/build/playing_turtle_package_msgs': CMAKE_PREFIX_PATH=/home/gomi/dev_ws/ros_quiz/pkg_for_quiz/install/playing_turtle_package:/opt/ros/humble /home/gomi/.local/bin/cmake /home/gomi/dev_ws/ros_quiz/pkg_for_quiz/src/playing_turtle_package_msgs -DCMAKE_INSTALL_PREFIX=/home/gomi/dev_ws/ros_quiz/pkg_for_quiz/install/playing_turtle_package_msgs
+[0.262s] -- Configuring incomplete, errors occurred!
+[0.262s] [31mCMake Error at CMakeLists.txt:17:
+[0.262s]   Parse error.  Expected a command name, got quoted argument with text
+[0.262s]   "srv/TreeSpawn.srv".
+[0.262s] 
+[0.262s] [0m
+[0.270s] Invoked command in '/home/gomi/dev_ws/ros_quiz/pkg_for_quiz/build/playing_turtle_package_msgs' returned '1': CMAKE_PREFIX_PATH=/home/gomi/dev_ws/ros_quiz/pkg_for_quiz/install/playing_turtle_package:/opt/ros/humble /home/gomi/.local/bin/cmake /home/gomi/dev_ws/ros_quiz/pkg_for_quiz/src/playing_turtle_package_msgs -DCMAKE_INSTALL_PREFIX=/home/gomi/dev_ws/ros_quiz/pkg_for_quiz/install/playing_turtle_package_msgs

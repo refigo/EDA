@@ -1,0 +1,6 @@
+-- Configuring incomplete, errors occurred!
+[31mCMake Error at CMakeLists.txt:17:
+  Parse error.  Expected a command name, got quoted argument with text
+  "srv/TreeSpawn.srv".
+
+[0m

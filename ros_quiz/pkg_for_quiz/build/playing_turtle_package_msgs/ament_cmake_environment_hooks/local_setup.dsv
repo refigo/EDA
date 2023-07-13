@@ -1,0 +1,4 @@
+source;share/playing_turtle_package_msgs/environment/ament_prefix_path.sh
+source;share/playing_turtle_package_msgs/environment/library_path.sh
+source;share/playing_turtle_package_msgs/environment/path.sh
+source;share/playing_turtle_package_msgs/environment/pythonpath.sh

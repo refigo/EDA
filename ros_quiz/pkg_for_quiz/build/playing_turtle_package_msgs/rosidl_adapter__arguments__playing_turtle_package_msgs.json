@@ -1,0 +1,6 @@
+{
+  "package_name": "playing_turtle_package_msgs",
+  "non_idl_tuples": [
+    "/home/gomi/dev_ws/ros_quiz/pkg_for_quiz/src/playing_turtle_package_msgs:srv/TreeSpawn.srv"
+  ]
+}
