@@ -1,0 +1,36 @@
+[0.009s] Invoking command in '/home/gomi/my_mobile/build/my_robot_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/gomi/urdf_study/install/video_test:/opt/ros/humble /home/gomi/.local/bin/cmake /home/gomi/my_mobile/src/my_robot_description -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/gomi/my_mobile/install/my_robot_description
+[0.049s] -- Found ament_cmake: 1.3.4 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.127s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.135s] -- Found ament_lint_auto: 0.12.6 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[0.181s] -- Added test 'flake8' to check Python code syntax and style conventions
+[0.181s] -- Added test 'lint_cmake' to check CMake code style
+[0.182s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[0.182s] -- Added test 'xmllint' to check XML markup files
+[0.183s] -- Configuring done (0.1s)
+[0.185s] -- Generating done (0.0s)
+[0.185s] -- Build files have been written to: /home/gomi/my_mobile/build/my_robot_description
+[0.195s] Invoked command in '/home/gomi/my_mobile/build/my_robot_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/gomi/urdf_study/install/video_test:/opt/ros/humble /home/gomi/.local/bin/cmake /home/gomi/my_mobile/src/my_robot_description -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/gomi/my_mobile/install/my_robot_description
+[0.195s] Invoking command in '/home/gomi/my_mobile/build/my_robot_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/gomi/urdf_study/install/video_test:/opt/ros/humble /home/gomi/.local/bin/cmake --build /home/gomi/my_mobile/build/my_robot_description -- -j8 -l8
+[0.245s] Invoked command in '/home/gomi/my_mobile/build/my_robot_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/gomi/urdf_study/install/video_test:/opt/ros/humble /home/gomi/.local/bin/cmake --build /home/gomi/my_mobile/build/my_robot_description -- -j8 -l8
+[0.337s] Invoking command in '/home/gomi/my_mobile/build/my_robot_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/gomi/urdf_study/install/video_test:/opt/ros/humble /home/gomi/.local/bin/cmake --install /home/gomi/my_mobile/build/my_robot_description
+[0.371s] -- Install configuration: ""
+[0.372s] -- Execute custom install script
+[0.372s] -- Symlinking: /home/gomi/my_mobile/install/my_robot_description/share/my_robot_description/rviz/urdf_config.rviz
+[0.374s] -- Symlinking: /home/gomi/my_mobile/install/my_robot_description/share/my_robot_description/urdf/robot_core.xacro
+[0.376s] -- Symlinking: /home/gomi/my_mobile/install/my_robot_description/share/my_robot_description/launch/display.launch.py
+[0.378s] -- Symlinking: /home/gomi/my_mobile/install/my_robot_description/share/ament_index/resource_index/package_run_dependencies/my_robot_description
+[0.379s] -- Symlinking: /home/gomi/my_mobile/install/my_robot_description/share/ament_index/resource_index/parent_prefix_path/my_robot_description
+[0.381s] -- Symlinking: /home/gomi/my_mobile/install/my_robot_description/share/my_robot_description/environment/ament_prefix_path.sh
+[0.383s] -- Symlinking: /home/gomi/my_mobile/install/my_robot_description/share/my_robot_description/environment/ament_prefix_path.dsv
+[0.384s] -- Symlinking: /home/gomi/my_mobile/install/my_robot_description/share/my_robot_description/environment/path.sh
+[0.386s] -- Symlinking: /home/gomi/my_mobile/install/my_robot_description/share/my_robot_description/environment/path.dsv
+[0.388s] -- Symlinking: /home/gomi/my_mobile/install/my_robot_description/share/my_robot_description/local_setup.bash
+[0.390s] -- Symlinking: /home/gomi/my_mobile/install/my_robot_description/share/my_robot_description/local_setup.sh
+[0.393s] -- Symlinking: /home/gomi/my_mobile/install/my_robot_description/share/my_robot_description/local_setup.zsh
+[0.395s] -- Symlinking: /home/gomi/my_mobile/install/my_robot_description/share/my_robot_description/local_setup.dsv
+[0.398s] -- Symlinking: /home/gomi/my_mobile/install/my_robot_description/share/my_robot_description/package.dsv
+[0.401s] -- Symlinking: /home/gomi/my_mobile/install/my_robot_description/share/ament_index/resource_index/packages/my_robot_description
+[0.404s] -- Symlinking: /home/gomi/my_mobile/install/my_robot_description/share/my_robot_description/cmake/my_robot_descriptionConfig.cmake
+[0.406s] -- Symlinking: /home/gomi/my_mobile/install/my_robot_description/share/my_robot_description/cmake/my_robot_descriptionConfig-version.cmake
+[0.409s] -- Symlinking: /home/gomi/my_mobile/install/my_robot_description/share/my_robot_description/package.xml
+[0.424s] Invoked command in '/home/gomi/my_mobile/build/my_robot_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/gomi/urdf_study/install/video_test:/opt/ros/humble /home/gomi/.local/bin/cmake --install /home/gomi/my_mobile/build/my_robot_description
