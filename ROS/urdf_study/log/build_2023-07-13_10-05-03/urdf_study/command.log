@@ -1,2 +1,0 @@
-Invoking command in '/home/gomi/urdf_study/build/urdf_study': /home/gomi/.local/bin/cmake --build /home/gomi/urdf_study/build/urdf_study -- -j8 -l8
-Invoked command in '/home/gomi/urdf_study/build/urdf_study' returned '2': /home/gomi/.local/bin/cmake --build /home/gomi/urdf_study/build/urdf_study -- -j8 -l8

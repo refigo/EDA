@@ -1,3 +1,0 @@
-[console_scripts]
-cam_test = video_test.cam_test:main
-

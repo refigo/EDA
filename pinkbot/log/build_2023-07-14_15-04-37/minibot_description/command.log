@@ -1,0 +1,2 @@
+Invoking command in '/home/gomi/pinkbot/build/minibot_description': /home/gomi/.local/bin/cmake /home/gomi/pinkbot/src/pinklab_minibot_robot/minibot_description -DCMAKE_INSTALL_PREFIX=/home/gomi/pinkbot/install/minibot_description
+Invoked command in '/home/gomi/pinkbot/build/minibot_description' returned '1': /home/gomi/.local/bin/cmake /home/gomi/pinkbot/src/pinklab_minibot_robot/minibot_description -DCMAKE_INSTALL_PREFIX=/home/gomi/pinkbot/install/minibot_description
