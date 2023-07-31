@@ -1,0 +1,26 @@
+[0.476s] Invoking command in '/home/gomi/aruco_ros2/src/aruco_pkg': PYTHONPATH=/home/gomi/aruco_ros2/build/aruco_pkg/prefix_override:/home/gomi/aruco_ros2/install/aruco_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/aruco_pkg build --build-base /home/gomi/aruco_ros2/build/aruco_pkg/build install --record /home/gomi/aruco_ros2/build/aruco_pkg/install.log --single-version-externally-managed
+[0.648s] running egg_info
+[0.648s] writing ../../build/aruco_pkg/aruco_pkg.egg-info/PKG-INFO
+[0.648s] writing dependency_links to ../../build/aruco_pkg/aruco_pkg.egg-info/dependency_links.txt
+[0.648s] writing entry points to ../../build/aruco_pkg/aruco_pkg.egg-info/entry_points.txt
+[0.648s] writing requirements to ../../build/aruco_pkg/aruco_pkg.egg-info/requires.txt
+[0.648s] writing top-level names to ../../build/aruco_pkg/aruco_pkg.egg-info/top_level.txt
+[0.650s] reading manifest file '../../build/aruco_pkg/aruco_pkg.egg-info/SOURCES.txt'
+[0.650s] writing manifest file '../../build/aruco_pkg/aruco_pkg.egg-info/SOURCES.txt'
+[0.650s] running build
+[0.650s] running build_py
+[0.650s] copying aruco_pkg/img_pub.py -> /home/gomi/aruco_ros2/build/aruco_pkg/build/lib/aruco_pkg
+[0.650s] running install
+[0.650s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[0.651s]   warnings.warn(
+[0.651s] running install_lib
+[0.651s] copying /home/gomi/aruco_ros2/build/aruco_pkg/build/lib/aruco_pkg/img_pub.py -> /home/gomi/aruco_ros2/install/aruco_pkg/lib/python3.10/site-packages/aruco_pkg
+[0.651s] byte-compiling /home/gomi/aruco_ros2/install/aruco_pkg/lib/python3.10/site-packages/aruco_pkg/img_pub.py to img_pub.cpython-310.pyc
+[0.652s] running install_data
+[0.652s] running install_egg_info
+[0.653s] removing '/home/gomi/aruco_ros2/install/aruco_pkg/lib/python3.10/site-packages/aruco_pkg-0.0.0-py3.10.egg-info' (and everything under it)
+[0.654s] Copying ../../build/aruco_pkg/aruco_pkg.egg-info to /home/gomi/aruco_ros2/install/aruco_pkg/lib/python3.10/site-packages/aruco_pkg-0.0.0-py3.10.egg-info
+[0.654s] running install_scripts
+[0.668s] Installing image_publisher script to /home/gomi/aruco_ros2/install/aruco_pkg/lib/aruco_pkg
+[0.668s] writing list of installed files to '/home/gomi/aruco_ros2/build/aruco_pkg/install.log'
+[0.687s] Invoked command in '/home/gomi/aruco_ros2/src/aruco_pkg' returned '0': PYTHONPATH=/home/gomi/aruco_ros2/build/aruco_pkg/prefix_override:/home/gomi/aruco_ros2/install/aruco_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/aruco_pkg build --build-base /home/gomi/aruco_ros2/build/aruco_pkg/build install --record /home/gomi/aruco_ros2/build/aruco_pkg/install.log --single-version-externally-managed

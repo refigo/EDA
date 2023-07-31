@@ -1,0 +1,32 @@
+running egg_info
+writing ../../build/aruco_pkg/aruco_pkg.egg-info/PKG-INFO
+writing dependency_links to ../../build/aruco_pkg/aruco_pkg.egg-info/dependency_links.txt
+writing entry points to ../../build/aruco_pkg/aruco_pkg.egg-info/entry_points.txt
+writing requirements to ../../build/aruco_pkg/aruco_pkg.egg-info/requires.txt
+writing top-level names to ../../build/aruco_pkg/aruco_pkg.egg-info/top_level.txt
+reading manifest file '../../build/aruco_pkg/aruco_pkg.egg-info/SOURCES.txt'
+writing manifest file '../../build/aruco_pkg/aruco_pkg.egg-info/SOURCES.txt'
+running build
+running build_py
+copying aruco_pkg/calibration.py -> /home/gomi/aruco_ros2/build/aruco_pkg/build/lib/aruco_pkg
+copying aruco_pkg/aruco_5_recognition_node.py -> /home/gomi/aruco_ros2/build/aruco_pkg/build/lib/aruco_pkg
+copying aruco_pkg/camera_capture.py -> /home/gomi/aruco_ros2/build/aruco_pkg/build/lib/aruco_pkg
+running install
+running install_lib
+copying /home/gomi/aruco_ros2/build/aruco_pkg/build/lib/aruco_pkg/calibration.py -> /home/gomi/aruco_ros2/install/aruco_pkg/lib/python3.10/site-packages/aruco_pkg
+copying /home/gomi/aruco_ros2/build/aruco_pkg/build/lib/aruco_pkg/aruco_5_recognition_node.py -> /home/gomi/aruco_ros2/install/aruco_pkg/lib/python3.10/site-packages/aruco_pkg
+copying /home/gomi/aruco_ros2/build/aruco_pkg/build/lib/aruco_pkg/camera_capture.py -> /home/gomi/aruco_ros2/install/aruco_pkg/lib/python3.10/site-packages/aruco_pkg
+byte-compiling /home/gomi/aruco_ros2/install/aruco_pkg/lib/python3.10/site-packages/aruco_pkg/calibration.py to calibration.cpython-310.pyc
+byte-compiling /home/gomi/aruco_ros2/install/aruco_pkg/lib/python3.10/site-packages/aruco_pkg/aruco_5_recognition_node.py to aruco_5_recognition_node.cpython-310.pyc
+byte-compiling /home/gomi/aruco_ros2/install/aruco_pkg/lib/python3.10/site-packages/aruco_pkg/camera_capture.py to camera_capture.cpython-310.pyc
+running install_data
+creating /home/gomi/aruco_ros2/install/aruco_pkg/share/aruco_pkg/params
+copying params/camera_calibration.npz -> /home/gomi/aruco_ros2/install/aruco_pkg/share/aruco_pkg/params
+copying params/aruco_config.yaml -> /home/gomi/aruco_ros2/install/aruco_pkg/share/aruco_pkg/params
+running install_egg_info
+removing '/home/gomi/aruco_ros2/install/aruco_pkg/lib/python3.10/site-packages/aruco_pkg-0.0.0-py3.10.egg-info' (and everything under it)
+Copying ../../build/aruco_pkg/aruco_pkg.egg-info to /home/gomi/aruco_ros2/install/aruco_pkg/lib/python3.10/site-packages/aruco_pkg-0.0.0-py3.10.egg-info
+running install_scripts
+Installing image_publisher script to /home/gomi/aruco_ros2/install/aruco_pkg/lib/aruco_pkg
+Installing marker_5x5_recognition script to /home/gomi/aruco_ros2/install/aruco_pkg/lib/aruco_pkg
+writing list of installed files to '/home/gomi/aruco_ros2/build/aruco_pkg/install.log'

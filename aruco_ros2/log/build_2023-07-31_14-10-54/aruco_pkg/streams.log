@@ -1,0 +1,39 @@
+[0.469s] Invoking command in '/home/gomi/aruco_ros2/src/aruco_pkg': PYTHONPATH=/home/gomi/aruco_ros2/build/aruco_pkg/prefix_override:/home/gomi/aruco_ros2/install/aruco_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/aruco_pkg build --build-base /home/gomi/aruco_ros2/build/aruco_pkg/build install --record /home/gomi/aruco_ros2/build/aruco_pkg/install.log --single-version-externally-managed
+[0.639s] running egg_info
+[0.639s] creating ../../build/aruco_pkg/aruco_pkg.egg-info
+[0.639s] writing ../../build/aruco_pkg/aruco_pkg.egg-info/PKG-INFO
+[0.640s] writing dependency_links to ../../build/aruco_pkg/aruco_pkg.egg-info/dependency_links.txt
+[0.640s] writing entry points to ../../build/aruco_pkg/aruco_pkg.egg-info/entry_points.txt
+[0.640s] writing requirements to ../../build/aruco_pkg/aruco_pkg.egg-info/requires.txt
+[0.640s] writing top-level names to ../../build/aruco_pkg/aruco_pkg.egg-info/top_level.txt
+[0.640s] writing manifest file '../../build/aruco_pkg/aruco_pkg.egg-info/SOURCES.txt'
+[0.641s] reading manifest file '../../build/aruco_pkg/aruco_pkg.egg-info/SOURCES.txt'
+[0.642s] writing manifest file '../../build/aruco_pkg/aruco_pkg.egg-info/SOURCES.txt'
+[0.642s] running build
+[0.642s] running build_py
+[0.642s] creating /home/gomi/aruco_ros2/build/aruco_pkg/build
+[0.642s] creating /home/gomi/aruco_ros2/build/aruco_pkg/build/lib
+[0.642s] creating /home/gomi/aruco_ros2/build/aruco_pkg/build/lib/aruco_pkg
+[0.642s] copying aruco_pkg/img_pub.py -> /home/gomi/aruco_ros2/build/aruco_pkg/build/lib/aruco_pkg
+[0.642s] copying aruco_pkg/__init__.py -> /home/gomi/aruco_ros2/build/aruco_pkg/build/lib/aruco_pkg
+[0.642s] running install
+[0.642s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[0.642s]   warnings.warn(
+[0.642s] running install_lib
+[0.643s] creating /home/gomi/aruco_ros2/install/aruco_pkg/lib/python3.10/site-packages/aruco_pkg
+[0.643s] copying /home/gomi/aruco_ros2/build/aruco_pkg/build/lib/aruco_pkg/img_pub.py -> /home/gomi/aruco_ros2/install/aruco_pkg/lib/python3.10/site-packages/aruco_pkg
+[0.643s] copying /home/gomi/aruco_ros2/build/aruco_pkg/build/lib/aruco_pkg/__init__.py -> /home/gomi/aruco_ros2/install/aruco_pkg/lib/python3.10/site-packages/aruco_pkg
+[0.643s] byte-compiling /home/gomi/aruco_ros2/install/aruco_pkg/lib/python3.10/site-packages/aruco_pkg/img_pub.py to img_pub.cpython-310.pyc
+[0.644s] byte-compiling /home/gomi/aruco_ros2/install/aruco_pkg/lib/python3.10/site-packages/aruco_pkg/__init__.py to __init__.cpython-310.pyc
+[0.644s] running install_data
+[0.644s] creating /home/gomi/aruco_ros2/install/aruco_pkg/share/ament_index
+[0.644s] creating /home/gomi/aruco_ros2/install/aruco_pkg/share/ament_index/resource_index
+[0.644s] creating /home/gomi/aruco_ros2/install/aruco_pkg/share/ament_index/resource_index/packages
+[0.644s] copying resource/aruco_pkg -> /home/gomi/aruco_ros2/install/aruco_pkg/share/ament_index/resource_index/packages
+[0.644s] copying package.xml -> /home/gomi/aruco_ros2/install/aruco_pkg/share/aruco_pkg
+[0.644s] running install_egg_info
+[0.645s] Copying ../../build/aruco_pkg/aruco_pkg.egg-info to /home/gomi/aruco_ros2/install/aruco_pkg/lib/python3.10/site-packages/aruco_pkg-0.0.0-py3.10.egg-info
+[0.646s] running install_scripts
+[0.659s] Installing image_publisher script to /home/gomi/aruco_ros2/install/aruco_pkg/lib/aruco_pkg
+[0.660s] writing list of installed files to '/home/gomi/aruco_ros2/build/aruco_pkg/install.log'
+[0.679s] Invoked command in '/home/gomi/aruco_ros2/src/aruco_pkg' returned '0': PYTHONPATH=/home/gomi/aruco_ros2/build/aruco_pkg/prefix_override:/home/gomi/aruco_ros2/install/aruco_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/aruco_pkg build --build-base /home/gomi/aruco_ros2/build/aruco_pkg/build install --record /home/gomi/aruco_ros2/build/aruco_pkg/install.log --single-version-externally-managed
