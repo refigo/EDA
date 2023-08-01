@@ -16,6 +16,7 @@ aruco_pkg/aruco_7_recognition_node.py
 aruco_pkg/calibration.py
 aruco_pkg/camera_capture.py
 aruco_pkg/img_pub.py
+aruco_pkg/tf_broadcast_node.py
 launch/aruco_recognition.launch.py
 params/aruco_config.yaml
 params/camera_calibration.npz

@@ -10,6 +10,7 @@ from rcl_interfaces.msg import ParameterDescriptor, ParameterType
 from visualization_msgs.msg import Marker, MarkerArray
 from cv_bridge import CvBridge
 from ament_index_python.packages import get_package_share_directory
+from tf_transformations import quaternion_from_matrix
 
 class MarkerDetector(Node):
 
@@ -46,36 +47,37 @@ descriptor=ParameterDescriptor(type=ParameterType.PARAMETER_DOUBLE))
         )
         
         self.pose_publisher = self.create_publisher(MarkerArray, 'marker_pose', 10)
+    
     #convert from 3x3 matrix to quaternion
-    def rotation_matrix_to_quaternion(self, rot_matrix):
-        trace = rot_matrix[0, 0] + rot_matrix[1, 1] + rot_matrix[2, 2]
-        if trace > 0:
-            S    = 0.5 * np.sqrt(trace + 1.0)
-            qw = 0.25 * S
-            qx = (rot_matrix[2, 1] - rot_matrix[1, 2]) / S
-            qy = (rot_matrix[0, 2] - rot_matrix[2, 0]) / S
-            qz = (rot_matrix[1, 0] - rot_matrix[0, 1]) / S
-        elif (rot_matrix[0, 0] > rot_matrix[1, 1]) and (rot_matrix[0, 0] >
-rot_matrix[2, 2]):
-            S = np.sqrt(1.0 + rot_matrix[0, 0] - rot_matrix[1, 1] - rot_matrix[2, 2]) * 2
-            qw = (rot_matrix[2, 1] - rot_matrix[1, 2]) / S
-            qx = 0.25 * S
-            qy = (rot_matrix[0, 1] + rot_matrix[1, 0]) / S
-            qz = (rot_matrix[0, 2] + rot_matrix[2, 0]) / S
-        elif rot_matrix[1, 1] > rot_matrix[2, 2]:
-            S = np.sqrt(1.0 + rot_matrix[1, 1] - rot_matrix[0, 0] - rot_matrix[2, 2]) * 2
-            qw = (rot_matrix[0, 2] - rot_matrix[2, 0]) / S
-            qx = (rot_matrix[0, 1] + rot_matrix[1, 0]) / S
-            qy = 0.25 * S
-            qz = (rot_matrix[1, 2] + rot_matrix[2, 1]) / S
-        else:
-            S = np.sqrt(1.0 + rot_matrix[2, 2] - rot_matrix[0, 0] - rot_matrix[1, 1]) * 2
-            qw = (rot_matrix[1, 0] - rot_matrix[0, 1]) / S
-            qx = (rot_matrix[0, 2] + rot_matrix[2, 0]) / S
-            qy = (rot_matrix[1, 2] + rot_matrix[2, 1]) / S
-            qz = 0.25 * S
+#     def rotation_matrix_to_quaternion(self, rot_matrix):
+#         trace = rot_matrix[0, 0] + rot_matrix[1, 1] + rot_matrix[2, 2]
+#         if trace > 0:
+#             S    = 0.5 * np.sqrt(trace + 1.0)
+#             qw = 0.25 * S
+#             qx = (rot_matrix[2, 1] - rot_matrix[1, 2]) / S
+#             qy = (rot_matrix[0, 2] - rot_matrix[2, 0]) / S
+#             qz = (rot_matrix[1, 0] - rot_matrix[0, 1]) / S
+#         elif (rot_matrix[0, 0] > rot_matrix[1, 1]) and (rot_matrix[0, 0] >
+# rot_matrix[2, 2]):
+#             S = np.sqrt(1.0 + rot_matrix[0, 0] - rot_matrix[1, 1] - rot_matrix[2, 2]) * 2
+#             qw = (rot_matrix[2, 1] - rot_matrix[1, 2]) / S
+#             qx = 0.25 * S
+#             qy = (rot_matrix[0, 1] + rot_matrix[1, 0]) / S
+#             qz = (rot_matrix[0, 2] + rot_matrix[2, 0]) / S
+#         elif rot_matrix[1, 1] > rot_matrix[2, 2]:
+#             S = np.sqrt(1.0 + rot_matrix[1, 1] - rot_matrix[0, 0] - rot_matrix[2, 2]) * 2
+#             qw = (rot_matrix[0, 2] - rot_matrix[2, 0]) / S
+#             qx = (rot_matrix[0, 1] + rot_matrix[1, 0]) / S
+#             qy = 0.25 * S
+#             qz = (rot_matrix[1, 2] + rot_matrix[2, 1]) / S
+#         else:
+#             S = np.sqrt(1.0 + rot_matrix[2, 2] - rot_matrix[0, 0] - rot_matrix[1, 1]) * 2
+#             qw = (rot_matrix[1, 0] - rot_matrix[0, 1]) / S
+#             qx = (rot_matrix[0, 2] + rot_matrix[2, 0]) / S
+#             qy = (rot_matrix[1, 2] + rot_matrix[2, 1]) / S
+#             qz = 0.25 * S
 
-        return np.array([qw, qx, qy, qz])
+#         return np.array([qw, qx, qy, qz])
 
     def image_callback(self, msg):
         if msg is None:
@@ -99,21 +101,31 @@ parameters=self.aruco_params)
 
             for id, corner, i in zip(ids, corners, total_markers):
 
-
                 rotation_matrix, _ = cv2.Rodrigues(rvecs[0])
+
+                self.get_logger().info(f"R : {rotation_matrix}")
+
+                transform_matrix = np.eye(4)
+                transform_matrix[:3, :3] = rotation_matrix
                 
-                quaternion = self.rotation_matrix_to_quaternion(rotation_matrix)
+                # quaternion = self.rotation_matrix_to_quaternion(rotation_matrix)
+                quaternion = quaternion_from_matrix(transform_matrix)
                 pose_msg = PoseStamped()
                 pose_msg.header.stamp = self.get_clock().now().to_msg()
-                pose_msg.header.frame_id = 'marker'
+                # pose_msg.header.frame_id = 'marker'
+                pose_msg.header.frame_id = 'base_link'
                 pose_msg.pose.position.x = tvecs[0][0][0]
                 pose_msg.pose.position.y = tvecs[0][0][1]
                 pose_msg.pose.position.z = tvecs[0][0][2]
 
-                pose_msg.pose.orientation.x = quaternion[1]
-                pose_msg.pose.orientation.y = quaternion[2]
-                pose_msg.pose.orientation.z = quaternion[3]
-                pose_msg.pose.orientation.w = quaternion[0]
+                # pose_msg.pose.orientation.x = quaternion[1]
+                # pose_msg.pose.orientation.y = quaternion[2]
+                # pose_msg.pose.orientation.z = quaternion[3]
+                # pose_msg.pose.orientation.w = quaternion[0]
+                pose_msg.pose.orientation.x = quaternion[0]
+                pose_msg.pose.orientation.y = quaternion[1]
+                pose_msg.pose.orientation.z = quaternion[2]
+                pose_msg.pose.orientation.w = quaternion[3]
                 
                 pose_array.header = pose_msg.header
 

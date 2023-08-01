@@ -31,6 +31,7 @@ setup(
             'marker_5X5_recognition = aruco_pkg.aruco_5_recognition_node:main',
             'marker_6X6_recognition = aruco_pkg.aruco_6_recognition_node:main',
             'marker_7X7_recognition = aruco_pkg.aruco_7_recognition_node:main',
+            'transform_broadcaster = aruco_pkg.tf_broadcast_node:main',
         ],
     },
 )
