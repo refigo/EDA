@@ -1,0 +1,349 @@
+[0.000000] (-) TimerEvent: {}
+[0.000325] (yolo_inference) JobQueued: {'identifier': 'yolo_inference', 'dependencies': OrderedDict()}
+[0.000773] (yolo_pkg) JobQueued: {'identifier': 'yolo_pkg', 'dependencies': OrderedDict()}
+[0.000835] (yolo_inference) JobStarted: {'identifier': 'yolo_inference'}
+[0.017112] (yolo_pkg) JobStarted: {'identifier': 'yolo_pkg'}
+[0.025176] (yolo_inference) JobProgress: {'identifier': 'yolo_inference', 'progress': 'cmake'}
+[0.025450] (yolo_inference) Command: {'cmd': ['/home/gomi/.local/bin/cmake', '/home/gomi/dev_ws/SRA/yolo_ws/src/yolo_inference', '-DCMAKE_INSTALL_PREFIX=/home/gomi/dev_ws/SRA/yolo_ws/install/yolo_inference'], 'cwd': '/home/gomi/dev_ws/SRA/yolo_ws/build/yolo_inference', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'gomi'), ('LC_TIME', 'ko_KR.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/gomi'), ('OLDPWD', '/home/gomi/dev_ws/SRA/yolo_ws/src'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'ko_KR.UTF-8'), ('MANAGERPID', '1681'), ('SYSTEMD_EXEC_PID', '2059'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '4337'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'gomi'), ('JOURNAL_STREAM', '8:36869'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'gomi'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:~/.local/bin:/home/gomi/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/jong:@/tmp/.ICE-unix/1876,unix/jong:/tmp/.ICE-unix/1876'), ('INVOCATION_ID', '53440dfa02994aaa8df5618edd3cfadd'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'ko_KR.UTF-8'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('IBUS_DISABLE_SNOOPER', '1'), ('LC_TELEPHONE', 'ko_KR.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.MXFH91'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('ROS_DOMAIN_ID', '54'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'ko_KR.UTF-8'), ('TERMINATOR_UUID', 'urn:uuid:aa2b1c19-3f96-41fb-a91c-7b80a26f8744'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'ko_KR.UTF-8'), ('LC_IDENTIFICATION', 'ko_KR.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/gomi/dev_ws/SRA/yolo_ws/build/yolo_inference'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'ko_KR.UTF-8'), ('LC_PAPER', 'ko_KR.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.099701] (-) TimerEvent: {}
+[0.199951] (-) TimerEvent: {}
+[0.241221] (yolo_inference) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.300080] (-) TimerEvent: {}
+[0.350584] (yolo_inference) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[0.373735] (yolo_inference) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.400172] (-) TimerEvent: {}
+[0.425540] (yolo_inference) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.434512] (yolo_inference) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.435454] (yolo_inference) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.436189] (yolo_inference) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.441176] (yolo_inference) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.494156] (yolo_inference) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.500258] (-) TimerEvent: {}
+[0.503397] (yolo_inference) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.503678] (yolo_inference) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.504093] (yolo_inference) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.513500] (yolo_inference) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.4 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.600380] (-) TimerEvent: {}
+[0.700698] (-) TimerEvent: {}
+[0.710701] (yolo_pkg) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'egg_info', '--egg-base', '../../build/yolo_pkg', 'build', '--build-base', '/home/gomi/dev_ws/SRA/yolo_ws/build/yolo_pkg/build', 'install', '--record', '/home/gomi/dev_ws/SRA/yolo_ws/build/yolo_pkg/install.log', '--single-version-externally-managed'], 'cwd': '/home/gomi/dev_ws/SRA/yolo_ws/src/yolo_pkg', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'gomi', 'LC_TIME': 'ko_KR.UTF-8', 'XDG_SESSION_TYPE': 'wayland', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/home/gomi', 'OLDPWD': '/home/gomi/dev_ws/SRA/yolo_ws/src', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'LC_MONETARY': 'ko_KR.UTF-8', 'MANAGERPID': '1681', 'SYSTEMD_EXEC_PID': '2059', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'TERMINATOR_DBUS_NAME': 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3', 'GIO_LAUNCHED_DESKTOP_FILE_PID': '4337', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'ROS_DISTRO': 'humble', 'LOGNAME': 'gomi', 'JOURNAL_STREAM': '8:36869', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'gomi', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/humble/bin:~/.local/bin:/home/gomi/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/jong:@/tmp/.ICE-unix/1876,unix/jong:/tmp/.ICE-unix/1876', 'INVOCATION_ID': '53440dfa02994aaa8df5618edd3cfadd', 'XDG_MENU_PREFIX': 'gnome-', 'LC_ADDRESS': 'ko_KR.UTF-8', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'TERMINATOR_DBUS_PATH': '/net/tenshu/Terminator2', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'IBUS_DISABLE_SNOOPER': '1', 'LC_TELEPHONE': 'ko_KR.UTF-8', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.MXFH91', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'SSH_AGENT_LAUNCHER': 'gnome-keyring', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'ROS_DOMAIN_ID': '54', 'AMENT_PREFIX_PATH': '/opt/ros/humble', 'SHELL': '/bin/bash', 'LC_NAME': 'ko_KR.UTF-8', 'TERMINATOR_UUID': 'urn:uuid:aa2b1c19-3f96-41fb-a91c-7b80a26f8744', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'LC_MEASUREMENT': 'ko_KR.UTF-8', 'LC_IDENTIFICATION': 'ko_KR.UTF-8', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/gomi/dev_ws/SRA/yolo_ws/build/yolo_pkg', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/gomi/dev_ws/SRA/yolo_ws/build/yolo_pkg/prefix_override:/home/gomi/dev_ws/SRA/yolo_ws/install/yolo_pkg/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'LC_NUMERIC': 'ko_KR.UTF-8', 'LC_PAPER': 'ko_KR.UTF-8', 'COLCON': '1', 'VTE_VERSION': '6800'}, 'shell': False}
+[0.799946] (yolo_inference) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter \n'}
+[0.800774] (-) TimerEvent: {}
+[0.900999] (-) TimerEvent: {}
+[0.911960] (yolo_pkg) StdoutLine: {'line': b'running egg_info\n'}
+[0.912220] (yolo_pkg) StdoutLine: {'line': b'creating ../../build/yolo_pkg/yolo_pkg.egg-info\n'}
+[0.912378] (yolo_pkg) StdoutLine: {'line': b'writing ../../build/yolo_pkg/yolo_pkg.egg-info/PKG-INFO\n'}
+[0.912513] (yolo_pkg) StdoutLine: {'line': b'writing dependency_links to ../../build/yolo_pkg/yolo_pkg.egg-info/dependency_links.txt\n'}
+[0.912587] (yolo_pkg) StdoutLine: {'line': b'writing entry points to ../../build/yolo_pkg/yolo_pkg.egg-info/entry_points.txt\n'}
+[0.912668] (yolo_pkg) StdoutLine: {'line': b'writing requirements to ../../build/yolo_pkg/yolo_pkg.egg-info/requires.txt\n'}
+[0.912735] (yolo_pkg) StdoutLine: {'line': b'writing top-level names to ../../build/yolo_pkg/yolo_pkg.egg-info/top_level.txt\n'}
+[0.912808] (yolo_pkg) StdoutLine: {'line': b"writing manifest file '../../build/yolo_pkg/yolo_pkg.egg-info/SOURCES.txt'\n"}
+[0.914088] (yolo_pkg) StdoutLine: {'line': b"reading manifest file '../../build/yolo_pkg/yolo_pkg.egg-info/SOURCES.txt'\n"}
+[0.914541] (yolo_pkg) StdoutLine: {'line': b"writing manifest file '../../build/yolo_pkg/yolo_pkg.egg-info/SOURCES.txt'\n"}
+[0.914651] (yolo_pkg) StdoutLine: {'line': b'running build\n'}
+[0.914765] (yolo_pkg) StdoutLine: {'line': b'running build_py\n'}
+[0.914856] (yolo_pkg) StdoutLine: {'line': b'creating /home/gomi/dev_ws/SRA/yolo_ws/build/yolo_pkg/build\n'}
+[0.914950] (yolo_pkg) StdoutLine: {'line': b'creating /home/gomi/dev_ws/SRA/yolo_ws/build/yolo_pkg/build/lib\n'}
+[0.915050] (yolo_pkg) StdoutLine: {'line': b'creating /home/gomi/dev_ws/SRA/yolo_ws/build/yolo_pkg/build/lib/yolo_pkg\n'}
+[0.915109] (yolo_pkg) StdoutLine: {'line': b'copying yolo_pkg/__init__.py -> /home/gomi/dev_ws/SRA/yolo_ws/build/yolo_pkg/build/lib/yolo_pkg\n'}
+[0.915169] (yolo_pkg) StdoutLine: {'line': b'running install\n'}
+[0.918806] (yolo_pkg) StderrLine: {'line': b'/usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.\n'}
+[0.918968] (yolo_pkg) StderrLine: {'line': b'  warnings.warn(\n'}
+[0.919084] (yolo_pkg) StdoutLine: {'line': b'running install_lib\n'}
+[0.919808] (yolo_pkg) StdoutLine: {'line': b'creating /home/gomi/dev_ws/SRA/yolo_ws/install/yolo_pkg/lib/python3.10/site-packages/yolo_pkg\n'}
+[0.919887] (yolo_pkg) StdoutLine: {'line': b'copying /home/gomi/dev_ws/SRA/yolo_ws/build/yolo_pkg/build/lib/yolo_pkg/__init__.py -> /home/gomi/dev_ws/SRA/yolo_ws/install/yolo_pkg/lib/python3.10/site-packages/yolo_pkg\n'}
+[0.920246] (yolo_pkg) StdoutLine: {'line': b'byte-compiling /home/gomi/dev_ws/SRA/yolo_ws/install/yolo_pkg/lib/python3.10/site-packages/yolo_pkg/__init__.py to __init__.cpython-310.pyc\n'}
+[0.920359] (yolo_pkg) StdoutLine: {'line': b'running install_data\n'}
+[0.920830] (yolo_pkg) StdoutLine: {'line': b'creating /home/gomi/dev_ws/SRA/yolo_ws/install/yolo_pkg/share/ament_index\n'}
+[0.920878] (yolo_pkg) StdoutLine: {'line': b'creating /home/gomi/dev_ws/SRA/yolo_ws/install/yolo_pkg/share/ament_index/resource_index\n'}
+[0.920943] (yolo_pkg) StdoutLine: {'line': b'creating /home/gomi/dev_ws/SRA/yolo_ws/install/yolo_pkg/share/ament_index/resource_index/packages\n'}
+[0.920988] (yolo_pkg) StdoutLine: {'line': b'copying resource/yolo_pkg -> /home/gomi/dev_ws/SRA/yolo_ws/install/yolo_pkg/share/ament_index/resource_index/packages\n'}
+[0.921063] (yolo_pkg) StdoutLine: {'line': b'copying package.xml -> /home/gomi/dev_ws/SRA/yolo_ws/install/yolo_pkg/share/yolo_pkg\n'}
+[0.921106] (yolo_pkg) StdoutLine: {'line': b'running install_egg_info\n'}
+[0.922358] (yolo_pkg) StdoutLine: {'line': b'Copying ../../build/yolo_pkg/yolo_pkg.egg-info to /home/gomi/dev_ws/SRA/yolo_ws/install/yolo_pkg/lib/python3.10/site-packages/yolo_pkg-0.0.0-py3.10.egg-info\n'}
+[0.922797] (yolo_pkg) StdoutLine: {'line': b'running install_scripts\n'}
+[0.938582] (yolo_pkg) StdoutLine: {'line': b"writing list of installed files to '/home/gomi/dev_ws/SRA/yolo_ws/build/yolo_pkg/install.log'\n"}
+[0.960022] (yolo_pkg) CommandEnded: {'returncode': 0}
+[0.987639] (yolo_pkg) JobEnded: {'identifier': 'yolo_pkg', 'rc': 0}
+[1.001116] (-) TimerEvent: {}
+[1.101408] (-) TimerEvent: {}
+[1.201748] (-) TimerEvent: {}
+[1.302139] (-) TimerEvent: {}
+[1.376189] (yolo_inference) StdoutLine: {'line': b'-- Found std_msgs: 4.2.3 (/opt/ros/humble/share/std_msgs/cmake)\n'}
+[1.402307] (-) TimerEvent: {}
+[1.502646] (-) TimerEvent: {}
+[1.603060] (-) TimerEvent: {}
+[1.703457] (-) TimerEvent: {}
+[1.760396] (yolo_inference) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.4 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[1.770200] (yolo_inference) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.4 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[1.789030] (yolo_inference) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.4 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[1.803612] (-) TimerEvent: {}
+[1.817568] (yolo_inference) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[1.857892] (yolo_inference) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[1.903816] (-) TimerEvent: {}
+[1.928964] (yolo_inference) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)\n'}
+[2.004003] (-) TimerEvent: {}
+[2.104331] (-) TimerEvent: {}
+[2.115388] (yolo_inference) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)\n'}
+[2.204467] (-) TimerEvent: {}
+[2.304828] (-) TimerEvent: {}
+[2.308335] (yolo_inference) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[2.380543] (yolo_inference) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[2.397465] (yolo_inference) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") \n'}
+[2.400535] (yolo_inference) StdoutLine: {'line': b'-- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)\n'}
+[2.404995] (-) TimerEvent: {}
+[2.425586] (yolo_inference) StdoutLine: {'line': b'-- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") \n'}
+[2.425742] (yolo_inference) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[2.425791] (yolo_inference) StdoutLine: {'line': b'-- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10\n'}
+[2.425834] (yolo_inference) StdoutLine: {'line': b'-- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so\n'}
+[2.442529] (yolo_inference) StdoutLine: {'line': b'-- Found PythonExtra: .so  \n'}
+[2.487782] (yolo_inference) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.6 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[2.505070] (-) TimerEvent: {}
+[2.541453] (yolo_inference) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[2.543929] (yolo_inference) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[2.548327] (yolo_inference) StdoutLine: {'line': b'-- Configuring done (2.4s)\n'}
+[2.577484] (yolo_inference) StdoutLine: {'line': b'-- Generating done (0.0s)\n'}
+[2.579586] (yolo_inference) StdoutLine: {'line': b'-- Build files have been written to: /home/gomi/dev_ws/SRA/yolo_ws/build/yolo_inference\n'}
+[2.591299] (yolo_inference) CommandEnded: {'returncode': 0}
+[2.591817] (yolo_inference) JobProgress: {'identifier': 'yolo_inference', 'progress': 'build'}
+[2.592429] (yolo_inference) Command: {'cmd': ['/home/gomi/.local/bin/cmake', '--build', '/home/gomi/dev_ws/SRA/yolo_ws/build/yolo_inference', '--', '-j8', '-l8'], 'cwd': '/home/gomi/dev_ws/SRA/yolo_ws/build/yolo_inference', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'gomi'), ('LC_TIME', 'ko_KR.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/gomi'), ('OLDPWD', '/home/gomi/dev_ws/SRA/yolo_ws/src'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'ko_KR.UTF-8'), ('MANAGERPID', '1681'), ('SYSTEMD_EXEC_PID', '2059'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '4337'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'gomi'), ('JOURNAL_STREAM', '8:36869'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'gomi'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:~/.local/bin:/home/gomi/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/jong:@/tmp/.ICE-unix/1876,unix/jong:/tmp/.ICE-unix/1876'), ('INVOCATION_ID', '53440dfa02994aaa8df5618edd3cfadd'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'ko_KR.UTF-8'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('IBUS_DISABLE_SNOOPER', '1'), ('LC_TELEPHONE', 'ko_KR.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.MXFH91'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('ROS_DOMAIN_ID', '54'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'ko_KR.UTF-8'), ('TERMINATOR_UUID', 'urn:uuid:aa2b1c19-3f96-41fb-a91c-7b80a26f8744'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'ko_KR.UTF-8'), ('LC_IDENTIFICATION', 'ko_KR.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/gomi/dev_ws/SRA/yolo_ws/build/yolo_inference'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'ko_KR.UTF-8'), ('LC_PAPER', 'ko_KR.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[2.605169] (-) TimerEvent: {}
+[2.640892] (yolo_inference) StdoutLine: {'line': b'[  2%] \x1b[34m\x1b[1mGenerating C code for ROS interfaces\x1b[0m\n'}
+[2.644079] (yolo_inference) StdoutLine: {'line': b'[  5%] \x1b[34m\x1b[1mGenerating C++ code for ROS interfaces\x1b[0m\n'}
+[2.645424] (yolo_inference) StdoutLine: {'line': b'[  5%] Built target ament_cmake_python_copy_yolo_inference\n'}
+[2.705275] (-) TimerEvent: {}
+[2.805520] (-) TimerEvent: {}
+[2.849509] (yolo_inference) StdoutLine: {'line': b'running egg_info\n'}
+[2.850165] (yolo_inference) StdoutLine: {'line': b'creating yolo_inference.egg-info\n'}
+[2.850336] (yolo_inference) StdoutLine: {'line': b'writing yolo_inference.egg-info/PKG-INFO\n'}
+[2.850440] (yolo_inference) StdoutLine: {'line': b'writing dependency_links to yolo_inference.egg-info/dependency_links.txt\n'}
+[2.850540] (yolo_inference) StdoutLine: {'line': b'writing top-level names to yolo_inference.egg-info/top_level.txt\n'}
+[2.850679] (yolo_inference) StdoutLine: {'line': b"writing manifest file 'yolo_inference.egg-info/SOURCES.txt'\n"}
+[2.852449] (yolo_inference) StdoutLine: {'line': b"reading manifest file 'yolo_inference.egg-info/SOURCES.txt'\n"}
+[2.853001] (yolo_inference) StdoutLine: {'line': b"writing manifest file 'yolo_inference.egg-info/SOURCES.txt'\n"}
+[2.880689] (yolo_inference) StdoutLine: {'line': b'[  5%] Built target ament_cmake_python_build_yolo_inference_egg\n'}
+[2.882647] (yolo_inference) StdoutLine: {'line': b'[  5%] Built target yolo_inference__cpp\n'}
+[2.886093] (yolo_inference) StdoutLine: {'line': b'[  7%] \x1b[34m\x1b[1mGenerating C++ type support for eProsima Fast-RTPS\x1b[0m\n'}
+[2.886449] (yolo_inference) StdoutLine: {'line': b'[ 12%] \x1b[34m\x1b[1mGenerating C++ type support dispatch for ROS interfaces\x1b[0m\n'}
+[2.886548] (yolo_inference) StdoutLine: {'line': b'[ 12%] \x1b[34m\x1b[1mGenerating C++ introspection for ROS interfaces\x1b[0m\n'}
+[2.893778] (yolo_inference) StdoutLine: {'line': b'[ 15%] \x1b[32mBuilding C object CMakeFiles/yolo_inference__rosidl_generator_c.dir/rosidl_generator_c/yolo_inference/msg/detail/inference_result__functions.c.o\x1b[0m\n'}
+[2.894394] (yolo_inference) StdoutLine: {'line': b'[ 17%] \x1b[32mBuilding C object CMakeFiles/yolo_inference__rosidl_generator_c.dir/rosidl_generator_c/yolo_inference/msg/detail/yolov8_inference__functions.c.o\x1b[0m\n'}
+[2.905606] (-) TimerEvent: {}
+[2.998893] (yolo_inference) StdoutLine: {'line': b'[ 20%] \x1b[32m\x1b[1mLinking C shared library libyolo_inference__rosidl_generator_c.so\x1b[0m\n'}
+[3.005710] (-) TimerEvent: {}
+[3.024160] (yolo_inference) StdoutLine: {'line': b'[ 20%] Built target yolo_inference__rosidl_generator_c\n'}
+[3.027693] (yolo_inference) StdoutLine: {'line': b'[ 23%] \x1b[34m\x1b[1mGenerating C introspection for ROS interfaces\x1b[0m\n'}
+[3.027921] (yolo_inference) StdoutLine: {'line': b'[ 25%] \x1b[34m\x1b[1mGenerating C type support dispatch for ROS interfaces\x1b[0m\n'}
+[3.028071] (yolo_inference) StdoutLine: {'line': b'[ 28%] \x1b[34m\x1b[1mGenerating C type support for eProsima Fast-RTPS\x1b[0m\n'}
+[3.095959] (yolo_inference) StdoutLine: {'line': b'[ 33%] \x1b[32mBuilding CXX object CMakeFiles/yolo_inference__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/yolo_inference/msg/yolov8_inference__type_support.cpp.o\x1b[0m\n'}
+[3.096319] (yolo_inference) StdoutLine: {'line': b'[ 33%] \x1b[32mBuilding CXX object CMakeFiles/yolo_inference__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/yolo_inference/msg/inference_result__type_support.cpp.o\x1b[0m\n'}
+[3.105818] (-) TimerEvent: {}
+[3.123146] (yolo_inference) StdoutLine: {'line': b'[ 38%] \x1b[32mBuilding CXX object CMakeFiles/yolo_inference__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/yolo_inference/msg/detail/dds_fastrtps/yolov8_inference__type_support.cpp.o\x1b[0m\n'}
+[3.123363] (yolo_inference) StdoutLine: {'line': b'[ 38%] \x1b[32mBuilding CXX object CMakeFiles/yolo_inference__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/yolo_inference/msg/detail/dds_fastrtps/inference_result__type_support.cpp.o\x1b[0m\n'}
+[3.135020] (yolo_inference) StdoutLine: {'line': b'[ 41%] \x1b[32mBuilding CXX object CMakeFiles/yolo_inference__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/yolo_inference/msg/detail/inference_result__type_support.cpp.o\x1b[0m\n'}
+[3.205918] (-) TimerEvent: {}
+[3.250138] (yolo_inference) StdoutLine: {'line': b'[ 43%] \x1b[32mBuilding CXX object CMakeFiles/yolo_inference__rosidl_typesupport_c.dir/rosidl_typesupport_c/yolo_inference/msg/inference_result__type_support.cpp.o\x1b[0m\n'}
+[3.282487] (yolo_inference) StdoutLine: {'line': b'[ 46%] \x1b[32mBuilding CXX object CMakeFiles/yolo_inference__rosidl_typesupport_c.dir/rosidl_typesupport_c/yolo_inference/msg/yolov8_inference__type_support.cpp.o\x1b[0m\n'}
+[3.306090] (-) TimerEvent: {}
+[3.313052] (yolo_inference) StdoutLine: {'line': b'[ 48%] \x1b[32m\x1b[1mLinking CXX shared library libyolo_inference__rosidl_typesupport_c.so\x1b[0m\n'}
+[3.331752] (yolo_inference) StdoutLine: {'line': b'[ 51%] \x1b[32mBuilding CXX object CMakeFiles/yolo_inference__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/yolo_inference/msg/detail/inference_result__type_support_c.cpp.o\x1b[0m\n'}
+[3.350059] (yolo_inference) StdoutLine: {'line': b'[ 53%] \x1b[32mBuilding C object CMakeFiles/yolo_inference__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/yolo_inference/msg/detail/inference_result__type_support.c.o\x1b[0m\n'}
+[3.356099] (yolo_inference) StdoutLine: {'line': b'[ 53%] Built target yolo_inference__rosidl_typesupport_c\n'}
+[3.359891] (yolo_inference) StdoutLine: {'line': b'[ 56%] \x1b[32mBuilding CXX object CMakeFiles/yolo_inference__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/yolo_inference/msg/detail/yolov8_inference__type_support_c.cpp.o\x1b[0m\n'}
+[3.406201] (-) TimerEvent: {}
+[3.416978] (yolo_inference) StdoutLine: {'line': b'[ 58%] \x1b[32mBuilding C object CMakeFiles/yolo_inference__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/yolo_inference/msg/detail/yolov8_inference__type_support.c.o\x1b[0m\n'}
+[3.474882] (yolo_inference) StdoutLine: {'line': b'[ 61%] \x1b[32m\x1b[1mLinking C shared library libyolo_inference__rosidl_typesupport_introspection_c.so\x1b[0m\n'}
+[3.477443] (yolo_inference) StdoutLine: {'line': b'[ 66%] \x1b[32m\x1b[1mLinking CXX shared library libyolo_inference__rosidl_typesupport_cpp.so\x1b[0m\n'}
+[3.477679] (yolo_inference) StdoutLine: {'line': b'[ 66%] \x1b[32mBuilding CXX object CMakeFiles/yolo_inference__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/yolo_inference/msg/detail/yolov8_inference__type_support.cpp.o\x1b[0m\n'}
+[3.506323] (-) TimerEvent: {}
+[3.512053] (yolo_inference) StdoutLine: {'line': b'[ 66%] Built target yolo_inference__rosidl_typesupport_introspection_c\n'}
+[3.516233] (yolo_inference) StdoutLine: {'line': b'[ 66%] Built target yolo_inference__rosidl_typesupport_cpp\n'}
+[3.606439] (-) TimerEvent: {}
+[3.694443] (yolo_inference) StdoutLine: {'line': b'[ 69%] \x1b[32m\x1b[1mLinking CXX shared library libyolo_inference__rosidl_typesupport_fastrtps_cpp.so\x1b[0m\n'}
+[3.706536] (-) TimerEvent: {}
+[3.721856] (yolo_inference) StdoutLine: {'line': b'[ 71%] \x1b[32m\x1b[1mLinking CXX shared library libyolo_inference__rosidl_typesupport_fastrtps_c.so\x1b[0m\n'}
+[3.762353] (yolo_inference) StdoutLine: {'line': b'[ 71%] Built target yolo_inference__rosidl_typesupport_fastrtps_cpp\n'}
+[3.782488] (yolo_inference) StdoutLine: {'line': b'[ 71%] Built target yolo_inference__rosidl_typesupport_fastrtps_c\n'}
+[3.806631] (-) TimerEvent: {}
+[3.822806] (yolo_inference) StdoutLine: {'line': b'[ 74%] \x1b[32m\x1b[1mLinking CXX shared library libyolo_inference__rosidl_typesupport_introspection_cpp.so\x1b[0m\n'}
+[3.870820] (yolo_inference) StdoutLine: {'line': b'[ 74%] Built target yolo_inference__rosidl_typesupport_introspection_cpp\n'}
+[3.876857] (yolo_inference) StdoutLine: {'line': b'[ 74%] Built target yolo_inference\n'}
+[3.882304] (yolo_inference) StdoutLine: {'line': b'[ 76%] \x1b[34m\x1b[1mGenerating Python code for ROS interfaces\x1b[0m\n'}
+[3.906802] (-) TimerEvent: {}
+[4.007148] (-) TimerEvent: {}
+[4.107488] (-) TimerEvent: {}
+[4.148468] (yolo_inference) StdoutLine: {'line': b'[ 76%] Built target yolo_inference__py\n'}
+[4.154773] (yolo_inference) StdoutLine: {'line': b'[ 82%] \x1b[32mBuilding C object CMakeFiles/yolo_inference__rosidl_generator_py.dir/rosidl_generator_py/yolo_inference/msg/_inference_result_s.c.o\x1b[0m\n'}
+[4.155047] (yolo_inference) StdoutLine: {'line': b'[ 82%] \x1b[32mBuilding C object CMakeFiles/yolo_inference__rosidl_generator_py.dir/rosidl_generator_py/yolo_inference/msg/_yolov8_inference_s.c.o\x1b[0m\n'}
+[4.207617] (-) TimerEvent: {}
+[4.307945] (-) TimerEvent: {}
+[4.332389] (yolo_inference) StdoutLine: {'line': b'[ 84%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/yolo_inference/libyolo_inference__rosidl_generator_py.so\x1b[0m\n'}
+[4.356346] (yolo_inference) StdoutLine: {'line': b'[ 84%] Built target yolo_inference__rosidl_generator_py\n'}
+[4.362066] (yolo_inference) StdoutLine: {'line': b'[ 92%] \x1b[32mBuilding C object CMakeFiles/yolo_inference__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/yolo_inference/_yolo_inference_s.ep.rosidl_typesupport_fastrtps_c.c.o\x1b[0m\n'}
+[4.362260] (yolo_inference) StdoutLine: {'line': b'[ 92%] \x1b[32mBuilding C object CMakeFiles/yolo_inference__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/yolo_inference/_yolo_inference_s.ep.rosidl_typesupport_introspection_c.c.o\x1b[0m\n'}
+[4.362348] (yolo_inference) StdoutLine: {'line': b'[ 92%] \x1b[32mBuilding C object CMakeFiles/yolo_inference__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/yolo_inference/_yolo_inference_s.ep.rosidl_typesupport_c.c.o\x1b[0m\n'}
+[4.408065] (-) TimerEvent: {}
+[4.430535] (yolo_inference) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/yolo_inference/yolo_inference_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[4.430736] (yolo_inference) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/yolo_inference/yolo_inference_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[4.430791] (yolo_inference) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/yolo_inference/yolo_inference_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[4.448913] (yolo_inference) StdoutLine: {'line': b'[100%] Built target yolo_inference__rosidl_typesupport_c__pyext\n'}
+[4.449097] (yolo_inference) StdoutLine: {'line': b'[100%] Built target yolo_inference__rosidl_typesupport_introspection_c__pyext\n'}
+[4.449172] (yolo_inference) StdoutLine: {'line': b'[100%] Built target yolo_inference__rosidl_typesupport_fastrtps_c__pyext\n'}
+[4.458389] (yolo_inference) CommandEnded: {'returncode': 0}
+[4.508246] (-) TimerEvent: {}
+[4.543109] (yolo_inference) JobProgress: {'identifier': 'yolo_inference', 'progress': 'install'}
+[4.587147] (yolo_inference) Command: {'cmd': ['/home/gomi/.local/bin/cmake', '--install', '/home/gomi/dev_ws/SRA/yolo_ws/build/yolo_inference'], 'cwd': '/home/gomi/dev_ws/SRA/yolo_ws/build/yolo_inference', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'gomi'), ('LC_TIME', 'ko_KR.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/gomi'), ('OLDPWD', '/home/gomi/dev_ws/SRA/yolo_ws/src'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'ko_KR.UTF-8'), ('MANAGERPID', '1681'), ('SYSTEMD_EXEC_PID', '2059'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '4337'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'gomi'), ('JOURNAL_STREAM', '8:36869'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'gomi'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:~/.local/bin:/home/gomi/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/jong:@/tmp/.ICE-unix/1876,unix/jong:/tmp/.ICE-unix/1876'), ('INVOCATION_ID', '53440dfa02994aaa8df5618edd3cfadd'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'ko_KR.UTF-8'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('IBUS_DISABLE_SNOOPER', '1'), ('LC_TELEPHONE', 'ko_KR.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.MXFH91'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('ROS_DOMAIN_ID', '54'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'ko_KR.UTF-8'), ('TERMINATOR_UUID', 'urn:uuid:aa2b1c19-3f96-41fb-a91c-7b80a26f8744'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'ko_KR.UTF-8'), ('LC_IDENTIFICATION', 'ko_KR.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/gomi/dev_ws/SRA/yolo_ws/build/yolo_inference'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'ko_KR.UTF-8'), ('LC_PAPER', 'ko_KR.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[4.608349] (-) TimerEvent: {}
+[4.624641] (yolo_inference) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[4.624822] (yolo_inference) StdoutLine: {'line': b'-- Installing: /home/gomi/dev_ws/SRA/yolo_ws/install/yolo_inference/share/ament_index/resource_index/rosidl_interfaces/yolo_inference\n'}
+[4.624908] (yolo_inference) StdoutLine: {'line': b'-- Installing: /home/gomi/dev_ws/SRA/yolo_ws/install/yolo_inference/include/yolo_inference/yolo_inference\n'}
+[4.624976] (yolo_inference) StdoutLine: {'line': b'-- Installing: /home/gomi/dev_ws/SRA/yolo_ws/install/yolo_inference/include/yolo_inference/yolo_inference/msg\n'}
+[4.625048] (yolo_inference) StdoutLine: {'line': b'-- Installing: /home/gomi/dev_ws/SRA/yolo_ws/install/yolo_inference/include/yolo_inference/yolo_inference/msg/yolov8_inference.h\n'}
+[4.625116] (yolo_inference) StdoutLine: {'line': b'-- Installing: /home/gomi/dev_ws/SRA/yolo_ws/install/yolo_inference/include/yolo_inference/yolo_inference/msg/inference_result.h\n'}
+[4.625188] (yolo_inference) StdoutLine: {'line': b'-- Installing: /home/gomi/dev_ws/SRA/yolo_ws/install/yolo_inference/include/yolo_inference/yolo_inference/msg/rosidl_generator_c__visibility_control.h\n'}
+[4.625262] (yolo_inference) StdoutLine: {'line': b'-- Installing: /home/gomi/dev_ws/SRA/yolo_ws/install/yolo_inference/include/yolo_inference/yolo_inference/msg/detail\n'}
+[4.625334] (yolo_inference) StdoutLine: {'line': b'-- Installing: /home/gomi/dev_ws/SRA/yolo_ws/install/yolo_inference/include/yolo_inference/yolo_inference/msg/detail/yolov8_inference__functions.h\n'}
+[4.625402] (yolo_inference) StdoutLine: {'line': b'-- Installing: /home/gomi/dev_ws/SRA/yolo_ws/install/yolo_inference/include/yolo_inference/yolo_inference/msg/detail/yolov8_inference__functions.c\n'}
+[4.625460] (yolo_inference) StdoutLine: {'line': b'-- Installing: /home/gomi/dev_ws/SRA/yolo_ws/install/yolo_inference/include/yolo_inference/yolo_inference/msg/detail/yolov8_inference__struct.h\n'}
+[4.625526] (yolo_inference) StdoutLine: {'line': b'-- Installing: /home/gomi/dev_ws/SRA/yolo_ws/install/yolo_inference/include/yolo_inference/yolo_inference/msg/detail/inference_result__functions.c\n'}
+[4.625591] (yolo_inference) StdoutLine: {'line': b'-- Installing: /home/gomi/dev_ws/SRA/yolo_ws/install/yolo_inference/include/yolo_inference/yolo_inference/msg/detail/inference_result__type_support.h\n'}
+[4.625649] (yolo_inference) StdoutLine: {'line': b'-- Installing: /home/gomi/dev_ws/SRA/yolo_ws/install/yolo_inference/include/yolo_inference/yolo_inference/msg/detail/inference_result__functions.h\n'}
+[4.625707] (yolo_inference) StdoutLine: {'line': b'-- Installing: /home/gomi/dev_ws/SRA/yolo_ws/install/yolo_inference/include/yolo_inference/yolo_inference/msg/detail/inference_result__struct.h\n'}
+[4.625783] (yolo_inference) StdoutLine: {'line': b'-- Installing: /home/gomi/dev_ws/SRA/yolo_ws/install/yolo_inference/include/yolo_inference/yolo_inference/msg/detail/yolov8_inference__type_support.h\n'}
+[4.625848] (yolo_inference) StdoutLine: {'line': b'-- Installing: /home/gomi/dev_ws/SRA/yolo_ws/install/yolo_inference/share/yolo_inference/environment/library_path.sh\n'}
+[4.625917] (yolo_inference) StdoutLine: {'line': b'-- Installing: /home/gomi/dev_ws/SRA/yolo_ws/install/yolo_inference/share/yolo_inference/environment/library_path.dsv\n'}
+[4.625976] (yolo_inference) StdoutLine: {'line': b'-- Installing: /home/gomi/dev_ws/SRA/yolo_ws/install/yolo_inference/lib/libyolo_inference__rosidl_generator_c.so\n'}
+[4.626035] (yolo_inference) StdoutLine: {'line': b'-- Set runtime path of "/home/gomi/dev_ws/SRA/yolo_ws/install/yolo_inference/lib/libyolo_inference__rosidl_generator_c.so" to ""\n'}
+[4.626115] (yolo_inference) StdoutLine: {'line': b'-- Up-to-date: /home/gomi/dev_ws/SRA/yolo_ws/install/yolo_inference/include/yolo_inference/yolo_inference\n'}
+[4.626173] (yolo_inference) StdoutLine: {'line': b'-- Up-to-date: /home/gomi/dev_ws/SRA/yolo_ws/install/yolo_inference/include/yolo_inference/yolo_inference/msg\n'}
+[4.626255] (yolo_inference) StdoutLine: {'line': b'-- Installing: /home/gomi/dev_ws/SRA/yolo_ws/install/yolo_inference/include/yolo_inference/yolo_inference/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[4.626313] (yolo_inference) StdoutLine: {'line': b'-- Up-to-date: /home/gomi/dev_ws/SRA/yolo_ws/install/yolo_inference/include/yolo_inference/yolo_inference/msg/detail\n'}
+[4.626371] (yolo_inference) StdoutLine: {'line': b'-- Installing: /home/gomi/dev_ws/SRA/yolo_ws/install/yolo_inference/include/yolo_inference/yolo_inference/msg/detail/yolov8_inference__rosidl_typesupport_fastrtps_c.h\n'}
+[4.626434] (yolo_inference) StdoutLine: {'line': b'-- Installing: /home/gomi/dev_ws/SRA/yolo_ws/install/yolo_inference/include/yolo_inference/yolo_inference/msg/detail/inference_result__rosidl_typesupport_fastrtps_c.h\n'}
+[4.626513] (yolo_inference) StdoutLine: {'line': b'-- Installing: /home/gomi/dev_ws/SRA/yolo_ws/install/yolo_inference/lib/libyolo_inference__rosidl_typesupport_fastrtps_c.so\n'}
+[4.626581] (yolo_inference) StdoutLine: {'line': b'-- Set runtime path of "/home/gomi/dev_ws/SRA/yolo_ws/install/yolo_inference/lib/libyolo_inference__rosidl_typesupport_fastrtps_c.so" to ""\n'}
+[4.626651] (yolo_inference) StdoutLine: {'line': b'-- Up-to-date: /home/gomi/dev_ws/SRA/yolo_ws/install/yolo_inference/include/yolo_inference/yolo_inference\n'}
+[4.626716] (yolo_inference) StdoutLine: {'line': b'-- Up-to-date: /home/gomi/dev_ws/SRA/yolo_ws/install/yolo_inference/include/yolo_inference/yolo_inference/msg\n'}
+[4.626785] (yolo_inference) StdoutLine: {'line': b'-- Installing: /home/gomi/dev_ws/SRA/yolo_ws/install/yolo_inference/include/yolo_inference/yolo_inference/msg/yolov8_inference.hpp\n'}
+[4.626850] (yolo_inference) StdoutLine: {'line': b'-- Installing: /home/gomi/dev_ws/SRA/yolo_ws/install/yolo_inference/include/yolo_inference/yolo_inference/msg/inference_result.hpp\n'}
+[4.626914] (yolo_inference) StdoutLine: {'line': b'-- Up-to-date: /home/gomi/dev_ws/SRA/yolo_ws/install/yolo_inference/include/yolo_inference/yolo_inference/msg/detail\n'}
+[4.626991] (yolo_inference) StdoutLine: {'line': b'-- Installing: /home/gomi/dev_ws/SRA/yolo_ws/install/yolo_inference/include/yolo_inference/yolo_inference/msg/detail/inference_result__builder.hpp\n'}
+[4.627059] (yolo_inference) StdoutLine: {'line': b'-- Installing: /home/gomi/dev_ws/SRA/yolo_ws/install/yolo_inference/include/yolo_inference/yolo_inference/msg/detail/yolov8_inference__builder.hpp\n'}
+[4.627130] (yolo_inference) StdoutLine: {'line': b'-- Installing: /home/gomi/dev_ws/SRA/yolo_ws/install/yolo_inference/include/yolo_inference/yolo_inference/msg/detail/yolov8_inference__struct.hpp\n'}
+[4.627189] (yolo_inference) StdoutLine: {'line': b'-- Installing: /home/gomi/dev_ws/SRA/yolo_ws/install/yolo_inference/include/yolo_inference/yolo_inference/msg/detail/inference_result__traits.hpp\n'}
+[4.627256] (yolo_inference) StdoutLine: {'line': b'-- Installing: /home/gomi/dev_ws/SRA/yolo_ws/install/yolo_inference/include/yolo_inference/yolo_inference/msg/detail/yolov8_inference__traits.hpp\n'}
+[4.627314] (yolo_inference) StdoutLine: {'line': b'-- Installing: /home/gomi/dev_ws/SRA/yolo_ws/install/yolo_inference/include/yolo_inference/yolo_inference/msg/detail/inference_result__struct.hpp\n'}
+[4.627372] (yolo_inference) StdoutLine: {'line': b'-- Up-to-date: /home/gomi/dev_ws/SRA/yolo_ws/install/yolo_inference/include/yolo_inference/yolo_inference\n'}
+[4.627444] (yolo_inference) StdoutLine: {'line': b'-- Up-to-date: /home/gomi/dev_ws/SRA/yolo_ws/install/yolo_inference/include/yolo_inference/yolo_inference/msg\n'}
+[4.627513] (yolo_inference) StdoutLine: {'line': b'-- Installing: /home/gomi/dev_ws/SRA/yolo_ws/install/yolo_inference/include/yolo_inference/yolo_inference/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[4.627582] (yolo_inference) StdoutLine: {'line': b'-- Up-to-date: /home/gomi/dev_ws/SRA/yolo_ws/install/yolo_inference/include/yolo_inference/yolo_inference/msg/detail\n'}
+[4.627648] (yolo_inference) StdoutLine: {'line': b'-- Installing: /home/gomi/dev_ws/SRA/yolo_ws/install/yolo_inference/include/yolo_inference/yolo_inference/msg/detail/inference_result__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[4.627714] (yolo_inference) StdoutLine: {'line': b'-- Installing: /home/gomi/dev_ws/SRA/yolo_ws/install/yolo_inference/include/yolo_inference/yolo_inference/msg/detail/dds_fastrtps\n'}
+[4.627778] (yolo_inference) StdoutLine: {'line': b'-- Installing: /home/gomi/dev_ws/SRA/yolo_ws/install/yolo_inference/include/yolo_inference/yolo_inference/msg/detail/yolov8_inference__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[4.627837] (yolo_inference) StdoutLine: {'line': b'-- Installing: /home/gomi/dev_ws/SRA/yolo_ws/install/yolo_inference/lib/libyolo_inference__rosidl_typesupport_fastrtps_cpp.so\n'}
+[4.627894] (yolo_inference) StdoutLine: {'line': b'-- Set runtime path of "/home/gomi/dev_ws/SRA/yolo_ws/install/yolo_inference/lib/libyolo_inference__rosidl_typesupport_fastrtps_cpp.so" to ""\n'}
+[4.627964] (yolo_inference) StdoutLine: {'line': b'-- Up-to-date: /home/gomi/dev_ws/SRA/yolo_ws/install/yolo_inference/include/yolo_inference/yolo_inference\n'}
+[4.628024] (yolo_inference) StdoutLine: {'line': b'-- Up-to-date: /home/gomi/dev_ws/SRA/yolo_ws/install/yolo_inference/include/yolo_inference/yolo_inference/msg\n'}
+[4.628088] (yolo_inference) StdoutLine: {'line': b'-- Installing: /home/gomi/dev_ws/SRA/yolo_ws/install/yolo_inference/include/yolo_inference/yolo_inference/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[4.628170] (yolo_inference) StdoutLine: {'line': b'-- Up-to-date: /home/gomi/dev_ws/SRA/yolo_ws/install/yolo_inference/include/yolo_inference/yolo_inference/msg/detail\n'}
+[4.628235] (yolo_inference) StdoutLine: {'line': b'-- Installing: /home/gomi/dev_ws/SRA/yolo_ws/install/yolo_inference/include/yolo_inference/yolo_inference/msg/detail/yolov8_inference__rosidl_typesupport_introspection_c.h\n'}
+[4.628301] (yolo_inference) StdoutLine: {'line': b'-- Installing: /home/gomi/dev_ws/SRA/yolo_ws/install/yolo_inference/include/yolo_inference/yolo_inference/msg/detail/inference_result__rosidl_typesupport_introspection_c.h\n'}
+[4.628367] (yolo_inference) StdoutLine: {'line': b'-- Installing: /home/gomi/dev_ws/SRA/yolo_ws/install/yolo_inference/include/yolo_inference/yolo_inference/msg/detail/yolov8_inference__type_support.c\n'}
+[4.628435] (yolo_inference) StdoutLine: {'line': b'-- Installing: /home/gomi/dev_ws/SRA/yolo_ws/install/yolo_inference/include/yolo_inference/yolo_inference/msg/detail/inference_result__type_support.c\n'}
+[4.628493] (yolo_inference) StdoutLine: {'line': b'-- Installing: /home/gomi/dev_ws/SRA/yolo_ws/install/yolo_inference/lib/libyolo_inference__rosidl_typesupport_introspection_c.so\n'}
+[4.628549] (yolo_inference) StdoutLine: {'line': b'-- Set runtime path of "/home/gomi/dev_ws/SRA/yolo_ws/install/yolo_inference/lib/libyolo_inference__rosidl_typesupport_introspection_c.so" to ""\n'}
+[4.628620] (yolo_inference) StdoutLine: {'line': b'-- Installing: /home/gomi/dev_ws/SRA/yolo_ws/install/yolo_inference/lib/libyolo_inference__rosidl_typesupport_c.so\n'}
+[4.628678] (yolo_inference) StdoutLine: {'line': b'-- Set runtime path of "/home/gomi/dev_ws/SRA/yolo_ws/install/yolo_inference/lib/libyolo_inference__rosidl_typesupport_c.so" to ""\n'}
+[4.628735] (yolo_inference) StdoutLine: {'line': b'-- Up-to-date: /home/gomi/dev_ws/SRA/yolo_ws/install/yolo_inference/include/yolo_inference/yolo_inference\n'}
+[4.628804] (yolo_inference) StdoutLine: {'line': b'-- Up-to-date: /home/gomi/dev_ws/SRA/yolo_ws/install/yolo_inference/include/yolo_inference/yolo_inference/msg\n'}
+[4.628868] (yolo_inference) StdoutLine: {'line': b'-- Up-to-date: /home/gomi/dev_ws/SRA/yolo_ws/install/yolo_inference/include/yolo_inference/yolo_inference/msg/detail\n'}
+[4.628933] (yolo_inference) StdoutLine: {'line': b'-- Installing: /home/gomi/dev_ws/SRA/yolo_ws/install/yolo_inference/include/yolo_inference/yolo_inference/msg/detail/yolov8_inference__type_support.cpp\n'}
+[4.628997] (yolo_inference) StdoutLine: {'line': b'-- Installing: /home/gomi/dev_ws/SRA/yolo_ws/install/yolo_inference/include/yolo_inference/yolo_inference/msg/detail/yolov8_inference__rosidl_typesupport_introspection_cpp.hpp\n'}
+[4.629064] (yolo_inference) StdoutLine: {'line': b'-- Installing: /home/gomi/dev_ws/SRA/yolo_ws/install/yolo_inference/include/yolo_inference/yolo_inference/msg/detail/inference_result__rosidl_typesupport_introspection_cpp.hpp\n'}
+[4.629130] (yolo_inference) StdoutLine: {'line': b'-- Installing: /home/gomi/dev_ws/SRA/yolo_ws/install/yolo_inference/include/yolo_inference/yolo_inference/msg/detail/inference_result__type_support.cpp\n'}
+[4.629195] (yolo_inference) StdoutLine: {'line': b'-- Installing: /home/gomi/dev_ws/SRA/yolo_ws/install/yolo_inference/lib/libyolo_inference__rosidl_typesupport_introspection_cpp.so\n'}
+[4.629269] (yolo_inference) StdoutLine: {'line': b'-- Set runtime path of "/home/gomi/dev_ws/SRA/yolo_ws/install/yolo_inference/lib/libyolo_inference__rosidl_typesupport_introspection_cpp.so" to ""\n'}
+[4.629337] (yolo_inference) StdoutLine: {'line': b'-- Installing: /home/gomi/dev_ws/SRA/yolo_ws/install/yolo_inference/lib/libyolo_inference__rosidl_typesupport_cpp.so\n'}
+[4.629405] (yolo_inference) StdoutLine: {'line': b'-- Set runtime path of "/home/gomi/dev_ws/SRA/yolo_ws/install/yolo_inference/lib/libyolo_inference__rosidl_typesupport_cpp.so" to ""\n'}
+[4.629476] (yolo_inference) StdoutLine: {'line': b'-- Installing: /home/gomi/dev_ws/SRA/yolo_ws/install/yolo_inference/share/yolo_inference/environment/pythonpath.sh\n'}
+[4.629542] (yolo_inference) StdoutLine: {'line': b'-- Installing: /home/gomi/dev_ws/SRA/yolo_ws/install/yolo_inference/share/yolo_inference/environment/pythonpath.dsv\n'}
+[4.629607] (yolo_inference) StdoutLine: {'line': b'-- Installing: /home/gomi/dev_ws/SRA/yolo_ws/install/yolo_inference/local/lib/python3.10/dist-packages/yolo_inference-0.0.0-py3.10.egg-info\n'}
+[4.629677] (yolo_inference) StdoutLine: {'line': b'-- Installing: /home/gomi/dev_ws/SRA/yolo_ws/install/yolo_inference/local/lib/python3.10/dist-packages/yolo_inference-0.0.0-py3.10.egg-info/PKG-INFO\n'}
+[4.629742] (yolo_inference) StdoutLine: {'line': b'-- Installing: /home/gomi/dev_ws/SRA/yolo_ws/install/yolo_inference/local/lib/python3.10/dist-packages/yolo_inference-0.0.0-py3.10.egg-info/top_level.txt\n'}
+[4.629808] (yolo_inference) StdoutLine: {'line': b'-- Installing: /home/gomi/dev_ws/SRA/yolo_ws/install/yolo_inference/local/lib/python3.10/dist-packages/yolo_inference-0.0.0-py3.10.egg-info/SOURCES.txt\n'}
+[4.629872] (yolo_inference) StdoutLine: {'line': b'-- Installing: /home/gomi/dev_ws/SRA/yolo_ws/install/yolo_inference/local/lib/python3.10/dist-packages/yolo_inference-0.0.0-py3.10.egg-info/dependency_links.txt\n'}
+[4.629937] (yolo_inference) StdoutLine: {'line': b'-- Installing: /home/gomi/dev_ws/SRA/yolo_ws/install/yolo_inference/local/lib/python3.10/dist-packages/yolo_inference\n'}
+[4.630002] (yolo_inference) StdoutLine: {'line': b'-- Installing: /home/gomi/dev_ws/SRA/yolo_ws/install/yolo_inference/local/lib/python3.10/dist-packages/yolo_inference/yolo_inference_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[4.630061] (yolo_inference) StdoutLine: {'line': b'-- Installing: /home/gomi/dev_ws/SRA/yolo_ws/install/yolo_inference/local/lib/python3.10/dist-packages/yolo_inference/yolo_inference_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[4.630123] (yolo_inference) StdoutLine: {'line': b'-- Installing: /home/gomi/dev_ws/SRA/yolo_ws/install/yolo_inference/local/lib/python3.10/dist-packages/yolo_inference/_yolo_inference_s.ep.rosidl_typesupport_fastrtps_c.c\n'}
+[4.630182] (yolo_inference) StdoutLine: {'line': b'-- Installing: /home/gomi/dev_ws/SRA/yolo_ws/install/yolo_inference/local/lib/python3.10/dist-packages/yolo_inference/msg\n'}
+[4.630240] (yolo_inference) StdoutLine: {'line': b'-- Installing: /home/gomi/dev_ws/SRA/yolo_ws/install/yolo_inference/local/lib/python3.10/dist-packages/yolo_inference/msg/_yolov8_inference.py\n'}
+[4.630304] (yolo_inference) StdoutLine: {'line': b'-- Installing: /home/gomi/dev_ws/SRA/yolo_ws/install/yolo_inference/local/lib/python3.10/dist-packages/yolo_inference/msg/_inference_result.py\n'}
+[4.630362] (yolo_inference) StdoutLine: {'line': b'-- Installing: /home/gomi/dev_ws/SRA/yolo_ws/install/yolo_inference/local/lib/python3.10/dist-packages/yolo_inference/msg/_inference_result_s.c\n'}
+[4.630421] (yolo_inference) StdoutLine: {'line': b'-- Installing: /home/gomi/dev_ws/SRA/yolo_ws/install/yolo_inference/local/lib/python3.10/dist-packages/yolo_inference/msg/__init__.py\n'}
+[4.630478] (yolo_inference) StdoutLine: {'line': b'-- Installing: /home/gomi/dev_ws/SRA/yolo_ws/install/yolo_inference/local/lib/python3.10/dist-packages/yolo_inference/msg/_yolov8_inference_s.c\n'}
+[4.630536] (yolo_inference) StdoutLine: {'line': b'-- Installing: /home/gomi/dev_ws/SRA/yolo_ws/install/yolo_inference/local/lib/python3.10/dist-packages/yolo_inference/_yolo_inference_s.ep.rosidl_typesupport_introspection_c.c\n'}
+[4.630594] (yolo_inference) StdoutLine: {'line': b'-- Installing: /home/gomi/dev_ws/SRA/yolo_ws/install/yolo_inference/local/lib/python3.10/dist-packages/yolo_inference/_yolo_inference_s.ep.rosidl_typesupport_c.c\n'}
+[4.630656] (yolo_inference) StdoutLine: {'line': b'-- Installing: /home/gomi/dev_ws/SRA/yolo_ws/install/yolo_inference/local/lib/python3.10/dist-packages/yolo_inference/libyolo_inference__rosidl_generator_py.so\n'}
+[4.630720] (yolo_inference) StdoutLine: {'line': b'-- Installing: /home/gomi/dev_ws/SRA/yolo_ws/install/yolo_inference/local/lib/python3.10/dist-packages/yolo_inference/yolo_inference_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[4.630778] (yolo_inference) StdoutLine: {'line': b'-- Installing: /home/gomi/dev_ws/SRA/yolo_ws/install/yolo_inference/local/lib/python3.10/dist-packages/yolo_inference/__init__.py\n'}
+[4.654856] (yolo_inference) StdoutLine: {'line': b"Listing '/home/gomi/dev_ws/SRA/yolo_ws/install/yolo_inference/local/lib/python3.10/dist-packages/yolo_inference'...\n"}
+[4.655015] (yolo_inference) StdoutLine: {'line': b"Compiling '/home/gomi/dev_ws/SRA/yolo_ws/install/yolo_inference/local/lib/python3.10/dist-packages/yolo_inference/__init__.py'...\n"}
+[4.655082] (yolo_inference) StdoutLine: {'line': b"Listing '/home/gomi/dev_ws/SRA/yolo_ws/install/yolo_inference/local/lib/python3.10/dist-packages/yolo_inference/msg'...\n"}
+[4.655147] (yolo_inference) StdoutLine: {'line': b"Compiling '/home/gomi/dev_ws/SRA/yolo_ws/install/yolo_inference/local/lib/python3.10/dist-packages/yolo_inference/msg/__init__.py'...\n"}
+[4.655211] (yolo_inference) StdoutLine: {'line': b"Compiling '/home/gomi/dev_ws/SRA/yolo_ws/install/yolo_inference/local/lib/python3.10/dist-packages/yolo_inference/msg/_inference_result.py'...\n"}
+[4.655277] (yolo_inference) StdoutLine: {'line': b"Compiling '/home/gomi/dev_ws/SRA/yolo_ws/install/yolo_inference/local/lib/python3.10/dist-packages/yolo_inference/msg/_yolov8_inference.py'...\n"}
+[4.659095] (yolo_inference) StdoutLine: {'line': b'-- Installing: /home/gomi/dev_ws/SRA/yolo_ws/install/yolo_inference/local/lib/python3.10/dist-packages/yolo_inference/yolo_inference_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[4.659258] (yolo_inference) StdoutLine: {'line': b'-- Set runtime path of "/home/gomi/dev_ws/SRA/yolo_ws/install/yolo_inference/local/lib/python3.10/dist-packages/yolo_inference/yolo_inference_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so" to ""\n'}
+[4.659349] (yolo_inference) StdoutLine: {'line': b'-- Installing: /home/gomi/dev_ws/SRA/yolo_ws/install/yolo_inference/local/lib/python3.10/dist-packages/yolo_inference/yolo_inference_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[4.659487] (yolo_inference) StdoutLine: {'line': b'-- Set runtime path of "/home/gomi/dev_ws/SRA/yolo_ws/install/yolo_inference/local/lib/python3.10/dist-packages/yolo_inference/yolo_inference_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so" to ""\n'}
+[4.659615] (yolo_inference) StdoutLine: {'line': b'-- Installing: /home/gomi/dev_ws/SRA/yolo_ws/install/yolo_inference/local/lib/python3.10/dist-packages/yolo_inference/yolo_inference_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[4.659763] (yolo_inference) StdoutLine: {'line': b'-- Set runtime path of "/home/gomi/dev_ws/SRA/yolo_ws/install/yolo_inference/local/lib/python3.10/dist-packages/yolo_inference/yolo_inference_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so" to ""\n'}
+[4.659847] (yolo_inference) StdoutLine: {'line': b'-- Installing: /home/gomi/dev_ws/SRA/yolo_ws/install/yolo_inference/lib/libyolo_inference__rosidl_generator_py.so\n'}
+[4.659989] (yolo_inference) StdoutLine: {'line': b'-- Set runtime path of "/home/gomi/dev_ws/SRA/yolo_ws/install/yolo_inference/lib/libyolo_inference__rosidl_generator_py.so" to ""\n'}
+[4.660071] (yolo_inference) StdoutLine: {'line': b'-- Installing: /home/gomi/dev_ws/SRA/yolo_ws/install/yolo_inference/share/yolo_inference/msg/InferenceResult.idl\n'}
+[4.660152] (yolo_inference) StdoutLine: {'line': b'-- Installing: /home/gomi/dev_ws/SRA/yolo_ws/install/yolo_inference/share/yolo_inference/msg/Yolov8Inference.idl\n'}
+[4.660238] (yolo_inference) StdoutLine: {'line': b'-- Installing: /home/gomi/dev_ws/SRA/yolo_ws/install/yolo_inference/share/yolo_inference/msg/InferenceResult.msg\n'}
+[4.660324] (yolo_inference) StdoutLine: {'line': b'-- Installing: /home/gomi/dev_ws/SRA/yolo_ws/install/yolo_inference/share/yolo_inference/msg/Yolov8Inference.msg\n'}
+[4.660416] (yolo_inference) StdoutLine: {'line': b'-- Installing: /home/gomi/dev_ws/SRA/yolo_ws/install/yolo_inference/share/ament_index/resource_index/package_run_dependencies/yolo_inference\n'}
+[4.660516] (yolo_inference) StdoutLine: {'line': b'-- Installing: /home/gomi/dev_ws/SRA/yolo_ws/install/yolo_inference/share/ament_index/resource_index/parent_prefix_path/yolo_inference\n'}
+[4.660595] (yolo_inference) StdoutLine: {'line': b'-- Installing: /home/gomi/dev_ws/SRA/yolo_ws/install/yolo_inference/share/yolo_inference/environment/ament_prefix_path.sh\n'}
+[4.660675] (yolo_inference) StdoutLine: {'line': b'-- Installing: /home/gomi/dev_ws/SRA/yolo_ws/install/yolo_inference/share/yolo_inference/environment/ament_prefix_path.dsv\n'}
+[4.660757] (yolo_inference) StdoutLine: {'line': b'-- Installing: /home/gomi/dev_ws/SRA/yolo_ws/install/yolo_inference/share/yolo_inference/environment/path.sh\n'}
+[4.660826] (yolo_inference) StdoutLine: {'line': b'-- Installing: /home/gomi/dev_ws/SRA/yolo_ws/install/yolo_inference/share/yolo_inference/environment/path.dsv\n'}
+[4.660905] (yolo_inference) StdoutLine: {'line': b'-- Installing: /home/gomi/dev_ws/SRA/yolo_ws/install/yolo_inference/share/yolo_inference/local_setup.bash\n'}
+[4.660988] (yolo_inference) StdoutLine: {'line': b'-- Installing: /home/gomi/dev_ws/SRA/yolo_ws/install/yolo_inference/share/yolo_inference/local_setup.sh\n'}
+[4.661068] (yolo_inference) StdoutLine: {'line': b'-- Installing: /home/gomi/dev_ws/SRA/yolo_ws/install/yolo_inference/share/yolo_inference/local_setup.zsh\n'}
+[4.661147] (yolo_inference) StdoutLine: {'line': b'-- Installing: /home/gomi/dev_ws/SRA/yolo_ws/install/yolo_inference/share/yolo_inference/local_setup.dsv\n'}
+[4.661228] (yolo_inference) StdoutLine: {'line': b'-- Installing: /home/gomi/dev_ws/SRA/yolo_ws/install/yolo_inference/share/yolo_inference/package.dsv\n'}
+[4.661370] (yolo_inference) StdoutLine: {'line': b'-- Installing: /home/gomi/dev_ws/SRA/yolo_ws/install/yolo_inference/share/ament_index/resource_index/packages/yolo_inference\n'}
+[4.661463] (yolo_inference) StdoutLine: {'line': b'-- Installing: /home/gomi/dev_ws/SRA/yolo_ws/install/yolo_inference/share/yolo_inference/cmake/export_yolo_inference__rosidl_generator_cExport.cmake\n'}
+[4.661554] (yolo_inference) StdoutLine: {'line': b'-- Installing: /home/gomi/dev_ws/SRA/yolo_ws/install/yolo_inference/share/yolo_inference/cmake/export_yolo_inference__rosidl_generator_cExport-noconfig.cmake\n'}
+[4.661627] (yolo_inference) StdoutLine: {'line': b'-- Installing: /home/gomi/dev_ws/SRA/yolo_ws/install/yolo_inference/share/yolo_inference/cmake/export_yolo_inference__rosidl_typesupport_fastrtps_cExport.cmake\n'}
+[4.661699] (yolo_inference) StdoutLine: {'line': b'-- Installing: /home/gomi/dev_ws/SRA/yolo_ws/install/yolo_inference/share/yolo_inference/cmake/export_yolo_inference__rosidl_typesupport_fastrtps_cExport-noconfig.cmake\n'}
+[4.661769] (yolo_inference) StdoutLine: {'line': b'-- Installing: /home/gomi/dev_ws/SRA/yolo_ws/install/yolo_inference/share/yolo_inference/cmake/export_yolo_inference__rosidl_generator_cppExport.cmake\n'}
+[4.661857] (yolo_inference) StdoutLine: {'line': b'-- Installing: /home/gomi/dev_ws/SRA/yolo_ws/install/yolo_inference/share/yolo_inference/cmake/export_yolo_inference__rosidl_typesupport_fastrtps_cppExport.cmake\n'}
+[4.661929] (yolo_inference) StdoutLine: {'line': b'-- Installing: /home/gomi/dev_ws/SRA/yolo_ws/install/yolo_inference/share/yolo_inference/cmake/export_yolo_inference__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake\n'}
+[4.662000] (yolo_inference) StdoutLine: {'line': b'-- Installing: /home/gomi/dev_ws/SRA/yolo_ws/install/yolo_inference/share/yolo_inference/cmake/yolo_inference__rosidl_typesupport_introspection_cExport.cmake\n'}
+[4.662076] (yolo_inference) StdoutLine: {'line': b'-- Installing: /home/gomi/dev_ws/SRA/yolo_ws/install/yolo_inference/share/yolo_inference/cmake/yolo_inference__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[4.662149] (yolo_inference) StdoutLine: {'line': b'-- Installing: /home/gomi/dev_ws/SRA/yolo_ws/install/yolo_inference/share/yolo_inference/cmake/yolo_inference__rosidl_typesupport_cExport.cmake\n'}
+[4.662214] (yolo_inference) StdoutLine: {'line': b'-- Installing: /home/gomi/dev_ws/SRA/yolo_ws/install/yolo_inference/share/yolo_inference/cmake/yolo_inference__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[4.662285] (yolo_inference) StdoutLine: {'line': b'-- Installing: /home/gomi/dev_ws/SRA/yolo_ws/install/yolo_inference/share/yolo_inference/cmake/yolo_inference__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[4.662357] (yolo_inference) StdoutLine: {'line': b'-- Installing: /home/gomi/dev_ws/SRA/yolo_ws/install/yolo_inference/share/yolo_inference/cmake/yolo_inference__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[4.662429] (yolo_inference) StdoutLine: {'line': b'-- Installing: /home/gomi/dev_ws/SRA/yolo_ws/install/yolo_inference/share/yolo_inference/cmake/yolo_inference__rosidl_typesupport_cppExport.cmake\n'}
+[4.662501] (yolo_inference) StdoutLine: {'line': b'-- Installing: /home/gomi/dev_ws/SRA/yolo_ws/install/yolo_inference/share/yolo_inference/cmake/yolo_inference__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[4.662573] (yolo_inference) StdoutLine: {'line': b'-- Installing: /home/gomi/dev_ws/SRA/yolo_ws/install/yolo_inference/share/yolo_inference/cmake/export_yolo_inference__rosidl_generator_pyExport.cmake\n'}
+[4.662646] (yolo_inference) StdoutLine: {'line': b'-- Installing: /home/gomi/dev_ws/SRA/yolo_ws/install/yolo_inference/share/yolo_inference/cmake/export_yolo_inference__rosidl_generator_pyExport-noconfig.cmake\n'}
+[4.662717] (yolo_inference) StdoutLine: {'line': b'-- Installing: /home/gomi/dev_ws/SRA/yolo_ws/install/yolo_inference/share/yolo_inference/cmake/rosidl_cmake-extras.cmake\n'}
+[4.662782] (yolo_inference) StdoutLine: {'line': b'-- Installing: /home/gomi/dev_ws/SRA/yolo_ws/install/yolo_inference/share/yolo_inference/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[4.662848] (yolo_inference) StdoutLine: {'line': b'-- Installing: /home/gomi/dev_ws/SRA/yolo_ws/install/yolo_inference/share/yolo_inference/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[4.662912] (yolo_inference) StdoutLine: {'line': b'-- Installing: /home/gomi/dev_ws/SRA/yolo_ws/install/yolo_inference/share/yolo_inference/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[4.662985] (yolo_inference) StdoutLine: {'line': b'-- Installing: /home/gomi/dev_ws/SRA/yolo_ws/install/yolo_inference/share/yolo_inference/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[4.663050] (yolo_inference) StdoutLine: {'line': b'-- Installing: /home/gomi/dev_ws/SRA/yolo_ws/install/yolo_inference/share/yolo_inference/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[4.663116] (yolo_inference) StdoutLine: {'line': b'-- Installing: /home/gomi/dev_ws/SRA/yolo_ws/install/yolo_inference/share/yolo_inference/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[4.663181] (yolo_inference) StdoutLine: {'line': b'-- Installing: /home/gomi/dev_ws/SRA/yolo_ws/install/yolo_inference/share/yolo_inference/cmake/yolo_inferenceConfig.cmake\n'}
+[4.663247] (yolo_inference) StdoutLine: {'line': b'-- Installing: /home/gomi/dev_ws/SRA/yolo_ws/install/yolo_inference/share/yolo_inference/cmake/yolo_inferenceConfig-version.cmake\n'}
+[4.663315] (yolo_inference) StdoutLine: {'line': b'-- Installing: /home/gomi/dev_ws/SRA/yolo_ws/install/yolo_inference/share/yolo_inference/package.xml\n'}
+[4.670459] (yolo_inference) CommandEnded: {'returncode': 0}
+[4.708534] (-) TimerEvent: {}
+[4.770665] (yolo_inference) JobEnded: {'identifier': 'yolo_inference', 'rc': 0}
+[4.771116] (-) EventReactorShutdown: {}

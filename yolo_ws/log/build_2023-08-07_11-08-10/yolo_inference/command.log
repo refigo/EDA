@@ -1,0 +1,6 @@
+Invoking command in '/home/gomi/dev_ws/SRA/yolo_ws/build/yolo_inference': CMAKE_PREFIX_PATH=/opt/ros/humble /home/gomi/.local/bin/cmake /home/gomi/dev_ws/SRA/yolo_ws/src/yolo_inference -DCMAKE_INSTALL_PREFIX=/home/gomi/dev_ws/SRA/yolo_ws/install/yolo_inference
+Invoked command in '/home/gomi/dev_ws/SRA/yolo_ws/build/yolo_inference' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /home/gomi/.local/bin/cmake /home/gomi/dev_ws/SRA/yolo_ws/src/yolo_inference -DCMAKE_INSTALL_PREFIX=/home/gomi/dev_ws/SRA/yolo_ws/install/yolo_inference
+Invoking command in '/home/gomi/dev_ws/SRA/yolo_ws/build/yolo_inference': CMAKE_PREFIX_PATH=/opt/ros/humble /home/gomi/.local/bin/cmake --build /home/gomi/dev_ws/SRA/yolo_ws/build/yolo_inference -- -j8 -l8
+Invoked command in '/home/gomi/dev_ws/SRA/yolo_ws/build/yolo_inference' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /home/gomi/.local/bin/cmake --build /home/gomi/dev_ws/SRA/yolo_ws/build/yolo_inference -- -j8 -l8
+Invoking command in '/home/gomi/dev_ws/SRA/yolo_ws/build/yolo_inference': CMAKE_PREFIX_PATH=/opt/ros/humble /home/gomi/.local/bin/cmake --install /home/gomi/dev_ws/SRA/yolo_ws/build/yolo_inference
+Invoked command in '/home/gomi/dev_ws/SRA/yolo_ws/build/yolo_inference' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /home/gomi/.local/bin/cmake --install /home/gomi/dev_ws/SRA/yolo_ws/build/yolo_inference

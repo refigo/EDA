@@ -43,7 +43,8 @@ class MarkerTFBroadcaster(Node):
 			try:
 				when = self.get_clock().now() - Duration(seconds=1.0)
 				trans = self.tf_buffer.lookup_transform('base_link', "marker" + str(marker.id), when)
-				self.get_logger().info("Transform lookup succeede: %s" % trans)
+				print("Transform llokup succeeded: %s" % trans)
+				self.get_logger().info("Transform lookup succeeded: %s" % trans)
 			except Exception as e:
 				self.get_logger().error("Transform lookup failed: %s" % e)
 

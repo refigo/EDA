@@ -1,0 +1,256 @@
+[0.025s] Invoking command in '/home/gomi/dev_ws/SRA/yolo_ws/build/yolo_inference': CMAKE_PREFIX_PATH=/opt/ros/humble /home/gomi/.local/bin/cmake /home/gomi/dev_ws/SRA/yolo_ws/src/yolo_inference -DCMAKE_INSTALL_PREFIX=/home/gomi/dev_ws/SRA/yolo_ws/install/yolo_inference
+[0.241s] -- The C compiler identification is GNU 11.4.0
+[0.350s] -- The CXX compiler identification is GNU 11.4.0
+[0.373s] -- Detecting C compiler ABI info
+[0.425s] -- Detecting C compiler ABI info - done
+[0.434s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.435s] -- Detecting C compile features
+[0.435s] -- Detecting C compile features - done
+[0.440s] -- Detecting CXX compiler ABI info
+[0.493s] -- Detecting CXX compiler ABI info - done
+[0.503s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.503s] -- Detecting CXX compile features
+[0.503s] -- Detecting CXX compile features - done
+[0.513s] -- Found ament_cmake: 1.3.4 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.799s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter 
+[1.375s] -- Found std_msgs: 4.2.3 (/opt/ros/humble/share/std_msgs/cmake)
+[1.760s] -- Found rosidl_generator_c: 3.1.4 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[1.769s] -- Found rosidl_adapter: 3.1.4 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[1.788s] -- Found rosidl_generator_cpp: 3.1.4 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[1.817s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.857s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.928s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[2.115s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[2.308s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.380s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.397s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") 
+[2.400s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[2.425s] -- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") 
+[2.425s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[2.425s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[2.425s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+[2.442s] -- Found PythonExtra: .so  
+[2.487s] -- Found ament_lint_auto: 0.12.6 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[2.541s] -- Added test 'lint_cmake' to check CMake code style
+[2.543s] -- Added test 'xmllint' to check XML markup files
+[2.548s] -- Configuring done (2.4s)
+[2.577s] -- Generating done (0.0s)
+[2.579s] -- Build files have been written to: /home/gomi/dev_ws/SRA/yolo_ws/build/yolo_inference
+[2.591s] Invoked command in '/home/gomi/dev_ws/SRA/yolo_ws/build/yolo_inference' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /home/gomi/.local/bin/cmake /home/gomi/dev_ws/SRA/yolo_ws/src/yolo_inference -DCMAKE_INSTALL_PREFIX=/home/gomi/dev_ws/SRA/yolo_ws/install/yolo_inference
+[2.592s] Invoking command in '/home/gomi/dev_ws/SRA/yolo_ws/build/yolo_inference': CMAKE_PREFIX_PATH=/opt/ros/humble /home/gomi/.local/bin/cmake --build /home/gomi/dev_ws/SRA/yolo_ws/build/yolo_inference -- -j8 -l8
+[2.640s] [  2%] [34m[1mGenerating C code for ROS interfaces[0m
+[2.643s] [  5%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[2.645s] [  5%] Built target ament_cmake_python_copy_yolo_inference
+[2.849s] running egg_info
+[2.849s] creating yolo_inference.egg-info
+[2.850s] writing yolo_inference.egg-info/PKG-INFO
+[2.850s] writing dependency_links to yolo_inference.egg-info/dependency_links.txt
+[2.850s] writing top-level names to yolo_inference.egg-info/top_level.txt
+[2.850s] writing manifest file 'yolo_inference.egg-info/SOURCES.txt'
+[2.852s] reading manifest file 'yolo_inference.egg-info/SOURCES.txt'
+[2.852s] writing manifest file 'yolo_inference.egg-info/SOURCES.txt'
+[2.880s] [  5%] Built target ament_cmake_python_build_yolo_inference_egg
+[2.882s] [  5%] Built target yolo_inference__cpp
+[2.885s] [  7%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[2.886s] [ 12%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[2.886s] [ 12%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[2.893s] [ 15%] [32mBuilding C object CMakeFiles/yolo_inference__rosidl_generator_c.dir/rosidl_generator_c/yolo_inference/msg/detail/inference_result__functions.c.o[0m
+[2.894s] [ 17%] [32mBuilding C object CMakeFiles/yolo_inference__rosidl_generator_c.dir/rosidl_generator_c/yolo_inference/msg/detail/yolov8_inference__functions.c.o[0m
+[2.998s] [ 20%] [32m[1mLinking C shared library libyolo_inference__rosidl_generator_c.so[0m
+[3.024s] [ 20%] Built target yolo_inference__rosidl_generator_c
+[3.027s] [ 23%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[3.027s] [ 25%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[3.027s] [ 28%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[3.095s] [ 33%] [32mBuilding CXX object CMakeFiles/yolo_inference__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/yolo_inference/msg/yolov8_inference__type_support.cpp.o[0m
+[3.096s] [ 33%] [32mBuilding CXX object CMakeFiles/yolo_inference__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/yolo_inference/msg/inference_result__type_support.cpp.o[0m
+[3.122s] [ 38%] [32mBuilding CXX object CMakeFiles/yolo_inference__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/yolo_inference/msg/detail/dds_fastrtps/yolov8_inference__type_support.cpp.o[0m
+[3.123s] [ 38%] [32mBuilding CXX object CMakeFiles/yolo_inference__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/yolo_inference/msg/detail/dds_fastrtps/inference_result__type_support.cpp.o[0m
+[3.134s] [ 41%] [32mBuilding CXX object CMakeFiles/yolo_inference__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/yolo_inference/msg/detail/inference_result__type_support.cpp.o[0m
+[3.249s] [ 43%] [32mBuilding CXX object CMakeFiles/yolo_inference__rosidl_typesupport_c.dir/rosidl_typesupport_c/yolo_inference/msg/inference_result__type_support.cpp.o[0m
+[3.282s] [ 46%] [32mBuilding CXX object CMakeFiles/yolo_inference__rosidl_typesupport_c.dir/rosidl_typesupport_c/yolo_inference/msg/yolov8_inference__type_support.cpp.o[0m
+[3.312s] [ 48%] [32m[1mLinking CXX shared library libyolo_inference__rosidl_typesupport_c.so[0m
+[3.331s] [ 51%] [32mBuilding CXX object CMakeFiles/yolo_inference__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/yolo_inference/msg/detail/inference_result__type_support_c.cpp.o[0m
+[3.349s] [ 53%] [32mBuilding C object CMakeFiles/yolo_inference__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/yolo_inference/msg/detail/inference_result__type_support.c.o[0m
+[3.355s] [ 53%] Built target yolo_inference__rosidl_typesupport_c
+[3.359s] [ 56%] [32mBuilding CXX object CMakeFiles/yolo_inference__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/yolo_inference/msg/detail/yolov8_inference__type_support_c.cpp.o[0m
+[3.416s] [ 58%] [32mBuilding C object CMakeFiles/yolo_inference__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/yolo_inference/msg/detail/yolov8_inference__type_support.c.o[0m
+[3.474s] [ 61%] [32m[1mLinking C shared library libyolo_inference__rosidl_typesupport_introspection_c.so[0m
+[3.477s] [ 66%] [32m[1mLinking CXX shared library libyolo_inference__rosidl_typesupport_cpp.so[0m
+[3.477s] [ 66%] [32mBuilding CXX object CMakeFiles/yolo_inference__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/yolo_inference/msg/detail/yolov8_inference__type_support.cpp.o[0m
+[3.511s] [ 66%] Built target yolo_inference__rosidl_typesupport_introspection_c
+[3.516s] [ 66%] Built target yolo_inference__rosidl_typesupport_cpp
+[3.694s] [ 69%] [32m[1mLinking CXX shared library libyolo_inference__rosidl_typesupport_fastrtps_cpp.so[0m
+[3.721s] [ 71%] [32m[1mLinking CXX shared library libyolo_inference__rosidl_typesupport_fastrtps_c.so[0m
+[3.762s] [ 71%] Built target yolo_inference__rosidl_typesupport_fastrtps_cpp
+[3.782s] [ 71%] Built target yolo_inference__rosidl_typesupport_fastrtps_c
+[3.822s] [ 74%] [32m[1mLinking CXX shared library libyolo_inference__rosidl_typesupport_introspection_cpp.so[0m
+[3.870s] [ 74%] Built target yolo_inference__rosidl_typesupport_introspection_cpp
+[3.876s] [ 74%] Built target yolo_inference
+[3.882s] [ 76%] [34m[1mGenerating Python code for ROS interfaces[0m
+[4.148s] [ 76%] Built target yolo_inference__py
+[4.154s] [ 82%] [32mBuilding C object CMakeFiles/yolo_inference__rosidl_generator_py.dir/rosidl_generator_py/yolo_inference/msg/_inference_result_s.c.o[0m
+[4.154s] [ 82%] [32mBuilding C object CMakeFiles/yolo_inference__rosidl_generator_py.dir/rosidl_generator_py/yolo_inference/msg/_yolov8_inference_s.c.o[0m
+[4.332s] [ 84%] [32m[1mLinking C shared library rosidl_generator_py/yolo_inference/libyolo_inference__rosidl_generator_py.so[0m
+[4.356s] [ 84%] Built target yolo_inference__rosidl_generator_py
+[4.361s] [ 92%] [32mBuilding C object CMakeFiles/yolo_inference__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/yolo_inference/_yolo_inference_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[4.361s] [ 92%] [32mBuilding C object CMakeFiles/yolo_inference__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/yolo_inference/_yolo_inference_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[4.362s] [ 92%] [32mBuilding C object CMakeFiles/yolo_inference__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/yolo_inference/_yolo_inference_s.ep.rosidl_typesupport_c.c.o[0m
+[4.430s] [100%] [32m[1mLinking C shared library rosidl_generator_py/yolo_inference/yolo_inference_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so[0m
+[4.430s] [100%] [32m[1mLinking C shared library rosidl_generator_py/yolo_inference/yolo_inference_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so[0m
+[4.430s] [100%] [32m[1mLinking C shared library rosidl_generator_py/yolo_inference/yolo_inference_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so[0m
+[4.448s] [100%] Built target yolo_inference__rosidl_typesupport_c__pyext
+[4.448s] [100%] Built target yolo_inference__rosidl_typesupport_introspection_c__pyext
+[4.448s] [100%] Built target yolo_inference__rosidl_typesupport_fastrtps_c__pyext
+[4.458s] Invoked command in '/home/gomi/dev_ws/SRA/yolo_ws/build/yolo_inference' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /home/gomi/.local/bin/cmake --build /home/gomi/dev_ws/SRA/yolo_ws/build/yolo_inference -- -j8 -l8
+[4.587s] Invoking command in '/home/gomi/dev_ws/SRA/yolo_ws/build/yolo_inference': CMAKE_PREFIX_PATH=/opt/ros/humble /home/gomi/.local/bin/cmake --install /home/gomi/dev_ws/SRA/yolo_ws/build/yolo_inference
+[4.624s] -- Install configuration: ""
+[4.624s] -- Installing: /home/gomi/dev_ws/SRA/yolo_ws/install/yolo_inference/share/ament_index/resource_index/rosidl_interfaces/yolo_inference
+[4.624s] -- Installing: /home/gomi/dev_ws/SRA/yolo_ws/install/yolo_inference/include/yolo_inference/yolo_inference
+[4.624s] -- Installing: /home/gomi/dev_ws/SRA/yolo_ws/install/yolo_inference/include/yolo_inference/yolo_inference/msg
+[4.624s] -- Installing: /home/gomi/dev_ws/SRA/yolo_ws/install/yolo_inference/include/yolo_inference/yolo_inference/msg/yolov8_inference.h
+[4.624s] -- Installing: /home/gomi/dev_ws/SRA/yolo_ws/install/yolo_inference/include/yolo_inference/yolo_inference/msg/inference_result.h
+[4.624s] -- Installing: /home/gomi/dev_ws/SRA/yolo_ws/install/yolo_inference/include/yolo_inference/yolo_inference/msg/rosidl_generator_c__visibility_control.h
+[4.624s] -- Installing: /home/gomi/dev_ws/SRA/yolo_ws/install/yolo_inference/include/yolo_inference/yolo_inference/msg/detail
+[4.625s] -- Installing: /home/gomi/dev_ws/SRA/yolo_ws/install/yolo_inference/include/yolo_inference/yolo_inference/msg/detail/yolov8_inference__functions.h
+[4.625s] -- Installing: /home/gomi/dev_ws/SRA/yolo_ws/install/yolo_inference/include/yolo_inference/yolo_inference/msg/detail/yolov8_inference__functions.c
+[4.625s] -- Installing: /home/gomi/dev_ws/SRA/yolo_ws/install/yolo_inference/include/yolo_inference/yolo_inference/msg/detail/yolov8_inference__struct.h
+[4.625s] -- Installing: /home/gomi/dev_ws/SRA/yolo_ws/install/yolo_inference/include/yolo_inference/yolo_inference/msg/detail/inference_result__functions.c
+[4.625s] -- Installing: /home/gomi/dev_ws/SRA/yolo_ws/install/yolo_inference/include/yolo_inference/yolo_inference/msg/detail/inference_result__type_support.h
+[4.625s] -- Installing: /home/gomi/dev_ws/SRA/yolo_ws/install/yolo_inference/include/yolo_inference/yolo_inference/msg/detail/inference_result__functions.h
+[4.625s] -- Installing: /home/gomi/dev_ws/SRA/yolo_ws/install/yolo_inference/include/yolo_inference/yolo_inference/msg/detail/inference_result__struct.h
+[4.625s] -- Installing: /home/gomi/dev_ws/SRA/yolo_ws/install/yolo_inference/include/yolo_inference/yolo_inference/msg/detail/yolov8_inference__type_support.h
+[4.625s] -- Installing: /home/gomi/dev_ws/SRA/yolo_ws/install/yolo_inference/share/yolo_inference/environment/library_path.sh
+[4.625s] -- Installing: /home/gomi/dev_ws/SRA/yolo_ws/install/yolo_inference/share/yolo_inference/environment/library_path.dsv
+[4.625s] -- Installing: /home/gomi/dev_ws/SRA/yolo_ws/install/yolo_inference/lib/libyolo_inference__rosidl_generator_c.so
+[4.625s] -- Set runtime path of "/home/gomi/dev_ws/SRA/yolo_ws/install/yolo_inference/lib/libyolo_inference__rosidl_generator_c.so" to ""
+[4.625s] -- Up-to-date: /home/gomi/dev_ws/SRA/yolo_ws/install/yolo_inference/include/yolo_inference/yolo_inference
+[4.625s] -- Up-to-date: /home/gomi/dev_ws/SRA/yolo_ws/install/yolo_inference/include/yolo_inference/yolo_inference/msg
+[4.625s] -- Installing: /home/gomi/dev_ws/SRA/yolo_ws/install/yolo_inference/include/yolo_inference/yolo_inference/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[4.626s] -- Up-to-date: /home/gomi/dev_ws/SRA/yolo_ws/install/yolo_inference/include/yolo_inference/yolo_inference/msg/detail
+[4.626s] -- Installing: /home/gomi/dev_ws/SRA/yolo_ws/install/yolo_inference/include/yolo_inference/yolo_inference/msg/detail/yolov8_inference__rosidl_typesupport_fastrtps_c.h
+[4.626s] -- Installing: /home/gomi/dev_ws/SRA/yolo_ws/install/yolo_inference/include/yolo_inference/yolo_inference/msg/detail/inference_result__rosidl_typesupport_fastrtps_c.h
+[4.626s] -- Installing: /home/gomi/dev_ws/SRA/yolo_ws/install/yolo_inference/lib/libyolo_inference__rosidl_typesupport_fastrtps_c.so
+[4.626s] -- Set runtime path of "/home/gomi/dev_ws/SRA/yolo_ws/install/yolo_inference/lib/libyolo_inference__rosidl_typesupport_fastrtps_c.so" to ""
+[4.626s] -- Up-to-date: /home/gomi/dev_ws/SRA/yolo_ws/install/yolo_inference/include/yolo_inference/yolo_inference
+[4.626s] -- Up-to-date: /home/gomi/dev_ws/SRA/yolo_ws/install/yolo_inference/include/yolo_inference/yolo_inference/msg
+[4.626s] -- Installing: /home/gomi/dev_ws/SRA/yolo_ws/install/yolo_inference/include/yolo_inference/yolo_inference/msg/yolov8_inference.hpp
+[4.626s] -- Installing: /home/gomi/dev_ws/SRA/yolo_ws/install/yolo_inference/include/yolo_inference/yolo_inference/msg/inference_result.hpp
+[4.626s] -- Up-to-date: /home/gomi/dev_ws/SRA/yolo_ws/install/yolo_inference/include/yolo_inference/yolo_inference/msg/detail
+[4.626s] -- Installing: /home/gomi/dev_ws/SRA/yolo_ws/install/yolo_inference/include/yolo_inference/yolo_inference/msg/detail/inference_result__builder.hpp
+[4.626s] -- Installing: /home/gomi/dev_ws/SRA/yolo_ws/install/yolo_inference/include/yolo_inference/yolo_inference/msg/detail/yolov8_inference__builder.hpp
+[4.626s] -- Installing: /home/gomi/dev_ws/SRA/yolo_ws/install/yolo_inference/include/yolo_inference/yolo_inference/msg/detail/yolov8_inference__struct.hpp
+[4.626s] -- Installing: /home/gomi/dev_ws/SRA/yolo_ws/install/yolo_inference/include/yolo_inference/yolo_inference/msg/detail/inference_result__traits.hpp
+[4.626s] -- Installing: /home/gomi/dev_ws/SRA/yolo_ws/install/yolo_inference/include/yolo_inference/yolo_inference/msg/detail/yolov8_inference__traits.hpp
+[4.627s] -- Installing: /home/gomi/dev_ws/SRA/yolo_ws/install/yolo_inference/include/yolo_inference/yolo_inference/msg/detail/inference_result__struct.hpp
+[4.627s] -- Up-to-date: /home/gomi/dev_ws/SRA/yolo_ws/install/yolo_inference/include/yolo_inference/yolo_inference
+[4.627s] -- Up-to-date: /home/gomi/dev_ws/SRA/yolo_ws/install/yolo_inference/include/yolo_inference/yolo_inference/msg
+[4.627s] -- Installing: /home/gomi/dev_ws/SRA/yolo_ws/install/yolo_inference/include/yolo_inference/yolo_inference/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[4.627s] -- Up-to-date: /home/gomi/dev_ws/SRA/yolo_ws/install/yolo_inference/include/yolo_inference/yolo_inference/msg/detail
+[4.627s] -- Installing: /home/gomi/dev_ws/SRA/yolo_ws/install/yolo_inference/include/yolo_inference/yolo_inference/msg/detail/inference_result__rosidl_typesupport_fastrtps_cpp.hpp
+[4.627s] -- Installing: /home/gomi/dev_ws/SRA/yolo_ws/install/yolo_inference/include/yolo_inference/yolo_inference/msg/detail/dds_fastrtps
+[4.627s] -- Installing: /home/gomi/dev_ws/SRA/yolo_ws/install/yolo_inference/include/yolo_inference/yolo_inference/msg/detail/yolov8_inference__rosidl_typesupport_fastrtps_cpp.hpp
+[4.627s] -- Installing: /home/gomi/dev_ws/SRA/yolo_ws/install/yolo_inference/lib/libyolo_inference__rosidl_typesupport_fastrtps_cpp.so
+[4.627s] -- Set runtime path of "/home/gomi/dev_ws/SRA/yolo_ws/install/yolo_inference/lib/libyolo_inference__rosidl_typesupport_fastrtps_cpp.so" to ""
+[4.627s] -- Up-to-date: /home/gomi/dev_ws/SRA/yolo_ws/install/yolo_inference/include/yolo_inference/yolo_inference
+[4.627s] -- Up-to-date: /home/gomi/dev_ws/SRA/yolo_ws/install/yolo_inference/include/yolo_inference/yolo_inference/msg
+[4.627s] -- Installing: /home/gomi/dev_ws/SRA/yolo_ws/install/yolo_inference/include/yolo_inference/yolo_inference/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[4.627s] -- Up-to-date: /home/gomi/dev_ws/SRA/yolo_ws/install/yolo_inference/include/yolo_inference/yolo_inference/msg/detail
+[4.627s] -- Installing: /home/gomi/dev_ws/SRA/yolo_ws/install/yolo_inference/include/yolo_inference/yolo_inference/msg/detail/yolov8_inference__rosidl_typesupport_introspection_c.h
+[4.628s] -- Installing: /home/gomi/dev_ws/SRA/yolo_ws/install/yolo_inference/include/yolo_inference/yolo_inference/msg/detail/inference_result__rosidl_typesupport_introspection_c.h
+[4.628s] -- Installing: /home/gomi/dev_ws/SRA/yolo_ws/install/yolo_inference/include/yolo_inference/yolo_inference/msg/detail/yolov8_inference__type_support.c
+[4.628s] -- Installing: /home/gomi/dev_ws/SRA/yolo_ws/install/yolo_inference/include/yolo_inference/yolo_inference/msg/detail/inference_result__type_support.c
+[4.628s] -- Installing: /home/gomi/dev_ws/SRA/yolo_ws/install/yolo_inference/lib/libyolo_inference__rosidl_typesupport_introspection_c.so
+[4.628s] -- Set runtime path of "/home/gomi/dev_ws/SRA/yolo_ws/install/yolo_inference/lib/libyolo_inference__rosidl_typesupport_introspection_c.so" to ""
+[4.628s] -- Installing: /home/gomi/dev_ws/SRA/yolo_ws/install/yolo_inference/lib/libyolo_inference__rosidl_typesupport_c.so
+[4.628s] -- Set runtime path of "/home/gomi/dev_ws/SRA/yolo_ws/install/yolo_inference/lib/libyolo_inference__rosidl_typesupport_c.so" to ""
+[4.628s] -- Up-to-date: /home/gomi/dev_ws/SRA/yolo_ws/install/yolo_inference/include/yolo_inference/yolo_inference
+[4.628s] -- Up-to-date: /home/gomi/dev_ws/SRA/yolo_ws/install/yolo_inference/include/yolo_inference/yolo_inference/msg
+[4.628s] -- Up-to-date: /home/gomi/dev_ws/SRA/yolo_ws/install/yolo_inference/include/yolo_inference/yolo_inference/msg/detail
+[4.628s] -- Installing: /home/gomi/dev_ws/SRA/yolo_ws/install/yolo_inference/include/yolo_inference/yolo_inference/msg/detail/yolov8_inference__type_support.cpp
+[4.628s] -- Installing: /home/gomi/dev_ws/SRA/yolo_ws/install/yolo_inference/include/yolo_inference/yolo_inference/msg/detail/yolov8_inference__rosidl_typesupport_introspection_cpp.hpp
+[4.628s] -- Installing: /home/gomi/dev_ws/SRA/yolo_ws/install/yolo_inference/include/yolo_inference/yolo_inference/msg/detail/inference_result__rosidl_typesupport_introspection_cpp.hpp
+[4.628s] -- Installing: /home/gomi/dev_ws/SRA/yolo_ws/install/yolo_inference/include/yolo_inference/yolo_inference/msg/detail/inference_result__type_support.cpp
+[4.628s] -- Installing: /home/gomi/dev_ws/SRA/yolo_ws/install/yolo_inference/lib/libyolo_inference__rosidl_typesupport_introspection_cpp.so
+[4.628s] -- Set runtime path of "/home/gomi/dev_ws/SRA/yolo_ws/install/yolo_inference/lib/libyolo_inference__rosidl_typesupport_introspection_cpp.so" to ""
+[4.629s] -- Installing: /home/gomi/dev_ws/SRA/yolo_ws/install/yolo_inference/lib/libyolo_inference__rosidl_typesupport_cpp.so
+[4.629s] -- Set runtime path of "/home/gomi/dev_ws/SRA/yolo_ws/install/yolo_inference/lib/libyolo_inference__rosidl_typesupport_cpp.so" to ""
+[4.629s] -- Installing: /home/gomi/dev_ws/SRA/yolo_ws/install/yolo_inference/share/yolo_inference/environment/pythonpath.sh
+[4.629s] -- Installing: /home/gomi/dev_ws/SRA/yolo_ws/install/yolo_inference/share/yolo_inference/environment/pythonpath.dsv
+[4.629s] -- Installing: /home/gomi/dev_ws/SRA/yolo_ws/install/yolo_inference/local/lib/python3.10/dist-packages/yolo_inference-0.0.0-py3.10.egg-info
+[4.629s] -- Installing: /home/gomi/dev_ws/SRA/yolo_ws/install/yolo_inference/local/lib/python3.10/dist-packages/yolo_inference-0.0.0-py3.10.egg-info/PKG-INFO
+[4.629s] -- Installing: /home/gomi/dev_ws/SRA/yolo_ws/install/yolo_inference/local/lib/python3.10/dist-packages/yolo_inference-0.0.0-py3.10.egg-info/top_level.txt
+[4.629s] -- Installing: /home/gomi/dev_ws/SRA/yolo_ws/install/yolo_inference/local/lib/python3.10/dist-packages/yolo_inference-0.0.0-py3.10.egg-info/SOURCES.txt
+[4.629s] -- Installing: /home/gomi/dev_ws/SRA/yolo_ws/install/yolo_inference/local/lib/python3.10/dist-packages/yolo_inference-0.0.0-py3.10.egg-info/dependency_links.txt
+[4.629s] -- Installing: /home/gomi/dev_ws/SRA/yolo_ws/install/yolo_inference/local/lib/python3.10/dist-packages/yolo_inference
+[4.629s] -- Installing: /home/gomi/dev_ws/SRA/yolo_ws/install/yolo_inference/local/lib/python3.10/dist-packages/yolo_inference/yolo_inference_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[4.629s] -- Installing: /home/gomi/dev_ws/SRA/yolo_ws/install/yolo_inference/local/lib/python3.10/dist-packages/yolo_inference/yolo_inference_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[4.629s] -- Installing: /home/gomi/dev_ws/SRA/yolo_ws/install/yolo_inference/local/lib/python3.10/dist-packages/yolo_inference/_yolo_inference_s.ep.rosidl_typesupport_fastrtps_c.c
+[4.629s] -- Installing: /home/gomi/dev_ws/SRA/yolo_ws/install/yolo_inference/local/lib/python3.10/dist-packages/yolo_inference/msg
+[4.629s] -- Installing: /home/gomi/dev_ws/SRA/yolo_ws/install/yolo_inference/local/lib/python3.10/dist-packages/yolo_inference/msg/_yolov8_inference.py
+[4.630s] -- Installing: /home/gomi/dev_ws/SRA/yolo_ws/install/yolo_inference/local/lib/python3.10/dist-packages/yolo_inference/msg/_inference_result.py
+[4.630s] -- Installing: /home/gomi/dev_ws/SRA/yolo_ws/install/yolo_inference/local/lib/python3.10/dist-packages/yolo_inference/msg/_inference_result_s.c
+[4.630s] -- Installing: /home/gomi/dev_ws/SRA/yolo_ws/install/yolo_inference/local/lib/python3.10/dist-packages/yolo_inference/msg/__init__.py
+[4.630s] -- Installing: /home/gomi/dev_ws/SRA/yolo_ws/install/yolo_inference/local/lib/python3.10/dist-packages/yolo_inference/msg/_yolov8_inference_s.c
+[4.630s] -- Installing: /home/gomi/dev_ws/SRA/yolo_ws/install/yolo_inference/local/lib/python3.10/dist-packages/yolo_inference/_yolo_inference_s.ep.rosidl_typesupport_introspection_c.c
+[4.630s] -- Installing: /home/gomi/dev_ws/SRA/yolo_ws/install/yolo_inference/local/lib/python3.10/dist-packages/yolo_inference/_yolo_inference_s.ep.rosidl_typesupport_c.c
+[4.630s] -- Installing: /home/gomi/dev_ws/SRA/yolo_ws/install/yolo_inference/local/lib/python3.10/dist-packages/yolo_inference/libyolo_inference__rosidl_generator_py.so
+[4.630s] -- Installing: /home/gomi/dev_ws/SRA/yolo_ws/install/yolo_inference/local/lib/python3.10/dist-packages/yolo_inference/yolo_inference_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[4.630s] -- Installing: /home/gomi/dev_ws/SRA/yolo_ws/install/yolo_inference/local/lib/python3.10/dist-packages/yolo_inference/__init__.py
+[4.654s] Listing '/home/gomi/dev_ws/SRA/yolo_ws/install/yolo_inference/local/lib/python3.10/dist-packages/yolo_inference'...
+[4.654s] Compiling '/home/gomi/dev_ws/SRA/yolo_ws/install/yolo_inference/local/lib/python3.10/dist-packages/yolo_inference/__init__.py'...
+[4.654s] Listing '/home/gomi/dev_ws/SRA/yolo_ws/install/yolo_inference/local/lib/python3.10/dist-packages/yolo_inference/msg'...
+[4.654s] Compiling '/home/gomi/dev_ws/SRA/yolo_ws/install/yolo_inference/local/lib/python3.10/dist-packages/yolo_inference/msg/__init__.py'...
+[4.654s] Compiling '/home/gomi/dev_ws/SRA/yolo_ws/install/yolo_inference/local/lib/python3.10/dist-packages/yolo_inference/msg/_inference_result.py'...
+[4.654s] Compiling '/home/gomi/dev_ws/SRA/yolo_ws/install/yolo_inference/local/lib/python3.10/dist-packages/yolo_inference/msg/_yolov8_inference.py'...
+[4.658s] -- Installing: /home/gomi/dev_ws/SRA/yolo_ws/install/yolo_inference/local/lib/python3.10/dist-packages/yolo_inference/yolo_inference_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[4.658s] -- Set runtime path of "/home/gomi/dev_ws/SRA/yolo_ws/install/yolo_inference/local/lib/python3.10/dist-packages/yolo_inference/yolo_inference_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so" to ""
+[4.659s] -- Installing: /home/gomi/dev_ws/SRA/yolo_ws/install/yolo_inference/local/lib/python3.10/dist-packages/yolo_inference/yolo_inference_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[4.659s] -- Set runtime path of "/home/gomi/dev_ws/SRA/yolo_ws/install/yolo_inference/local/lib/python3.10/dist-packages/yolo_inference/yolo_inference_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so" to ""
+[4.659s] -- Installing: /home/gomi/dev_ws/SRA/yolo_ws/install/yolo_inference/local/lib/python3.10/dist-packages/yolo_inference/yolo_inference_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[4.659s] -- Set runtime path of "/home/gomi/dev_ws/SRA/yolo_ws/install/yolo_inference/local/lib/python3.10/dist-packages/yolo_inference/yolo_inference_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so" to ""
+[4.659s] -- Installing: /home/gomi/dev_ws/SRA/yolo_ws/install/yolo_inference/lib/libyolo_inference__rosidl_generator_py.so
+[4.659s] -- Set runtime path of "/home/gomi/dev_ws/SRA/yolo_ws/install/yolo_inference/lib/libyolo_inference__rosidl_generator_py.so" to ""
+[4.659s] -- Installing: /home/gomi/dev_ws/SRA/yolo_ws/install/yolo_inference/share/yolo_inference/msg/InferenceResult.idl
+[4.659s] -- Installing: /home/gomi/dev_ws/SRA/yolo_ws/install/yolo_inference/share/yolo_inference/msg/Yolov8Inference.idl
+[4.659s] -- Installing: /home/gomi/dev_ws/SRA/yolo_ws/install/yolo_inference/share/yolo_inference/msg/InferenceResult.msg
+[4.660s] -- Installing: /home/gomi/dev_ws/SRA/yolo_ws/install/yolo_inference/share/yolo_inference/msg/Yolov8Inference.msg
+[4.660s] -- Installing: /home/gomi/dev_ws/SRA/yolo_ws/install/yolo_inference/share/ament_index/resource_index/package_run_dependencies/yolo_inference
+[4.660s] -- Installing: /home/gomi/dev_ws/SRA/yolo_ws/install/yolo_inference/share/ament_index/resource_index/parent_prefix_path/yolo_inference
+[4.660s] -- Installing: /home/gomi/dev_ws/SRA/yolo_ws/install/yolo_inference/share/yolo_inference/environment/ament_prefix_path.sh
+[4.660s] -- Installing: /home/gomi/dev_ws/SRA/yolo_ws/install/yolo_inference/share/yolo_inference/environment/ament_prefix_path.dsv
+[4.660s] -- Installing: /home/gomi/dev_ws/SRA/yolo_ws/install/yolo_inference/share/yolo_inference/environment/path.sh
+[4.660s] -- Installing: /home/gomi/dev_ws/SRA/yolo_ws/install/yolo_inference/share/yolo_inference/environment/path.dsv
+[4.660s] -- Installing: /home/gomi/dev_ws/SRA/yolo_ws/install/yolo_inference/share/yolo_inference/local_setup.bash
+[4.660s] -- Installing: /home/gomi/dev_ws/SRA/yolo_ws/install/yolo_inference/share/yolo_inference/local_setup.sh
+[4.660s] -- Installing: /home/gomi/dev_ws/SRA/yolo_ws/install/yolo_inference/share/yolo_inference/local_setup.zsh
+[4.660s] -- Installing: /home/gomi/dev_ws/SRA/yolo_ws/install/yolo_inference/share/yolo_inference/local_setup.dsv
+[4.660s] -- Installing: /home/gomi/dev_ws/SRA/yolo_ws/install/yolo_inference/share/yolo_inference/package.dsv
+[4.661s] -- Installing: /home/gomi/dev_ws/SRA/yolo_ws/install/yolo_inference/share/ament_index/resource_index/packages/yolo_inference
+[4.661s] -- Installing: /home/gomi/dev_ws/SRA/yolo_ws/install/yolo_inference/share/yolo_inference/cmake/export_yolo_inference__rosidl_generator_cExport.cmake
+[4.661s] -- Installing: /home/gomi/dev_ws/SRA/yolo_ws/install/yolo_inference/share/yolo_inference/cmake/export_yolo_inference__rosidl_generator_cExport-noconfig.cmake
+[4.661s] -- Installing: /home/gomi/dev_ws/SRA/yolo_ws/install/yolo_inference/share/yolo_inference/cmake/export_yolo_inference__rosidl_typesupport_fastrtps_cExport.cmake
+[4.661s] -- Installing: /home/gomi/dev_ws/SRA/yolo_ws/install/yolo_inference/share/yolo_inference/cmake/export_yolo_inference__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[4.661s] -- Installing: /home/gomi/dev_ws/SRA/yolo_ws/install/yolo_inference/share/yolo_inference/cmake/export_yolo_inference__rosidl_generator_cppExport.cmake
+[4.661s] -- Installing: /home/gomi/dev_ws/SRA/yolo_ws/install/yolo_inference/share/yolo_inference/cmake/export_yolo_inference__rosidl_typesupport_fastrtps_cppExport.cmake
+[4.661s] -- Installing: /home/gomi/dev_ws/SRA/yolo_ws/install/yolo_inference/share/yolo_inference/cmake/export_yolo_inference__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[4.661s] -- Installing: /home/gomi/dev_ws/SRA/yolo_ws/install/yolo_inference/share/yolo_inference/cmake/yolo_inference__rosidl_typesupport_introspection_cExport.cmake
+[4.661s] -- Installing: /home/gomi/dev_ws/SRA/yolo_ws/install/yolo_inference/share/yolo_inference/cmake/yolo_inference__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[4.661s] -- Installing: /home/gomi/dev_ws/SRA/yolo_ws/install/yolo_inference/share/yolo_inference/cmake/yolo_inference__rosidl_typesupport_cExport.cmake
+[4.661s] -- Installing: /home/gomi/dev_ws/SRA/yolo_ws/install/yolo_inference/share/yolo_inference/cmake/yolo_inference__rosidl_typesupport_cExport-noconfig.cmake
+[4.661s] -- Installing: /home/gomi/dev_ws/SRA/yolo_ws/install/yolo_inference/share/yolo_inference/cmake/yolo_inference__rosidl_typesupport_introspection_cppExport.cmake
+[4.662s] -- Installing: /home/gomi/dev_ws/SRA/yolo_ws/install/yolo_inference/share/yolo_inference/cmake/yolo_inference__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[4.662s] -- Installing: /home/gomi/dev_ws/SRA/yolo_ws/install/yolo_inference/share/yolo_inference/cmake/yolo_inference__rosidl_typesupport_cppExport.cmake
+[4.662s] -- Installing: /home/gomi/dev_ws/SRA/yolo_ws/install/yolo_inference/share/yolo_inference/cmake/yolo_inference__rosidl_typesupport_cppExport-noconfig.cmake
+[4.662s] -- Installing: /home/gomi/dev_ws/SRA/yolo_ws/install/yolo_inference/share/yolo_inference/cmake/export_yolo_inference__rosidl_generator_pyExport.cmake
+[4.662s] -- Installing: /home/gomi/dev_ws/SRA/yolo_ws/install/yolo_inference/share/yolo_inference/cmake/export_yolo_inference__rosidl_generator_pyExport-noconfig.cmake
+[4.662s] -- Installing: /home/gomi/dev_ws/SRA/yolo_ws/install/yolo_inference/share/yolo_inference/cmake/rosidl_cmake-extras.cmake
+[4.662s] -- Installing: /home/gomi/dev_ws/SRA/yolo_ws/install/yolo_inference/share/yolo_inference/cmake/ament_cmake_export_dependencies-extras.cmake
+[4.662s] -- Installing: /home/gomi/dev_ws/SRA/yolo_ws/install/yolo_inference/share/yolo_inference/cmake/ament_cmake_export_include_directories-extras.cmake
+[4.662s] -- Installing: /home/gomi/dev_ws/SRA/yolo_ws/install/yolo_inference/share/yolo_inference/cmake/ament_cmake_export_libraries-extras.cmake
+[4.662s] -- Installing: /home/gomi/dev_ws/SRA/yolo_ws/install/yolo_inference/share/yolo_inference/cmake/ament_cmake_export_targets-extras.cmake
+[4.662s] -- Installing: /home/gomi/dev_ws/SRA/yolo_ws/install/yolo_inference/share/yolo_inference/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[4.662s] -- Installing: /home/gomi/dev_ws/SRA/yolo_ws/install/yolo_inference/share/yolo_inference/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[4.662s] -- Installing: /home/gomi/dev_ws/SRA/yolo_ws/install/yolo_inference/share/yolo_inference/cmake/yolo_inferenceConfig.cmake
+[4.662s] -- Installing: /home/gomi/dev_ws/SRA/yolo_ws/install/yolo_inference/share/yolo_inference/cmake/yolo_inferenceConfig-version.cmake
+[4.663s] -- Installing: /home/gomi/dev_ws/SRA/yolo_ws/install/yolo_inference/share/yolo_inference/package.xml
+[4.671s] Invoked command in '/home/gomi/dev_ws/SRA/yolo_ws/build/yolo_inference' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /home/gomi/.local/bin/cmake --install /home/gomi/dev_ws/SRA/yolo_ws/build/yolo_inference
