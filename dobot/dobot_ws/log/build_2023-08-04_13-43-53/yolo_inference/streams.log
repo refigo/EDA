@@ -1,0 +1,8 @@
+[0.014s] Invoking command in '/home/ksh/yolo_ws/build/yolo_inference': CMAKE_PREFIX_PATH=/opt/ros/humble /home/ksh/.local/bin/cmake /home/ksh/yolo_ws/src/yolo_inference -DCMAKE_INSTALL_PREFIX=/home/ksh/yolo_ws/install/yolo_inference
+[0.051s] [31mCMake Error at CMakeLists.txt:16:
+[0.051s]   Parse error.  Expected a command name, got quoted argument with text
+[0.051s]   "msg/InferenceResult.msg".
+[0.051s] 
+[0.051s] [0m
+[0.051s] -- Configuring incomplete, errors occurred!
+[0.222s] Invoked command in '/home/ksh/yolo_ws/build/yolo_inference' returned '1': CMAKE_PREFIX_PATH=/opt/ros/humble /home/ksh/.local/bin/cmake /home/ksh/yolo_ws/src/yolo_inference -DCMAKE_INSTALL_PREFIX=/home/ksh/yolo_ws/install/yolo_inference

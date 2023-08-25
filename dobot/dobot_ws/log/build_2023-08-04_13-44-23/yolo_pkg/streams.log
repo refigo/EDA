@@ -1,0 +1,35 @@
+[0.553s] Invoking command in '/home/ksh/yolo_ws/src/yolo_pkg': PYTHONPATH=/home/ksh/yolo_ws/build/yolo_pkg/prefix_override:/home/ksh/yolo_ws/install/yolo_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/yolo_pkg build --build-base /home/ksh/yolo_ws/build/yolo_pkg/build install --record /home/ksh/yolo_ws/build/yolo_pkg/install.log --single-version-externally-managed
+[0.742s] running egg_info
+[0.742s] creating ../../build/yolo_pkg/yolo_pkg.egg-info
+[0.743s] writing ../../build/yolo_pkg/yolo_pkg.egg-info/PKG-INFO
+[0.743s] writing dependency_links to ../../build/yolo_pkg/yolo_pkg.egg-info/dependency_links.txt
+[0.743s] writing entry points to ../../build/yolo_pkg/yolo_pkg.egg-info/entry_points.txt
+[0.743s] writing requirements to ../../build/yolo_pkg/yolo_pkg.egg-info/requires.txt
+[0.743s] writing top-level names to ../../build/yolo_pkg/yolo_pkg.egg-info/top_level.txt
+[0.743s] writing manifest file '../../build/yolo_pkg/yolo_pkg.egg-info/SOURCES.txt'
+[0.744s] reading manifest file '../../build/yolo_pkg/yolo_pkg.egg-info/SOURCES.txt'
+[0.745s] writing manifest file '../../build/yolo_pkg/yolo_pkg.egg-info/SOURCES.txt'
+[0.745s] running build
+[0.745s] running build_py
+[0.745s] creating /home/ksh/yolo_ws/build/yolo_pkg/build
+[0.745s] creating /home/ksh/yolo_ws/build/yolo_pkg/build/lib
+[0.745s] creating /home/ksh/yolo_ws/build/yolo_pkg/build/lib/yolo_pkg
+[0.745s] copying yolo_pkg/__init__.py -> /home/ksh/yolo_ws/build/yolo_pkg/build/lib/yolo_pkg
+[0.745s] running install
+[0.745s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[0.745s]   warnings.warn(
+[0.745s] running install_lib
+[0.746s] creating /home/ksh/yolo_ws/install/yolo_pkg/lib/python3.10/site-packages/yolo_pkg
+[0.746s] copying /home/ksh/yolo_ws/build/yolo_pkg/build/lib/yolo_pkg/__init__.py -> /home/ksh/yolo_ws/install/yolo_pkg/lib/python3.10/site-packages/yolo_pkg
+[0.746s] byte-compiling /home/ksh/yolo_ws/install/yolo_pkg/lib/python3.10/site-packages/yolo_pkg/__init__.py to __init__.cpython-310.pyc
+[0.746s] running install_data
+[0.747s] creating /home/ksh/yolo_ws/install/yolo_pkg/share/ament_index
+[0.747s] creating /home/ksh/yolo_ws/install/yolo_pkg/share/ament_index/resource_index
+[0.747s] creating /home/ksh/yolo_ws/install/yolo_pkg/share/ament_index/resource_index/packages
+[0.747s] copying resource/yolo_pkg -> /home/ksh/yolo_ws/install/yolo_pkg/share/ament_index/resource_index/packages
+[0.747s] copying package.xml -> /home/ksh/yolo_ws/install/yolo_pkg/share/yolo_pkg
+[0.747s] running install_egg_info
+[0.748s] Copying ../../build/yolo_pkg/yolo_pkg.egg-info to /home/ksh/yolo_ws/install/yolo_pkg/lib/python3.10/site-packages/yolo_pkg-0.0.0-py3.10.egg-info
+[0.749s] running install_scripts
+[0.763s] writing list of installed files to '/home/ksh/yolo_ws/build/yolo_pkg/install.log'
+[0.783s] Invoked command in '/home/ksh/yolo_ws/src/yolo_pkg' returned '0': PYTHONPATH=/home/ksh/yolo_ws/build/yolo_pkg/prefix_override:/home/ksh/yolo_ws/install/yolo_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/yolo_pkg build --build-base /home/ksh/yolo_ws/build/yolo_pkg/build install --record /home/ksh/yolo_ws/build/yolo_pkg/install.log --single-version-externally-managed

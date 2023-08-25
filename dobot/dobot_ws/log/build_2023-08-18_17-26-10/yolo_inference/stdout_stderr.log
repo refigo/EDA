@@ -1,0 +1,158 @@
+[0mCMake Error: The current CMakeCache.txt directory /home/ksh/dobot_ws/build/yolo_inference/CMakeCache.txt is different than the directory /home/ksh/yolo_ws/build/yolo_inference where CMakeCache.txt was created. This may result in binaries being created in the wrong place. If you are not sure, reedit the CMakeCache.txt[0m
+[  2%] Built target yolo_inference__cpp
+[ 12%] Built target yolo_inference__rosidl_generator_c
+[ 12%] Built target ament_cmake_python_copy_yolo_inference
+[ 23%] Built target yolo_inference__rosidl_typesupport_cpp
+[ 38%] Built target yolo_inference__rosidl_typesupport_introspection_cpp
+[ 43%] Built target yolo_inference__rosidl_typesupport_fastrtps_c
+[ 53%] Built target yolo_inference__rosidl_typesupport_introspection_c
+[ 64%] Built target yolo_inference__rosidl_typesupport_fastrtps_cpp
+[ 74%] Built target yolo_inference__rosidl_typesupport_c
+[ 74%] Built target yolo_inference
+[ 76%] Built target yolo_inference__py
+[ 84%] Built target yolo_inference__rosidl_generator_py
+[ 89%] Built target yolo_inference__rosidl_typesupport_introspection_c__pyext
+[ 94%] Built target yolo_inference__rosidl_typesupport_c__pyext
+[100%] Built target yolo_inference__rosidl_typesupport_fastrtps_c__pyext
+running egg_info
+writing yolo_inference.egg-info/PKG-INFO
+writing dependency_links to yolo_inference.egg-info/dependency_links.txt
+writing top-level names to yolo_inference.egg-info/top_level.txt
+reading manifest file 'yolo_inference.egg-info/SOURCES.txt'
+writing manifest file 'yolo_inference.egg-info/SOURCES.txt'
+[100%] Built target ament_cmake_python_build_yolo_inference_egg
+-- Install configuration: ""
+-- Up-to-date: /home/ksh/yolo_ws/install/yolo_inference/share/ament_index/resource_index/rosidl_interfaces/yolo_inference
+-- Up-to-date: /home/ksh/yolo_ws/install/yolo_inference/include/yolo_inference/yolo_inference
+-- Up-to-date: /home/ksh/yolo_ws/install/yolo_inference/include/yolo_inference/yolo_inference/msg
+-- Up-to-date: /home/ksh/yolo_ws/install/yolo_inference/include/yolo_inference/yolo_inference/msg/inference_result.h
+-- Up-to-date: /home/ksh/yolo_ws/install/yolo_inference/include/yolo_inference/yolo_inference/msg/yolov8_inference.h
+-- Up-to-date: /home/ksh/yolo_ws/install/yolo_inference/include/yolo_inference/yolo_inference/msg/rosidl_generator_c__visibility_control.h
+-- Up-to-date: /home/ksh/yolo_ws/install/yolo_inference/include/yolo_inference/yolo_inference/msg/detail
+-- Up-to-date: /home/ksh/yolo_ws/install/yolo_inference/include/yolo_inference/yolo_inference/msg/detail/yolov8_inference__type_support.h
+-- Up-to-date: /home/ksh/yolo_ws/install/yolo_inference/include/yolo_inference/yolo_inference/msg/detail/inference_result__functions.h
+-- Up-to-date: /home/ksh/yolo_ws/install/yolo_inference/include/yolo_inference/yolo_inference/msg/detail/inference_result__struct.h
+-- Up-to-date: /home/ksh/yolo_ws/install/yolo_inference/include/yolo_inference/yolo_inference/msg/detail/inference_result__functions.c
+-- Up-to-date: /home/ksh/yolo_ws/install/yolo_inference/include/yolo_inference/yolo_inference/msg/detail/yolov8_inference__struct.h
+-- Up-to-date: /home/ksh/yolo_ws/install/yolo_inference/include/yolo_inference/yolo_inference/msg/detail/inference_result__type_support.h
+-- Up-to-date: /home/ksh/yolo_ws/install/yolo_inference/include/yolo_inference/yolo_inference/msg/detail/yolov8_inference__functions.h
+-- Up-to-date: /home/ksh/yolo_ws/install/yolo_inference/include/yolo_inference/yolo_inference/msg/detail/yolov8_inference__functions.c
+-- Up-to-date: /home/ksh/yolo_ws/install/yolo_inference/share/yolo_inference/environment/library_path.sh
+-- Up-to-date: /home/ksh/yolo_ws/install/yolo_inference/share/yolo_inference/environment/library_path.dsv
+-- Up-to-date: /home/ksh/yolo_ws/install/yolo_inference/lib/libyolo_inference__rosidl_generator_c.so
+-- Up-to-date: /home/ksh/yolo_ws/install/yolo_inference/include/yolo_inference/yolo_inference
+-- Up-to-date: /home/ksh/yolo_ws/install/yolo_inference/include/yolo_inference/yolo_inference/msg
+-- Up-to-date: /home/ksh/yolo_ws/install/yolo_inference/include/yolo_inference/yolo_inference/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+-- Up-to-date: /home/ksh/yolo_ws/install/yolo_inference/include/yolo_inference/yolo_inference/msg/detail
+-- Up-to-date: /home/ksh/yolo_ws/install/yolo_inference/include/yolo_inference/yolo_inference/msg/detail/yolov8_inference__rosidl_typesupport_fastrtps_c.h
+-- Up-to-date: /home/ksh/yolo_ws/install/yolo_inference/include/yolo_inference/yolo_inference/msg/detail/inference_result__rosidl_typesupport_fastrtps_c.h
+-- Up-to-date: /home/ksh/yolo_ws/install/yolo_inference/lib/libyolo_inference__rosidl_typesupport_fastrtps_c.so
+-- Up-to-date: /home/ksh/yolo_ws/install/yolo_inference/include/yolo_inference/yolo_inference
+-- Up-to-date: /home/ksh/yolo_ws/install/yolo_inference/include/yolo_inference/yolo_inference/msg
+-- Up-to-date: /home/ksh/yolo_ws/install/yolo_inference/include/yolo_inference/yolo_inference/msg/inference_result.hpp
+-- Up-to-date: /home/ksh/yolo_ws/install/yolo_inference/include/yolo_inference/yolo_inference/msg/yolov8_inference.hpp
+-- Up-to-date: /home/ksh/yolo_ws/install/yolo_inference/include/yolo_inference/yolo_inference/msg/detail
+-- Up-to-date: /home/ksh/yolo_ws/install/yolo_inference/include/yolo_inference/yolo_inference/msg/detail/yolov8_inference__traits.hpp
+-- Up-to-date: /home/ksh/yolo_ws/install/yolo_inference/include/yolo_inference/yolo_inference/msg/detail/inference_result__builder.hpp
+-- Up-to-date: /home/ksh/yolo_ws/install/yolo_inference/include/yolo_inference/yolo_inference/msg/detail/yolov8_inference__struct.hpp
+-- Up-to-date: /home/ksh/yolo_ws/install/yolo_inference/include/yolo_inference/yolo_inference/msg/detail/yolov8_inference__builder.hpp
+-- Up-to-date: /home/ksh/yolo_ws/install/yolo_inference/include/yolo_inference/yolo_inference/msg/detail/inference_result__struct.hpp
+-- Up-to-date: /home/ksh/yolo_ws/install/yolo_inference/include/yolo_inference/yolo_inference/msg/detail/inference_result__traits.hpp
+-- Up-to-date: /home/ksh/yolo_ws/install/yolo_inference/include/yolo_inference/yolo_inference
+-- Up-to-date: /home/ksh/yolo_ws/install/yolo_inference/include/yolo_inference/yolo_inference/msg
+-- Up-to-date: /home/ksh/yolo_ws/install/yolo_inference/include/yolo_inference/yolo_inference/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+-- Up-to-date: /home/ksh/yolo_ws/install/yolo_inference/include/yolo_inference/yolo_inference/msg/detail
+-- Up-to-date: /home/ksh/yolo_ws/install/yolo_inference/include/yolo_inference/yolo_inference/msg/detail/dds_fastrtps
+-- Up-to-date: /home/ksh/yolo_ws/install/yolo_inference/include/yolo_inference/yolo_inference/msg/detail/yolov8_inference__rosidl_typesupport_fastrtps_cpp.hpp
+-- Up-to-date: /home/ksh/yolo_ws/install/yolo_inference/include/yolo_inference/yolo_inference/msg/detail/inference_result__rosidl_typesupport_fastrtps_cpp.hpp
+-- Up-to-date: /home/ksh/yolo_ws/install/yolo_inference/lib/libyolo_inference__rosidl_typesupport_fastrtps_cpp.so
+-- Up-to-date: /home/ksh/yolo_ws/install/yolo_inference/include/yolo_inference/yolo_inference
+-- Up-to-date: /home/ksh/yolo_ws/install/yolo_inference/include/yolo_inference/yolo_inference/msg
+-- Up-to-date: /home/ksh/yolo_ws/install/yolo_inference/include/yolo_inference/yolo_inference/msg/rosidl_typesupport_introspection_c__visibility_control.h
+-- Up-to-date: /home/ksh/yolo_ws/install/yolo_inference/include/yolo_inference/yolo_inference/msg/detail
+-- Up-to-date: /home/ksh/yolo_ws/install/yolo_inference/include/yolo_inference/yolo_inference/msg/detail/inference_result__rosidl_typesupport_introspection_c.h
+-- Up-to-date: /home/ksh/yolo_ws/install/yolo_inference/include/yolo_inference/yolo_inference/msg/detail/yolov8_inference__rosidl_typesupport_introspection_c.h
+-- Up-to-date: /home/ksh/yolo_ws/install/yolo_inference/include/yolo_inference/yolo_inference/msg/detail/yolov8_inference__type_support.c
+-- Up-to-date: /home/ksh/yolo_ws/install/yolo_inference/include/yolo_inference/yolo_inference/msg/detail/inference_result__type_support.c
+-- Up-to-date: /home/ksh/yolo_ws/install/yolo_inference/lib/libyolo_inference__rosidl_typesupport_introspection_c.so
+-- Up-to-date: /home/ksh/yolo_ws/install/yolo_inference/lib/libyolo_inference__rosidl_typesupport_c.so
+-- Up-to-date: /home/ksh/yolo_ws/install/yolo_inference/include/yolo_inference/yolo_inference
+-- Up-to-date: /home/ksh/yolo_ws/install/yolo_inference/include/yolo_inference/yolo_inference/msg
+-- Up-to-date: /home/ksh/yolo_ws/install/yolo_inference/include/yolo_inference/yolo_inference/msg/detail
+-- Up-to-date: /home/ksh/yolo_ws/install/yolo_inference/include/yolo_inference/yolo_inference/msg/detail/yolov8_inference__rosidl_typesupport_introspection_cpp.hpp
+-- Up-to-date: /home/ksh/yolo_ws/install/yolo_inference/include/yolo_inference/yolo_inference/msg/detail/inference_result__type_support.cpp
+-- Up-to-date: /home/ksh/yolo_ws/install/yolo_inference/include/yolo_inference/yolo_inference/msg/detail/yolov8_inference__type_support.cpp
+-- Up-to-date: /home/ksh/yolo_ws/install/yolo_inference/include/yolo_inference/yolo_inference/msg/detail/inference_result__rosidl_typesupport_introspection_cpp.hpp
+-- Up-to-date: /home/ksh/yolo_ws/install/yolo_inference/lib/libyolo_inference__rosidl_typesupport_introspection_cpp.so
+-- Up-to-date: /home/ksh/yolo_ws/install/yolo_inference/lib/libyolo_inference__rosidl_typesupport_cpp.so
+-- Up-to-date: /home/ksh/yolo_ws/install/yolo_inference/share/yolo_inference/environment/pythonpath.sh
+-- Up-to-date: /home/ksh/yolo_ws/install/yolo_inference/share/yolo_inference/environment/pythonpath.dsv
+-- Up-to-date: /home/ksh/yolo_ws/install/yolo_inference/local/lib/python3.10/dist-packages/yolo_inference-0.0.0-py3.10.egg-info
+-- Installing: /home/ksh/yolo_ws/install/yolo_inference/local/lib/python3.10/dist-packages/yolo_inference-0.0.0-py3.10.egg-info/PKG-INFO
+-- Installing: /home/ksh/yolo_ws/install/yolo_inference/local/lib/python3.10/dist-packages/yolo_inference-0.0.0-py3.10.egg-info/top_level.txt
+-- Installing: /home/ksh/yolo_ws/install/yolo_inference/local/lib/python3.10/dist-packages/yolo_inference-0.0.0-py3.10.egg-info/SOURCES.txt
+-- Installing: /home/ksh/yolo_ws/install/yolo_inference/local/lib/python3.10/dist-packages/yolo_inference-0.0.0-py3.10.egg-info/dependency_links.txt
+-- Up-to-date: /home/ksh/yolo_ws/install/yolo_inference/local/lib/python3.10/dist-packages/yolo_inference
+-- Up-to-date: /home/ksh/yolo_ws/install/yolo_inference/local/lib/python3.10/dist-packages/yolo_inference/_yolo_inference_s.ep.rosidl_typesupport_fastrtps_c.c
+-- Up-to-date: /home/ksh/yolo_ws/install/yolo_inference/local/lib/python3.10/dist-packages/yolo_inference/__init__.py
+-- Up-to-date: /home/ksh/yolo_ws/install/yolo_inference/local/lib/python3.10/dist-packages/yolo_inference/_yolo_inference_s.ep.rosidl_typesupport_introspection_c.c
+-- Up-to-date: /home/ksh/yolo_ws/install/yolo_inference/local/lib/python3.10/dist-packages/yolo_inference/yolo_inference_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+-- Up-to-date: /home/ksh/yolo_ws/install/yolo_inference/local/lib/python3.10/dist-packages/yolo_inference/libyolo_inference__rosidl_generator_py.so
+-- Up-to-date: /home/ksh/yolo_ws/install/yolo_inference/local/lib/python3.10/dist-packages/yolo_inference/msg
+-- Up-to-date: /home/ksh/yolo_ws/install/yolo_inference/local/lib/python3.10/dist-packages/yolo_inference/msg/__init__.py
+-- Up-to-date: /home/ksh/yolo_ws/install/yolo_inference/local/lib/python3.10/dist-packages/yolo_inference/msg/_yolov8_inference.py
+-- Up-to-date: /home/ksh/yolo_ws/install/yolo_inference/local/lib/python3.10/dist-packages/yolo_inference/msg/_inference_result_s.c
+-- Up-to-date: /home/ksh/yolo_ws/install/yolo_inference/local/lib/python3.10/dist-packages/yolo_inference/msg/_yolov8_inference_s.c
+-- Up-to-date: /home/ksh/yolo_ws/install/yolo_inference/local/lib/python3.10/dist-packages/yolo_inference/msg/_inference_result.py
+-- Up-to-date: /home/ksh/yolo_ws/install/yolo_inference/local/lib/python3.10/dist-packages/yolo_inference/_yolo_inference_s.ep.rosidl_typesupport_c.c
+-- Up-to-date: /home/ksh/yolo_ws/install/yolo_inference/local/lib/python3.10/dist-packages/yolo_inference/yolo_inference_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+-- Up-to-date: /home/ksh/yolo_ws/install/yolo_inference/local/lib/python3.10/dist-packages/yolo_inference/yolo_inference_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+Listing '/home/ksh/yolo_ws/install/yolo_inference/local/lib/python3.10/dist-packages/yolo_inference'...
+Listing '/home/ksh/yolo_ws/install/yolo_inference/local/lib/python3.10/dist-packages/yolo_inference/msg'...
+-- Up-to-date: /home/ksh/yolo_ws/install/yolo_inference/local/lib/python3.10/dist-packages/yolo_inference/yolo_inference_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+-- Up-to-date: /home/ksh/yolo_ws/install/yolo_inference/local/lib/python3.10/dist-packages/yolo_inference/yolo_inference_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+-- Up-to-date: /home/ksh/yolo_ws/install/yolo_inference/local/lib/python3.10/dist-packages/yolo_inference/yolo_inference_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+-- Up-to-date: /home/ksh/yolo_ws/install/yolo_inference/lib/libyolo_inference__rosidl_generator_py.so
+-- Up-to-date: /home/ksh/yolo_ws/install/yolo_inference/share/yolo_inference/msg/InferenceResult.idl
+-- Up-to-date: /home/ksh/yolo_ws/install/yolo_inference/share/yolo_inference/msg/Yolov8Inference.idl
+-- Up-to-date: /home/ksh/yolo_ws/install/yolo_inference/share/yolo_inference/msg/InferenceResult.msg
+-- Up-to-date: /home/ksh/yolo_ws/install/yolo_inference/share/yolo_inference/msg/Yolov8Inference.msg
+-- Up-to-date: /home/ksh/yolo_ws/install/yolo_inference/share/ament_index/resource_index/package_run_dependencies/yolo_inference
+-- Up-to-date: /home/ksh/yolo_ws/install/yolo_inference/share/ament_index/resource_index/parent_prefix_path/yolo_inference
+-- Up-to-date: /home/ksh/yolo_ws/install/yolo_inference/share/yolo_inference/environment/ament_prefix_path.sh
+-- Up-to-date: /home/ksh/yolo_ws/install/yolo_inference/share/yolo_inference/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/ksh/yolo_ws/install/yolo_inference/share/yolo_inference/environment/path.sh
+-- Up-to-date: /home/ksh/yolo_ws/install/yolo_inference/share/yolo_inference/environment/path.dsv
+-- Up-to-date: /home/ksh/yolo_ws/install/yolo_inference/share/yolo_inference/local_setup.bash
+-- Up-to-date: /home/ksh/yolo_ws/install/yolo_inference/share/yolo_inference/local_setup.sh
+-- Up-to-date: /home/ksh/yolo_ws/install/yolo_inference/share/yolo_inference/local_setup.zsh
+-- Up-to-date: /home/ksh/yolo_ws/install/yolo_inference/share/yolo_inference/local_setup.dsv
+-- Up-to-date: /home/ksh/yolo_ws/install/yolo_inference/share/yolo_inference/package.dsv
+-- Up-to-date: /home/ksh/yolo_ws/install/yolo_inference/share/ament_index/resource_index/packages/yolo_inference
+-- Up-to-date: /home/ksh/yolo_ws/install/yolo_inference/share/yolo_inference/cmake/export_yolo_inference__rosidl_generator_cExport.cmake
+-- Up-to-date: /home/ksh/yolo_ws/install/yolo_inference/share/yolo_inference/cmake/export_yolo_inference__rosidl_generator_cExport-noconfig.cmake
+-- Up-to-date: /home/ksh/yolo_ws/install/yolo_inference/share/yolo_inference/cmake/export_yolo_inference__rosidl_typesupport_fastrtps_cExport.cmake
+-- Up-to-date: /home/ksh/yolo_ws/install/yolo_inference/share/yolo_inference/cmake/export_yolo_inference__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+-- Up-to-date: /home/ksh/yolo_ws/install/yolo_inference/share/yolo_inference/cmake/export_yolo_inference__rosidl_generator_cppExport.cmake
+-- Up-to-date: /home/ksh/yolo_ws/install/yolo_inference/share/yolo_inference/cmake/export_yolo_inference__rosidl_typesupport_fastrtps_cppExport.cmake
+-- Up-to-date: /home/ksh/yolo_ws/install/yolo_inference/share/yolo_inference/cmake/export_yolo_inference__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+-- Up-to-date: /home/ksh/yolo_ws/install/yolo_inference/share/yolo_inference/cmake/yolo_inference__rosidl_typesupport_introspection_cExport.cmake
+-- Up-to-date: /home/ksh/yolo_ws/install/yolo_inference/share/yolo_inference/cmake/yolo_inference__rosidl_typesupport_introspection_cExport-noconfig.cmake
+-- Up-to-date: /home/ksh/yolo_ws/install/yolo_inference/share/yolo_inference/cmake/yolo_inference__rosidl_typesupport_cExport.cmake
+-- Up-to-date: /home/ksh/yolo_ws/install/yolo_inference/share/yolo_inference/cmake/yolo_inference__rosidl_typesupport_cExport-noconfig.cmake
+-- Up-to-date: /home/ksh/yolo_ws/install/yolo_inference/share/yolo_inference/cmake/yolo_inference__rosidl_typesupport_introspection_cppExport.cmake
+-- Up-to-date: /home/ksh/yolo_ws/install/yolo_inference/share/yolo_inference/cmake/yolo_inference__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+-- Up-to-date: /home/ksh/yolo_ws/install/yolo_inference/share/yolo_inference/cmake/yolo_inference__rosidl_typesupport_cppExport.cmake
+-- Up-to-date: /home/ksh/yolo_ws/install/yolo_inference/share/yolo_inference/cmake/yolo_inference__rosidl_typesupport_cppExport-noconfig.cmake
+-- Up-to-date: /home/ksh/yolo_ws/install/yolo_inference/share/yolo_inference/cmake/export_yolo_inference__rosidl_generator_pyExport.cmake
+-- Up-to-date: /home/ksh/yolo_ws/install/yolo_inference/share/yolo_inference/cmake/export_yolo_inference__rosidl_generator_pyExport-noconfig.cmake
+-- Up-to-date: /home/ksh/yolo_ws/install/yolo_inference/share/yolo_inference/cmake/rosidl_cmake-extras.cmake
+-- Up-to-date: /home/ksh/yolo_ws/install/yolo_inference/share/yolo_inference/cmake/ament_cmake_export_dependencies-extras.cmake
+-- Up-to-date: /home/ksh/yolo_ws/install/yolo_inference/share/yolo_inference/cmake/ament_cmake_export_include_directories-extras.cmake
+-- Up-to-date: /home/ksh/yolo_ws/install/yolo_inference/share/yolo_inference/cmake/ament_cmake_export_libraries-extras.cmake
+-- Up-to-date: /home/ksh/yolo_ws/install/yolo_inference/share/yolo_inference/cmake/ament_cmake_export_targets-extras.cmake
+-- Up-to-date: /home/ksh/yolo_ws/install/yolo_inference/share/yolo_inference/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+-- Up-to-date: /home/ksh/yolo_ws/install/yolo_inference/share/yolo_inference/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+-- Up-to-date: /home/ksh/yolo_ws/install/yolo_inference/share/yolo_inference/cmake/yolo_inferenceConfig.cmake
+-- Up-to-date: /home/ksh/yolo_ws/install/yolo_inference/share/yolo_inference/cmake/yolo_inferenceConfig-version.cmake
+-- Up-to-date: /home/ksh/yolo_ws/install/yolo_inference/share/yolo_inference/package.xml

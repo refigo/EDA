@@ -1,0 +1,29 @@
+[0.629s] Invoking command in '/home/ksh/dobot_ws/src/yolo_pkg': PYTHONPATH=/home/ksh/dobot_ws/build/yolo_pkg/prefix_override:/home/ksh/dobot_ws/install/yolo_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/yolo_pkg build --build-base /home/ksh/dobot_ws/build/yolo_pkg/build install --record /home/ksh/dobot_ws/build/yolo_pkg/install.log --single-version-externally-managed
+[0.828s] running egg_info
+[0.828s] writing ../../build/yolo_pkg/yolo_pkg.egg-info/PKG-INFO
+[0.830s] writing dependency_links to ../../build/yolo_pkg/yolo_pkg.egg-info/dependency_links.txt
+[0.830s] writing entry points to ../../build/yolo_pkg/yolo_pkg.egg-info/entry_points.txt
+[0.830s] writing requirements to ../../build/yolo_pkg/yolo_pkg.egg-info/requires.txt
+[0.830s] writing top-level names to ../../build/yolo_pkg/yolo_pkg.egg-info/top_level.txt
+[0.831s] reading manifest file '../../build/yolo_pkg/yolo_pkg.egg-info/SOURCES.txt'
+[0.832s] writing manifest file '../../build/yolo_pkg/yolo_pkg.egg-info/SOURCES.txt'
+[0.832s] running build
+[0.832s] running build_py
+[0.832s] copying yolo_pkg/object_detection_sub.py -> /home/ksh/dobot_ws/build/yolo_pkg/build/lib/yolo_pkg
+[0.833s] running install
+[0.833s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[0.833s]   warnings.warn(
+[0.833s] running install_lib
+[0.834s] copying /home/ksh/dobot_ws/build/yolo_pkg/build/lib/yolo_pkg/object_detection_sub.py -> /home/ksh/dobot_ws/install/yolo_pkg/lib/python3.10/site-packages/yolo_pkg
+[0.834s] byte-compiling /home/ksh/dobot_ws/install/yolo_pkg/lib/python3.10/site-packages/yolo_pkg/object_detection_sub.py to object_detection_sub.cpython-310.pyc
+[0.837s] running install_data
+[0.837s] running install_egg_info
+[0.838s] removing '/home/ksh/dobot_ws/install/yolo_pkg/lib/python3.10/site-packages/yolo_pkg-0.0.0-py3.10.egg-info' (and everything under it)
+[0.838s] Copying ../../build/yolo_pkg/yolo_pkg.egg-info to /home/ksh/dobot_ws/install/yolo_pkg/lib/python3.10/site-packages/yolo_pkg-0.0.0-py3.10.egg-info
+[0.839s] running install_scripts
+[0.853s] Installing dobot_executor script to /home/ksh/dobot_ws/install/yolo_pkg/lib/yolo_pkg
+[0.853s] Installing image_publisher script to /home/ksh/dobot_ws/install/yolo_pkg/lib/yolo_pkg
+[0.853s] Installing object_detect_publisher script to /home/ksh/dobot_ws/install/yolo_pkg/lib/yolo_pkg
+[0.853s] Installing object_detect_subscriber script to /home/ksh/dobot_ws/install/yolo_pkg/lib/yolo_pkg
+[0.853s] writing list of installed files to '/home/ksh/dobot_ws/build/yolo_pkg/install.log'
+[0.874s] Invoked command in '/home/ksh/dobot_ws/src/yolo_pkg' returned '0': PYTHONPATH=/home/ksh/dobot_ws/build/yolo_pkg/prefix_override:/home/ksh/dobot_ws/install/yolo_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/yolo_pkg build --build-base /home/ksh/dobot_ws/build/yolo_pkg/build install --record /home/ksh/dobot_ws/build/yolo_pkg/install.log --single-version-externally-managed

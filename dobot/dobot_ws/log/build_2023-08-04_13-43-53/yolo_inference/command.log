@@ -1,0 +1,2 @@
+Invoking command in '/home/ksh/yolo_ws/build/yolo_inference': CMAKE_PREFIX_PATH=/opt/ros/humble /home/ksh/.local/bin/cmake /home/ksh/yolo_ws/src/yolo_inference -DCMAKE_INSTALL_PREFIX=/home/ksh/yolo_ws/install/yolo_inference
+Invoked command in '/home/ksh/yolo_ws/build/yolo_inference' returned '1': CMAKE_PREFIX_PATH=/opt/ros/humble /home/ksh/.local/bin/cmake /home/ksh/yolo_ws/src/yolo_inference -DCMAKE_INSTALL_PREFIX=/home/ksh/yolo_ws/install/yolo_inference

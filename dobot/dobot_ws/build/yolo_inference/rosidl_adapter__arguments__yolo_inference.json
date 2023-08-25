@@ -1,0 +1,7 @@
+{
+  "package_name": "yolo_inference",
+  "non_idl_tuples": [
+    "/home/ksh/yolo_ws/src/yolo_inference:msg/InferenceResult.msg",
+    "/home/ksh/yolo_ws/src/yolo_inference:msg/Yolov8Inference.msg"
+  ]
+}

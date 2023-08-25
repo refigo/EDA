@@ -1,0 +1,4 @@
+Invoking command in '/home/ksh/yolo_ws/build/yolo_inference': CMAKE_PREFIX_PATH=/home/ksh/aruco_ros2/install/aruco_pkg:/opt/ros/humble /home/ksh/.local/bin/cmake --build /home/ksh/yolo_ws/build/yolo_inference -- -j8 -l8
+Invoked command in '/home/ksh/yolo_ws/build/yolo_inference' returned '0': CMAKE_PREFIX_PATH=/home/ksh/aruco_ros2/install/aruco_pkg:/opt/ros/humble /home/ksh/.local/bin/cmake --build /home/ksh/yolo_ws/build/yolo_inference -- -j8 -l8
+Invoking command in '/home/ksh/yolo_ws/build/yolo_inference': CMAKE_PREFIX_PATH=/home/ksh/aruco_ros2/install/aruco_pkg:/opt/ros/humble /home/ksh/.local/bin/cmake --install /home/ksh/yolo_ws/build/yolo_inference
+Invoked command in '/home/ksh/yolo_ws/build/yolo_inference' returned '0': CMAKE_PREFIX_PATH=/home/ksh/aruco_ros2/install/aruco_pkg:/opt/ros/humble /home/ksh/.local/bin/cmake --install /home/ksh/yolo_ws/build/yolo_inference

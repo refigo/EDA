@@ -1,0 +1,6 @@
+[console_scripts]
+dobot_executor = yolo_pkg.dobot_executor:main
+image_publisher = yolo_pkg.img_pub:main
+object_detect_publisher = yolo_pkg.object_detection_pub:main
+object_detect_subscriber = yolo_pkg.object_detection_sub:main
+
