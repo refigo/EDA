@@ -58,12 +58,12 @@
 ros2 launch minibot_bringup bringup_robot.launch.py
 ```
 
-- Laptop에서 Navigation 실행
+- Laptop에서 Navigation2 실행
 ```bash
 ros2 launch minibot_navigation2 bringup_launch.py map:=`ros2 pkg prefix minibot_navigation2`/share/minibot_navigation2/maps/<map-name>.yaml
 ```
 
-- 회피경로 판단 자율주행 소프트웨어 실행
+- Laptop에서 회피경로 판단 자율주행 소프트웨어 실행
 	- https://github.com/refigo/SRA-MPSR/blob/main/mission/DAP_AD_Robot.py
 ```bash
 (venv) python3 DAP_AD_Robot.py
