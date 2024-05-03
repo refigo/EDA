@@ -29,6 +29,7 @@
 
 ## 주요 기능
 
+- 자율 주행 (Autonomous Driving)
 - 지정된 미션 달성 (Mission Accomplishment)
 - 물체 인식 (Object Recognition)
 - 회피 경로 판단 (Avoidance path Determination)
