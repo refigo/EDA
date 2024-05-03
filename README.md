@@ -89,7 +89,7 @@ ros2 launch minibot_navigation2 bringup_launch.py map:=`ros2 pkg prefix minibot_
 
 ### 발표 자료
 
-<iframe src="https://drive.google.com/file/d/1J01boAPUOi5oCoNPTHGVJpkkqi3rjGjF/view?usp=sharing" width="640" height="480"></iframe>
+- [발표_PDF](https://drive.google.com/file/d/1J01boAPUOi5oCoNPTHGVJpkkqi3rjGjF/view)
 
 
 ## Contact
