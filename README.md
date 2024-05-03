@@ -1,6 +1,6 @@
-# Determining Avoidance path Autonomous Driving Robot Software
+# DAP-AD Robot (Determining Avoidance Path Autonomous Driving Robot)
 
-회피경로 판단 자율주행 로봇 소프트웨어 (Determining Avoidance path Autonomous Driving Robot Software)
+회피경로 판단 자율주행 로봇 소프트웨어 (Determining Avoidance Path Autonomous Driving Robot Software)
 
 지정된 미션을 완수하는 자율주행 로봇 소프트웨어. 주행 중에 방해물을 인식하면 회피 경로를 판단해서 이동한다.
 
