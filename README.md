@@ -1,4 +1,4 @@
-# 회피경로 판단 자율주행 로봇 소프트웨어
+# Determining Avoidance path Autonomous Driving Robot Software
 
 회피경로 판단 자율주행 로봇 소프트웨어 (Determining Avoidance path Autonomous Driving Robot Software)
 
@@ -82,14 +82,14 @@ ros2 launch minibot_navigation2 bringup_launch.py map:=`ros2 pkg prefix minibot_
 
 ### 작동 영상
 
-![](https://youtu.be/CBDW2zIgzkc)
+<iframe width="560" height="315" src="https://youtu.be/CBDW2zIgzkc" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-![](https://youtu.be/Tdbis9xDE4c)
+<iframe width="560" height="315" src="https://youtu.be/Tdbis9xDE4c" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 
 ### 발표 자료
 
-![](https://drive.google.com/file/d/1J01boAPUOi5oCoNPTHGVJpkkqi3rjGjF/view?usp=sharing)
+<iframe src="https://drive.google.com/file/d/1J01boAPUOi5oCoNPTHGVJpkkqi3rjGjF/view?usp=sharing" width="640" height="480"></iframe>
 
 
 ## Contact
