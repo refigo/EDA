@@ -1,6 +1,6 @@
-# Determining Avoidance path Autonomous Driving Robot Software
+# DAP-AD Robot (Determining Avoidance Path Autonomous Driving Robot)
 
-회피경로 판단 자율주행 로봇 소프트웨어 (Determining Avoidance path Autonomous Driving Robot Software)
+회피경로 판단 자율주행 로봇 소프트웨어 (Determining Avoidance Path Autonomous Driving Robot Software)
 
 지정된 미션을 완수하는 자율주행 로봇 소프트웨어. 주행 중에 방해물을 인식하면 회피 경로를 판단해서 이동한다.
 
@@ -29,9 +29,10 @@
 
 ## 주요 기능
 
-- 지정된 미션 달성 (Mission Accomplishment)
-- 물체 인식 (Object Recognition)
+- 자율 주행 (Autonomous Driving)
+- 객체 검출을 통한 물체 인식 (Object Detection)
 - 회피 경로 판단 (Avoidance path Determination)
+- 지정된 미션 달성 (Mission Accomplishment)
 
 
 ### 미션 설명
@@ -82,16 +83,14 @@ ros2 launch minibot_navigation2 bringup_launch.py map:=`ros2 pkg prefix minibot_
 
 ### 작동 영상
 
-<iframe width="560" height="315" src="https://youtu.be/CBDW2zIgzkc" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+[![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/CBDW2zIgzkc/0.jpg)](https://www.youtube.com/watch?v=CBDW2zIgzkc)
 
-<iframe width="560" height="315" src="https://youtu.be/Tdbis9xDE4c" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
-[](https://youtu.be/CBDW2zIgzkc)
+[![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/Tdbis9xDE4c/0.jpg)](https://www.youtube.com/watch?v=Tdbis9xDE4c)
 
 
 ### 발표 자료
 
-<iframe src="https://drive.google.com/file/d/1J01boAPUOi5oCoNPTHGVJpkkqi3rjGjF/view?usp=sharing" width="640" height="480"></iframe>
+- [발표_PDF](https://drive.google.com/file/d/1J01boAPUOi5oCoNPTHGVJpkkqi3rjGjF/view)
 
 
 ## Contact
