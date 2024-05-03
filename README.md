@@ -86,6 +86,8 @@ ros2 launch minibot_navigation2 bringup_launch.py map:=`ros2 pkg prefix minibot_
 
 <iframe width="560" height="315" src="https://youtu.be/Tdbis9xDE4c" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
+[](https://youtu.be/CBDW2zIgzkc)
+
 
 ### 발표 자료
 
