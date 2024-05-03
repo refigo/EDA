@@ -20,7 +20,7 @@
 
 ## 소프트웨어 구조
 
-![](/images/SRA-MPSR-ADR-Architecture1.png)
+![](/images/SRA-MPSR-ADR-Architecture2.png)
 
 - Robotics SW in Laptop
 - Pinklab_minibot_robot
